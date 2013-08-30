@@ -15,5 +15,10 @@
 		<artifactId>stanford-corenlp</artifactId>
 		<version>3.2.0</version>
 	</dependency>
+	<dependency>
+		<groupId>net.sf.extjwnl</groupId>
+		<artifactId>extjwnl</artifactId>
+		<version>1.6.10</version>
+	</dependency>
 </dependencies>
 </project>
