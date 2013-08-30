@@ -1,0 +1,14 @@
+﻿Die Szene spielt in einem Zimmer.
+In der Szene links steht ein Junge.
+Rechts steht ein Mädchen.
+Der Junge schaut das Mädchen an.
+Das Mädchen sagt "Hallo" und winkt.
+Es dreht sich zum Jungen.
+Es deutet.
+Der Junge dreht sich zur Kamera.
+Der Junge sagt "Hallo" und winkt.
+Das Mädchen dreht sich zur Kamera.
+Beide heben den rechten Arm zur Seite.
+Beide heben dem linken Arm zur Seite.
+Beide drehen sich fünfmal schnell im Kreis.
+Dann winken beide in die Kamera.

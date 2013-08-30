@@ -1,0 +1,11 @@
+The ground is covered with grass.
+There is a palm on the left side of the ground, before the palm there is a mailbox.
+In front of the mailbox, there is a frog.
+On the right side of the ground, there is a broccoli.
+A rabbit is sitting behind the broccoli.
+The rabbit hops, moving toward the broccoli.
+The rabbit eats the broccoli.
+The rabbit turns to the frog and taps foot.
+The frog ribbits, turns left and hops to the back.
+The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+Meanwhile, the frog turns to the bunny, moves forward, and ribbits.

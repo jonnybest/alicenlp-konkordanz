@@ -1,0 +1,16 @@
+The ground is covered with grass. 
+In the background on the left there is a PalmTree. 
+In the foreground in front of the PalmTree is a Mailbox. 
+On the right side of the Mailbox there is a frog. 
+On the right side in the foreground there is a Broccoli. 
+Behind the Broccoli in the Background is a Bunny. 
+The Bunny hops to the broccoli. 
+The bunny eats the Broccoli and turns left to the frog. 
+The bunny taps its foot. 
+The frog ribbits. 
+The frog turns to the Palm tree. 
+The Frog hops in the background. 
+The Bunny hops to the Mailbox. 
+The Bunny opens the Mailbox. 
+The frog turns to the Bunny. 
+The frog hops to the Bunny.

@@ -1,0 +1,20 @@
+The ground is covered with grass, the sky is blue. 
+In the background on the left hand side there is a PalmTree. 
+In the foreground on the left hand side there is a closed Mailbox facing southeast. 
+Right to the mailbox there is a Frog facing east. 
+In the foreground on the right hand side there is a Bunny facing southwest. 
+In front of the Bunny there is a Broccoli. 
+The Bunny turns to face the Broccoli. 
+The Bunny hops three times to the Broccoli. 
+The Bunny eats the Broccoli. 
+The Bunny turns to face the Frog. 
+The Bunny taps his foot twice. 
+The Frog ribbits. 
+The Frog turns to face northeast. 
+The frog hops three times to northeast. 
+The Bunny turns to face the Mailbox. 
+The Bunny hops three times to the Mailbox. 
+The Bunny opens the Mailbox. 
+The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny. 
+The Frog hops two times to the Bunny. 
+The Frog ribbits.

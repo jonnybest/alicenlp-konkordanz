@@ -1,0 +1,22 @@
+The ground is covered with grass. 
+In the foreground to the right, there is a Broccoli. 
+Behind the Broccoli, there is a Bunny facing south. 
+In the foreground there is a Frog on the left facing southeast. 
+Behind the frog, to the left, is a Mailbox. 
+Behind the Mailbox, to the right, is a PalmTree. 
+The Bunny hops to the Broccoli. 
+It eats the Broccoli. 
+The Bunny turns towards the frog. 
+A very short time passes. 
+The Bunny taps its foot. 
+The Frog ribbits, turns to face north and hops away from the mailbox. 
+A very short time passes. 
+The Bunny hops to the Mailbox. 
+The Bunny opens the mailbox. 
+It is empty. 
+The Bunny plays a sound (disappointment). 
+A very short time passes. 
+The frog turns around to face the bunny. 
+The Frog hops towards the Bunny. 
+A very short time passes. 
+The Frog ribbits.
