@@ -1,8 +1,6 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.data.IndexWord;
@@ -17,7 +15,7 @@ import net.sf.extjwnl.data.relationship.Relationship;
 import net.sf.extjwnl.data.relationship.RelationshipFinder;
 import net.sf.extjwnl.data.relationship.RelationshipList;
 import net.sf.extjwnl.dictionary.Dictionary;
- 
+
 
 
 
@@ -27,13 +25,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.process.CoreLabelTokenFactory;
 import edu.stanford.nlp.util.CoreMap;
 
 public class StaticDynamicClassifier {
@@ -67,7 +62,7 @@ public class StaticDynamicClassifier {
 	    System.out.println("{annotation is now done}");
 
 	    // get all distinct verbs as a list
-	    List<String> verblist = new ArrayList<String>();
+	    HashMap<String, List<String>> verblist = new HashMap<String, List<String>>();
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
 			// traversing the words in the current sentence
@@ -75,15 +70,24 @@ public class StaticDynamicClassifier {
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
 				// this is the POS tag of the token
 				String pos = token.get(PartOfSpeechAnnotation.class);
-				// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only?
+				// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only? No. Root is a bad idea.
 				if (pos.startsWith("VB")) {
-					verblist.add(token.get(LemmaAnnotation.class));
+					String word = token.lemma();
+					if(word != null) {
+						List<String> otherse = verblist.get(word);
+						if (otherse == null) {
+							otherse = new ArrayList<String>();
+							verblist.put(word, otherse);
+						}
+						otherse.add(concordance(sentence, token));						
+					}
 				}
 			}
 		}
 	
 		System.out.println("{have verb list with " + verblist.size() + " entries}");
 		System.out.println(verblist);
+		System.out.println();
 	    
 	    /* do word net stuff
 	     * 
@@ -111,9 +115,13 @@ public class StaticDynamicClassifier {
 			else {
 				myclassifier = myinstance;
 			}
-	    	for (String token : verblist) 
+	    	for (String token : verblist.keySet()) 
 	    	{
 				myclassifier.analyzeLexicographerFileNamesForVerbs(token);
+				for (String item : verblist.get(token)) {
+					System.out.println(item.toString());
+				}
+				System.out.println();
 			}
 	    } catch (Exception e) {
 	    	e.printStackTrace();
@@ -124,8 +132,31 @@ public class StaticDynamicClassifier {
 	     */
 	}
 	
+	private static String concordance(CoreMap sentence, CoreLabel word) {
+		int alignby = 30;
+		String sestring = sentence.toString();
+		String wordstring = word.toString();
+		int indexof = sestring.indexOf(wordstring);
+		if (indexof < alignby) {
+			// TODO: implementiere den fall dass das wort zu weit links liegt  
+		}
+		else {
+			// TODO: implementiere den fall dass das wort zu weit rechts liegt
+		}
+		// TODO: zeichen hintenraus löschen.
+		return sentence.toString();
+	}
+
 	private void analyzeLexicographerFileNamesForVerbs(String token) throws JWNLException {
 		IndexWord word = dictionary.getIndexWord(POS.VERB, token);
+		if (word == null) {
+			word = dictionary.lookupIndexWord(POS.VERB, token);
+			if (word == null) {
+				// skip
+				System.err.println("-- Cannot find word \"" + token + "\" in WordNet dictionary.");
+				return;
+			}
+		}		
 		demonstrateLexicographerFileNames(word);		
 	}
 
@@ -163,7 +194,7 @@ public class StaticDynamicClassifier {
 			if (senses.indexOf(synset) > 2) {
 				break;
 			}
-			System.out.print(synset.getLexFileName() + "[" + synset.getLexFileNum() + "] (" + word.getSynsetOffsets());
+			System.out.print(synset.getLexFileName() + "(" + synset.getLexFileNum() + ") " + word.getSynsetOffsets() + "] ");
 		}
 		System.out.println();
 	}

@@ -1,0 +1,1041 @@
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator pos
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger ... done [1,2 sec].
+Adding annotator lemma
+{annotation is now done}
+
+{have verb list with 92 entries}
+{kick=[The tortoise says, "Well, I guess I have no choice but to kick your butt.", It jumps up, raising its right leg, and kicks the T-Rex's head from below.], lower=[The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox.], send=[The T-Rex's head is knocked back, followed by its whole body being sent flying.], appear=[Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D"., The grinning cat appears in the branches of the tree., The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello.", A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves., A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward., The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one..."., Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a problem!", A giant flame column appears and consumes the astronaut.], cause=[The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.], last=[The fire lasts for around 10 seconds.], rotate=[Both characters then raise their left arm upwards in a smooth motion at a 90 degree angle and rotate multiple times.], foot=[The bunny taps foot twice.], drop=[The tree stands slightly to the left of the horizontal centre of the stage and drops a shade to its right.], glide=[The penguin glides., The penguin glides., The penguin glides.], shake=[Alice shakes her head., Alice shakes her head from the left to the right and to the left again., Next she extends her right hand and shakes., The penguin jumps back on its feet, directly after which the monkey's jaw drops and the monkey shakes its head.], bend=[The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on., The monkey then bends down to press the switch again and turns off the light., The hare hops and bends forward to eat something., The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom., The bunny bends down and eats the broccoli.], pop=[The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"], wait=[Wait!", Wait!"], close=[Frog opens the mouth and closes it again.], open=[, opening its mouth wide., The Bunny opens the Mailbox., The hare hops to the mailbox and opens it., Bunny opens mailbox with right hand., The Bunny hops toward the Mailbox and opens the Mailbox., The Bunny opens the Mailbox., Frog opens the mouth and closes it again., Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside., The Bunny hops to the mailbox, opens it and looks into it., The bunny opens the mail box., The bunny opens the mailbox door., The bunny then hops 3 times to the mailbox, opens it and looks down on the floor., The bunny hops to the mailbox, opens it, and looks inside the mailbox., The Bunny opens the mailbox., The bunny hops to the mailbox and opens mailbox., The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox., The bunny opens the mailbox.], cover=[The ground is covered with grass, the sky is blue., Ground is covered with green grass., The floor is covered in grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass., The floor is covered with grass., The ground is covered with grass., The ground is covered with grass., The ground is covered with grass.], knock=[It knocks the bucket over and then jumps back on its feet, still facing the back of the stage., The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over., The T-Rex's head is knocked back, followed by its whole body being sent flying.], proceed=[She then proceeds to wave, still facing forwards, and turns to face the man.], happen=[There is nothing happening for 3 seconds.], place=[He then places his arm back by his side., Everything is placed on grass.], move=[While the bunny is moving, Alice watches until the bunny disappears., The alien moves towards the right foreground., While moving, the alien's head faces the astronaut., He says: "...one..."
+The alien reaches the foreground and stops moving., The rabbit hops, moving toward the broccoli.], follow=[The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion., The T-Rex's head is knocked back, followed by its whole body being sent flying.], be=[In the background is a large tree whose trunk splits into two large branches which form the tree's crown., The crown is cut off at the top at the stage., She is facing towards the viewer but turned 45° to the left of the stage., On the right side of the stage in the foregrouns is a dark hole in the ground., What time is it?", There is a hole in the foreground to the right., In the foreground to the left is Alice., Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny., Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny., In the background to the right to there is a bunny which faces Alice., In the background to the left, there is a large tree with two branches., The grinning cat is not visible., What time is it?", While the bunny is moving, Alice watches until the bunny disappears., To the left hand side, there is a boy., The right, there is a girl., The boy is facing the girl., Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave., The animation is then complete., The sky is blue and the stage is a field of grass., The sky is blue and the stage is a field of grass., At the start of the scene, on the left is a light bulb which is off., At the start of the scene, on the left is a light bulb which is off., Behind it to the right is a yellow duckling wearing red socks, a crown and a scepter., Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer., The duckling is facing just slightly past the monkey., To the right is a penguin with white stomach and face and blue back and wings., It is facing the viewer., Behind it to the left is a metal bucket., Rightmost of the stage, in the back, is a sunflower, facing towards the characters., At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen., At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen., A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward., The animation is then complete., The scene is set on the moon, with black space instead of sky and grey rocky ground., Far away in space, Earth is visible blue and green., In the foreground in front of it is an astronaught, facing the viewer., At the right side of the scene in the background is an alien., The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him., When the alien is almost next to him, he says, "...one..."., The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion., The planet earth can be seen in the background in the sky., The moon lander is in the background to the left., The astronaut is in the foreground to the left., The alien is in the background to the right., The astronaut says: "That's one small step for man" and takes a step., The stage is a grassy field, with blue sky as a backdrop., The characters are a ninja tortoise, a rabbit and a T-Rex., The tortoise is standing just to the left of the centre of the stage, facing the viewer., The rabbit is sitting next to it to the right, looking at the tortoise., The T-Rex is standing to the right of the stage, looking at the rabbit., The rabbit is scared from this and runs away from the T-Rex, behind the tortoise., The T-Rex's head is knocked back, followed by its whole body being sent flying., The T-Rex's head is knocked back, followed by its whole body being sent flying., The ground is covered with grass, the sky is blue., The ground is covered with grass, the sky is blue., In the background on the left hand side there is a PalmTree., In the foreground on the left hand side there is a closed Mailbox facing southeast., Right to the mailbox there is a Frog facing east., In the foreground on the right hand side there is a Bunny facing southwest., In front of the Bunny there is a Broccoli., Ground is covered with green grass., Half of screen is blue sky., The floor is covered in grass., In the far right foreground is a Broccoli., In the far left is a Mailbox and in front of it is a Frog., In the far left is a Mailbox and in front of it is a Frog., Behind the Mailbox in the background is a PalmTree., Behind the Broccoli in the background is a Bunny., The Bunny is facing the south, the Frog is facing the Broccoli., The Bunny is facing the south, the Frog is facing the Broccoli., The ground is covered with grass., In the background on the left there is a PalmTree., In the foreground in front of the PalmTree is a Mailbox., On the right side of the Mailbox there is a frog., On the right side in the foreground there is a Broccoli., Behind the Broccoli in the Background is a Bunny., The ground is covered with grass., The sky is blue., In the background there is a PalmTree on the left side., Left of the palm tree there is a mailbox., In the background on the left there is Bunny., In front of Bunny there is Broccoli., On the upper half of the screen is a clear blue sky., On the lower half of the screen is a green meadow., The ground is covered with grass., The sky is blue., In the background there is a palm tree on the left., In the foreground there is a broccoli on the right., Left to the broccoli there is a frog facing the broccoli., Behind the frog, to the left, there is a mail box facing southeast., Behind the Broccoli there is a rabbit facing south., There is nothing happening for 3 seconds., The ground is covered with grass., The sky is blue., There is a palmtree on the left side in the background., On the right side there is a big white bunny facing southwest., In front of palmtree there is a mailbox., Right to the mailbox, there is a frog facing southeast., In front of the bunny, there is a broccoli., There is a bunny in the picture turning towards the camera., A piece of Brokkoli is in front of him., Behind the frog there is a mailbox., Behind the mailbox there is a palm., Everything is placed on grass., The ground is covered with grass., There is a palm on the left side of the ground, before the palm there is a mailbox., There is a palm on the left side of the ground, before the palm there is a mailbox., In front of the mailbox, there is a frog., On the right side of the ground, there is a broccoli., A rabbit is sitting behind the broccoli., The ground is covered with grass., In the foreground to the right, there is a Broccoli., Behind the Broccoli, there is a Bunny facing south., In the foreground there is a Frog on the left facing southeast., Behind the frog, to the left, is a Mailbox., Behind the Mailbox, to the right, is a PalmTree., It is empty., The ground is covered with grass., In the background there is a palmtree on the far left., In front of the palmtree there is a mailbox., In the foreground to the right there is a broccoli., Right of the mailbox there is a frog facing the broccoli., On the right side behind the broccoli there is a bunny facing the frog., The floor is covered with grass., In the background on the left, there is a palm tree., In front of the palm tree, there is a postal mailbox facing southeast., In south of the bunny, there is a broccoli., The ground is covered with grass., In the background there is a palm tree on the left., In the foreground there is a frog on the left facing east-southeast and a broccoli on the right., Behind the broccoli there is a bunny facing south-southwest., Behind the frog, to the left, there is a mailbox facing southeast., The ground is covered with grass., In the background there is a sunflower on the far right facing southwest., In the foreground there is a monkey in the middle facing southwest., To the monkey's right, there is a penguin facing south., To the monkey's left, there is a remote., Left of the remote, there is a light bulb., Behind the light bulb, to the right, there is a duck prince facing southeast., Behind the monkey, to the right, there is a bucket., The ground is covered with grass., In the background there is a sunflower on the far right facing southwest., In the foreground there is a monkey in the middle facing southwest., To the monkey's right, there is a penguin facing south., To the monkey's left, there is a remote., Left of the remote, there is a light bulb., Behind the light bulb, to the right, there is a duck prince facing southeast., Behind the monkey, to the right, there is a bucket.], turn=[She is facing towards the viewer but turned 45° to the left of the stage., Alice then turns to face the rabbit and says "???", It turns its head towards Alice and the rabbit, who turn their heads towards the cat., It turns its head towards Alice and the rabbit, who turn their heads towards the cat., and turns around towards the hole., and turns towards the hole too., Alice turns to face the bunny., Alice turns to face the bunny again., It says ":-D" and turns its head towards Alice., The bunny and Alice turn their heads towards the grinning cat., and turns to face the hole., It turns to the boy., The boy turns to face the camera., The girl turns to the camera as well., She then proceeds to wave, still facing forwards, and turns to face the man., Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer., First, the duckling turns completely towards the monkey and waves its scepter at it., The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on., The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on., After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again., The duckling turns around towards the penguin and wiggles from one foot to the other three times, waving its scepter., The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over., The monkey then bends down to press the switch again and turns off the light., The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???", The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly., The astronaught then turns his body fully to face the monster and replies "I come in peace!", The astronaught says, "...giant leap for...", turning his head towards the alien., The alien turns to face him and bows its head, making unintelligible noises., As the flames dance around the astronaught, the alien turns around to the opposite side and moves off the stage to the right., The astronaut says: "...giant leap for..." and turns his head towards the alien., The alien turns to face the astronaut., The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien., The alien turns 180 degrees,
+Alien off to the right., It turns over backwards and falls on its back., The Bunny turns to face the Broccoli., The Bunny turns to face the Frog., The Frog turns to face northeast., The Bunny turns to face the Mailbox., The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny., The hare turns to the frog and taps its hindpaw., The frog turns its back to the observer and hops to the back (into the background)., The frog turns back to the hare and also hops to the mailbox., Bunny turns left and hops 3 times in direction of viewer of video., Bunny turns right and taps two times with left foot., Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox., Frog turns and makes 2 hops back to mailbox., The Bunny turns to face the Mailbox and taps its foot two times., The bunny eats the Broccoli and turns left to the frog., The frog turns to the Palm tree., The frog turns to the Bunny., Then, Bunny turns left to Frog and waves to Frog twice with the left paw., Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside., The frog turns around and hops back to Bunny and the open mailbox., The Bunny turns his head and body slightly to the left facing exactly to the south., Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox., Then the frog turns to the left facing northeast and making three jumps to the background., The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny., The bunny turns to face the broccoli., The bunny turns to face the frog., The frog turns to face north., The bunny turns to the mail box., The bunny turns its head down., Meanwhile the frog quickly turns to face the bunny., The bunny turns left to the south and hops three times to the broccoli., The bunny turns right to face the frog., The frog turns left and hops three times to the northeast., The frog turns right to face the bunny., There is a bunny in the picture turning towards the camera., The frog turns left and hops 3 times away., While looking down, the frog turns around, hops to the bunny and ribbits., The rabbit turns to the frog and taps foot., Meanwhile, the frog turns to the bunny, moves forward, and ribbits., The Bunny turns towards the frog., The Frog ribbits, turns to face north and hops away from the mailbox., The frog turns around to face the bunny., Then the bunny eats the broccoli and turns to face the frog., The frog ribbits, turns a half revelation to the left and hops away from mailbox., The frog turns to face the bunny, hops to the bunny and ribbits once., The bunny turns to the broccoli and hops 3 times towards it., The frog ribbits once, then turns north and hops 3 times., The bunny turns to the mailbox and hops 3 times., The frog turns around and hops twice towards the bunny., The bunny turns to face the broccoli., The bunny turns to face the frog., The frog turns left by 90 degrees., The bunny turns to face the mailbox., The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time., The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time., The duck prince turns to face the monkey., The monkey turns to face the remote., The penguin turns to face the bucket., The duck prince quickly turns to face the penguin., The penguin turns to face the duck prince., The duck prince turns to face the monkey., The monkey turns to face the remote., The penguin turns to face the bucket., The duck prince quickly turns to face the penguin.], nod=[Simultaneously, the monkey nods., The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly., The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien.], scream=[The rabbit screams "Ahhhhhhhh!", When he sees the alien, he screams, "He???"], laugh=[The monkey laughs., The monkey laughs.], form=[In the background is a large tree whose trunk splits into two large branches which form the tree's crown.], consist=[The stage consists of a blue sky and a grassy green ground.], watch=[While the bunny is moving, Alice watches until the bunny disappears.], strip=[Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".], flap=[The penguin then jumps, flapping its wings., After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again.], emerge=[The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"], jump=[The rabbit jumps into the hole., The bunny jumps into the hole and disappears., The penguin then jumps, flapping its wings., After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again., It knocks the bucket over and then jumps back on its feet, still facing the back of the stage., The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over., The penguin jumps back on its feet, directly after which the monkey's jaw drops and the monkey shakes its head., It jumps up, raising its right leg, and kicks the T-Rex's head from below., The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom., The monkey jumps., The monkey sighs while the penguin jumps at the same time., The monkey jumps., The penguin jumps once.], fly=[The T-Rex's head is knocked back, followed by its whole body being sent flying.], start=[As the rabbit starts hopping towards the hole, Alice shouts, "Hey!, The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!"], say=[Alice then turns to face the rabbit and says "???", The rabbit hops three times towards Alice and says "Come over here!", The rabbit says, "Come on!, Alice then says "Oh..." and hesitantly walks towards the rabbit., After two steps she says, "Okay..."., Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D"., The bunny says "Hello"., Alice says: "???", The bunny says: "Come on over here.", The bunny says: "Come on!, While turning, Alice says "Oh"., While walking, Alice says: "Okay..."., It says ":-D" and turns its head towards Alice., The bunny says "Ahhhhhhh!", Alice says: "Hey!, The girl says "Hello" and waves., He says "Hello" and waves., The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one..."., The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???", The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him., When the alien is almost next to him, he says, "...one..."., The astronaught says, "...giant leap for...", turning his head towards the alien., The astronaught says, "I come in peace!", The astronaut says: "That's one small step for man" and takes a step., He says: "...one..."
+The alien reaches the foreground and stops moving., The astronaut says: "...giant leap for..." and turns his head towards the alien., He says: "He?", The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien., He says: "I come in Peace!", The moon lander says: "Houston..." and "...we have a problem!", It says, "Hey, evil T-Rex, stop scaring my friend!", The tortoise says, "Well, I guess I have no choice but to kick your butt.", Frog says something to bunny., Frog says something to bunny.], lift=[Both lift their right arm away from the body., Both lift their left arm away from the body.], wave=[The duckling turns around towards the penguin and wiggles from one foot to the other three times, waving its scepter.], sigh=[The monkey sighs while the penguin jumps at the same time., The monkey sighs.], eat=[The Bunny eats the Broccoli., The hare hops and bends forward to eat something., Bunny eats broccoli., The Bunny hops toward the Broccoli and eats it., The bunny eats the Broccoli and turns left to the frog., Bunny hops with 3 leaps to Broccoli and eats it., The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom., The bunny eats the broccoli., The bunny eats the broccoli., The bunny hops to the Brokkoli and eats it., The rabbit eats the broccoli., It eats the Broccoli., Then the bunny eats the broccoli and turns to face the frog., The bunny bends down and eats the broccoli., The bunny eats the broccoli.], split=[In the background is a large tree whose trunk splits into two large branches which form the tree's crown.], burn=[The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"], scare=[The rabbit is scared from this and runs away from the T-Rex, behind the tortoise., It says, "Hey, evil T-Rex, stop scaring my friend!"], dance=[As the flames dance around the astronaught, the alien turns around to the opposite side and moves off the stage to the right.], make=[The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly., The alien turns to face him and bows its head, making unintelligible noises., The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!", Frog turns and makes 2 hops back to mailbox., Then the frog turns to the left facing northeast and making three jumps to the background.], walk=[Alice then says "Oh..." and hesitantly walks towards the rabbit., Both the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it.], hop=[The rabbit hops three times towards Alice and says "Come over here!", As the rabbit starts hopping towards the hole, Alice shouts, "Hey!, The bunny hops three times towards Alice., The bunny hops four times towards the hole., The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on., It hops around the tortoise and stops left of it., The Bunny hops three times to the Broccoli., The frog hops three times to northeast., The Bunny hops three times to the Mailbox., The Frog hops two times to the Bunny., The hare hops and bends forward to eat something., The frog turns its back to the observer and hops to the back (into the background)., The hare hops to the mailbox and opens it., The frog turns back to the hare and also hops to the mailbox., Bunny turns left and hops 3 times in direction of viewer of video., Frog hops 3 times from front left part of the scene to centre of the screen., Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox., Frog turns and makes 2 hops back to mailbox., The Bunny hops toward the Broccoli and eats it., The Frog ribbits and hops into the background., The Bunny hops toward the Mailbox and opens the Mailbox., The Frog hops toward the Bunny., The Bunny hops to the broccoli., The Frog hops in the background., The Bunny hops to the Mailbox., The frog hops to the Bunny., Bunny hops with 3 leaps to Broccoli and eats it., Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside., The frog turns around and hops back to Bunny and the open mailbox., The Bunny hops to the mailbox, opens it and looks into it., The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny., The bunny hops towards the broccoli., The frog hops to the background., The bunny hops towards the mailbox., The frog hops towards the bunny., The bunny turns left to the south and hops three times to the broccoli., The frog turns left and hops three times to the northeast., The bunny hops three times to the mailbox., The frog hops two times back to the bunny., The bunny hops to the Brokkoli and eats it., The frog turns left and hops 3 times away., The bunny then hops 3 times to the mailbox, opens it and looks down on the floor., While looking down, the frog turns around, hops to the bunny and ribbits., The rabbit hops, moving toward the broccoli., The frog ribbits, turns left and hops to the back., The bunny hops to the mailbox, opens it, and looks inside the mailbox., The Bunny hops to the Broccoli., The Frog ribbits, turns to face north and hops away from the mailbox., The Bunny hops to the Mailbox., The Frog hops towards the Bunny., The bunny faces the broccoli and hops to it., The frog ribbits, turns a half revelation to the left and hops away from mailbox., The bunny hops to the mailbox and opens mailbox., The frog turns to face the bunny, hops to the bunny and ribbits once., The bunny turns to the broccoli and hops 3 times towards it., The frog ribbits once, then turns north and hops 3 times., The bunny turns to the mailbox and hops 3 times., The frog turns around and hops twice towards the bunny., The bunny hops three times., The frog hops three times., The bunny hops three times., The frog hops twice.], position=[At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen.], stop=[She stops in front of the rabbit., The alien stops next to the astronaught and looks at him, with its body facing the viewer., It says, "Hey, evil T-Rex, stop scaring my friend!"], face=[She is facing towards the viewer but turned 45° to the left of the stage., Behind the hole, further back to the stage sits a white rabbit, facing towards Alice., Alice then turns to face the rabbit and says "???", Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny., In the background to the right to there is a bunny which faces Alice., Alice turns to face the bunny., Alice turns to face the bunny again., and turns to face the hole., The boy is facing the girl., The boy turns to face the camera., The start depicts a boy facing to the right of the screen, and a woman facing to the front., The start depicts a boy facing to the right of the screen, and a woman facing to the front., She then proceeds to wave, still facing forwards, and turns to face the man., She then proceeds to wave, still facing forwards, and turns to face the man., Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer., The duckling is facing just slightly past the monkey., It is facing the viewer., Rightmost of the stage, in the back, is a sunflower, facing towards the characters., It knocks the bucket over and then jumps back on its feet, still facing the back of the stage., At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen., The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???", The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly., The astronaught then turns his body fully to face the monster and replies "I come in peace!", In the foreground in front of it is an astronaught, facing the viewer., The alien stops next to the astronaught and looks at him, with its body facing the viewer., The alien turns to face him and bows its head, making unintelligible noises., While moving, the alien's head faces the astronaut., The alien turns to face the astronaut., The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien., The tortoise is standing just to the left of the centre of the stage, facing the viewer., Both the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it., In the foreground on the left hand side there is a closed Mailbox facing southeast., Right to the mailbox there is a Frog facing east., In the foreground on the right hand side there is a Bunny facing southwest., The Bunny turns to face the Broccoli., The Bunny turns to face the Frog., The Frog turns to face northeast., The Bunny turns to face the Mailbox., The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny., Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox., The Bunny is facing the south, the Frog is facing the Broccoli., The Bunny is facing the south, the Frog is facing the Broccoli., The Bunny turns to face the Mailbox and taps its foot two times., On the right in the foreground sits a Bunny on his hind legs facing southwest., To the right of the mailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the direction of the mushroom., The Bunny turns his head and body slightly to the left facing exactly to the south., Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox., Then the frog turns to the left facing northeast and making three jumps to the background., The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny., Left to the broccoli there is a frog facing the broccoli., Behind the frog, to the left, there is a mail box facing southeast., Behind the Broccoli there is a rabbit facing south., The bunny turns to face the broccoli., The bunny turns to face the frog., The frog turns to face north., Meanwhile the frog quickly turns to face the bunny., On the right side there is a big white bunny facing southwest., Right to the mailbox, there is a frog facing southeast., The bunny turns right to face the frog., The frog turns right to face the bunny., A frog sits left of the Brokkoli facing it., Behind the Broccoli, there is a Bunny facing south., In the foreground there is a Frog on the left facing southeast., The Frog ribbits, turns to face north and hops away from the mailbox., The frog turns around to face the bunny., Right of the mailbox there is a frog facing the broccoli., On the right side behind the broccoli there is a bunny facing the frog., The bunny faces the broccoli and hops to it., Then the bunny eats the broccoli and turns to face the frog., The frog turns to face the bunny, hops to the bunny and ribbits once., In front of the palm tree, there is a postal mailbox facing southeast., In the foreground on the left, there sits a green frog with a yellow belly facing eastsoutheast., In the background on the right, there sits a white bunny facing southsouthwest., The bunny sets pose, turns face to face to the frog and taps his left foot twice., The bunny sets pose, turns face to face to the frog and taps his left foot twice., In the foreground there is a frog on the left facing east-southeast and a broccoli on the right., Behind the broccoli there is a bunny facing south-southwest., Behind the frog, to the left, there is a mailbox facing southeast., The bunny turns to face the broccoli., The bunny turns to face the frog., The bunny turns to face the mailbox., The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time., In the background there is a sunflower on the far right facing southwest., In the foreground there is a monkey in the middle facing southwest., To the monkey's right, there is a penguin facing south., Behind the light bulb, to the right, there is a duck prince facing southeast., The duck prince turns to face the monkey., The monkey turns to face the remote., The penguin turns to face the bucket., The duck prince quickly turns to face the penguin., The penguin turns to face the duck prince., In the background there is a sunflower on the far right facing southwest., In the foreground there is a monkey in the middle facing southwest., To the monkey's right, there is a penguin facing south., Behind the light bulb, to the right, there is a duck prince facing southeast., The duck prince turns to face the monkey., The monkey turns to face the remote., The penguin turns to face the bucket., The duck prince quickly turns to face the penguin.], press=[The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on., The monkey then bends down to press the switch again and turns off the light.], raise=[The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello.", A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves., Both characters then raise their left arm upwards in a smooth motion at a 90 degree angle and rotate multiple times., Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave., and raises his left leg to take a big leap forward towards the monster., It jumps up, raising its right leg, and kicks the T-Rex's head from below.], frog=[Then, Bunny turns left to Frog and waves to Frog twice with the left paw.], have=[Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a problem!", The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!", The moon lander says: "Houston..." and "...we have a problem!", The tortoise says, "Well, I guess I have no choice but to kick your butt."], set=[The moster then extends a hand and sets fire to the astronaught., The scene is set on the moon, with black space instead of sky and grey rocky ground., The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.], run=[The rabbit is scared from this and runs away from the T-Rex, behind the tortoise.], grin=[Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D"., The grinning cat is not visible., The grinning cat appears in the branches of the tree., The bunny and Alice turn their heads towards the grinning cat.], consume=[A giant flame column appears and consumes the astronaut.], pose=[The bunny sets pose, turns face to face to the frog and taps his left foot twice.], reach=[He says: "...one..."
+The alien reaches the foreground and stops moving.], leave=[The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello.", It hops around the tortoise and stops left of it., Left background with palm., Left in front of palm: mailbox in brown american style., Left in front of mailbox: frog in green colour., Bunny turns left and hops 3 times in direction of viewer of video., Frog hops 3 times from front left part of the scene to centre of the screen., The bunny eats the Broccoli and turns left to the frog., Left of the palm tree there is a mailbox., Then, Bunny turns left to Frog and waves to Frog twice with the left paw., Left to the broccoli there is a frog facing the broccoli., The bunny turns left to the south and hops three times to the broccoli., The frog turns left and hops three times to the northeast., A frog sits left of the Brokkoli facing it., The frog turns left and hops 3 times away., The frog ribbits, turns left and hops to the back., The frog turns left by 90 degrees., Left of the remote, there is a light bulb., Left of the remote, there is a light bulb.], shut=[Before the palm and somewhat to the left of it stands a shut mailbox on a brown post.], reply=[The astronaught then turns his body fully to face the monster and replies "I come in peace!", , to which the T-Rex replies with another loud "ROAAAAAAAAR!!"], read=[The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello.", A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves.], do=[The frog looks at what the hare does.], turns\/moves=[Then it turns/moves to the rabbit and taps its foot.], look=[The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him., The alien stops next to the astronaught and looks at him, with its body facing the viewer., The rabbit is sitting next to it to the right, looking at the tortoise., The T-Rex is standing to the right of the stage, looking at the rabbit., The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny., The frog looks at what the hare does., He looks inside., Bunny looks inside the mailbox., Frog sits behind bunny and looks into his direction., Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside., The Bunny hops to the mailbox, opens it and looks into it., The bunny looks inside the mailbox., The bunny then hops 3 times to the mailbox, opens it and looks down on the floor., While looking down, the frog turns around, hops to the bunny and ribbits., The bunny hops to the mailbox, opens it, and looks inside the mailbox., The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox.], depict=[The start depicts a boy facing to the right of the screen, and a woman facing to the front.], extend=[Next she extends her right hand and shakes., The moster then extends a hand and sets fire to the astronaught., The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.], play=[The Bunny plays a sound (disappointment).], come=[The rabbit hops three times towards Alice and says "Come over here!", The rabbit says, "Come on!, The bunny says: "Come on over here.", The bunny says: "Come on!, Both spin quickly five times, then they come to a rest., The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one..."., The astronaught then turns his body fully to face the monster and replies "I come in peace!", The astronaught says, "I come in peace!", He says: "I come in Peace!"], ribbit=[The Frog ribbits., The Frog ribbits., The Frog ribbits and hops into the background., The frog ribbits., The frog ribbits., The frog ribbits., The frog ribbits., The frog ribbits., The Frog ribbits, turns to face north and hops away from the mailbox., The Frog ribbits., The frog ribbits, turns a half revelation to the left and hops away from mailbox., The frog ribbits once, then turns north and hops 3 times., The frog ribbits., The frog ribbits.], sit=[Behind the hole, further back to the stage sits a white rabbit, facing towards Alice., The rabbit is sitting next to it to the right, looking at the tortoise., In the foreground there sits a frog on the left and a hare on the right of the screen., Frog sits with back to viewer., Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox., Frog sits behind bunny and looks into his direction., On the right side of the palm tree there sits a frog., On the right in the foreground sits a Bunny on his hind legs facing southwest., To the right of the mailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the direction of the mushroom., A frog sits left of the Brokkoli facing it., A rabbit is sitting behind the broccoli., In the foreground on the left, there sits a green frog with a yellow belly facing eastsoutheast., In the background on the right, there sits a white bunny facing southsouthwest.], replace=[Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave.], see=[When he sees the alien, he screams, "He???", The planet earth can be seen in the background in the sky., I see a palm tree on the left of the screen, a mailbox in front of it.], stand=[The tree stands slightly to the left of the horizontal centre of the stage and drops a shade to its right., In the foreground, to the left of the stage stands the girl Alice., In the background, slightly on the moon stands a space ship with a sign reading "UNITED STATES"., The tortoise is standing just to the left of the centre of the stage, facing the viewer., The T-Rex is standing to the right of the stage, looking at the rabbit., Before the Bunny stands a mushroom., On the left side in the foreground stands a palm with a brown trunk and green leaves., Before the palm and somewhat to the left of it stands a shut mailbox on a brown post., Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox.], guess=[The tortoise says, "Well, I guess I have no choice but to kick your butt."], take=[The scene takes place on the grass., Alice takes 12 steps towards the bunny., The scene takes place on a meadow., A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward., and raises his left leg to take a big leap forward towards the monster., The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him., , and takes a step towards the alien., The scene takes place on the moon surface., The astronaut says: "That's one small step for man" and takes a step., and takes one step towards the alien.], fall=[It turns over backwards and falls on its back.], continue=[The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"], alien=[The alien turns 180 degrees,
+Alien off to the right.], accompany=[The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.], bow=[The alien turns to face him and bows its head, making unintelligible noises.], cut=[The crown is cut off at the top at the stage.], disappear=[The bunny jumps into the hole and disappears., While the bunny is moving, Alice watches until the bunny disappears.], wear=[Behind it to the right is a yellow duckling wearing red socks, a crown and a scepter.], ???=[The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???", When he sees the alien, he screams, "He???"], lie=[The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.], shout=[The rabbit shouts "Hello!", As the rabbit starts hopping towards the hole, Alice shouts, "Hey!], scold=[The duck prince scolds., The duck prince scolds.]}
+
+The word [IndexWord: [Lemma: kick] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@13c1b02] verb.motion(38) [J@11121f6] verb.contact(35) [J@1ccce3c] 
+The tortoise says, "Well, I guess I have no choice but to kick your butt."
+It jumps up, raising its right leg, and kicks the T-Rex's head from below.
+
+The word [IndexWord: [Lemma: lower] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@f7f540] verb.change(30) [J@10655dd] verb.change(30) [J@ef5502] 
+The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox.
+
+The word [IndexWord: [Lemma: send] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@b61fd1] verb.contact(35) [J@e2dae9] verb.communication(32) [J@19209ea] 
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+
+The word [IndexWord: [Lemma: appear] [POS: verb]] is filed under the following lexicographer file names: 
+verb.perception(39) [J@c8f6f8] verb.change(30) [J@1ce2dd4] verb.change(30) [J@122cdb6] 
+Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
+The grinning cat appears in the branches of the tree.
+The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello."
+A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves.
+A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward.
+The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one...".
+Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a problem!"
+A giant flame column appears and consumes the astronaut.
+
+The word [IndexWord: [Lemma: cause] [POS: verb]] is filed under the following lexicographer file names: 
+verb.creation(36) [J@1ef9157] verb.communication(32) [J@12f0999] 
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+
+The word [IndexWord: [Lemma: last] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@11f2ee1] verb.stative(42) [J@3ecfff] 
+The fire lasts for around 10 seconds.
+
+The word [IndexWord: [Lemma: rotate] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@1c99159] verb.social(41) [J@65a77f] verb.competition(33) [J@1d7ad1c] 
+Both characters then raise their left arm upwards in a smooth motion at a 90 degree angle and rotate multiple times.
+
+The word [IndexWord: [Lemma: foot] [POS: verb]] is filed under the following lexicographer file names: 
+verb.possession(40) [J@a61164] verb.motion(38) [J@bfc8e0] verb.cognition(31) [J@11d0a4f] 
+The bunny taps foot twice.
+
+The word [IndexWord: [Lemma: drop] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@152513a] verb.motion(38) [J@152c4d9] verb.change(30) [J@f99ff5] 
+The tree stands slightly to the left of the horizontal centre of the stage and drops a shade to its right.
+
+The word [IndexWord: [Lemma: glide] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@74c3aa] verb.motion(38) [J@1d9fd51] verb.motion(38) [J@860d49] 
+The penguin glides.
+The penguin glides.
+The penguin glides.
+
+The word [IndexWord: [Lemma: shake] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@d251a3] verb.body(29) [J@1edc073] verb.motion(38) [J@1f5d386] 
+Alice shakes her head.
+Alice shakes her head from the left to the right and to the left again.
+Next she extends her right hand and shakes.
+The penguin jumps back on its feet, directly after which the monkey's jaw drops and the monkey shakes its head.
+
+The word [IndexWord: [Lemma: bend] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@121f1d] verb.motion(38) [J@1b8e059] verb.contact(35) [J@910040] 
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+The monkey then bends down to press the switch again and turns off the light.
+The hare hops and bends forward to eat something.
+The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.
+The bunny bends down and eats the broccoli.
+
+The word [IndexWord: [Lemma: pop] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@2bb514] verb.contact(35) [J@17d5d2a] verb.perception(39) [J@16fa474] 
+The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"
+
+The word [IndexWord: [Lemma: wait] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@95c083] verb.stative(42) [J@191d8c1] verb.cognition(31) [J@2d9c06] 
+Wait!"
+Wait!"
+
+The word [IndexWord: [Lemma: close] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@5e5a50] verb.contact(35) [J@7b6889] verb.social(41) [J@c2ff5] 
+Frog opens the mouth and closes it again.
+
+The word [IndexWord: [Lemma: open] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@20be79] verb.social(41) [J@1b9240e] verb.contact(35) [J@1ee4648] 
+, opening its mouth wide.
+The Bunny opens the Mailbox.
+The hare hops to the mailbox and opens it.
+Bunny opens mailbox with right hand.
+The Bunny hops toward the Mailbox and opens the Mailbox.
+The Bunny opens the Mailbox.
+Frog opens the mouth and closes it again.
+Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside.
+The Bunny hops to the mailbox, opens it and looks into it.
+The bunny opens the mail box.
+The bunny opens the mailbox door.
+The bunny then hops 3 times to the mailbox, opens it and looks down on the floor.
+The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+The Bunny opens the mailbox.
+The bunny hops to the mailbox and opens mailbox.
+The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox.
+The bunny opens the mailbox.
+
+The word [IndexWord: [Lemma: cover] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@99681b] verb.contact(35) [J@181edf4] verb.stative(42) [J@12d3205] 
+The ground is covered with grass, the sky is blue.
+Ground is covered with green grass.
+The floor is covered in grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The floor is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+The ground is covered with grass.
+
+The word [IndexWord: [Lemma: knock] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@2f1921] verb.contact(35) [J@1adc30] verb.contact(35) [J@16df84b] 
+It knocks the bucket over and then jumps back on its feet, still facing the back of the stage.
+The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over.
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+
+The word [IndexWord: [Lemma: proceed] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@c832d2] verb.motion(38) [J@1808199] verb.social(41) [J@1bc887b] 
+She then proceeds to wave, still facing forwards, and turns to face the man.
+
+The word [IndexWord: [Lemma: happen] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@a46701] verb.change(30) [J@166a22b] verb.social(41) [J@120cc56] 
+There is nothing happening for 3 seconds.
+
+The word [IndexWord: [Lemma: place] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@47393f] verb.social(41) [J@1ff7a1e] verb.cognition(31) [J@1aa57fb] 
+He then places his arm back by his side.
+Everything is placed on grass.
+
+The word [IndexWord: [Lemma: move] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@14a8cd1] verb.motion(38) [J@1630ab9] verb.motion(38) [J@1551f60] 
+While the bunny is moving, Alice watches until the bunny disappears.
+The alien moves towards the right foreground.
+While moving, the alien's head faces the astronaut.
+He says: "...one..."
+The alien reaches the foreground and stops moving.
+The rabbit hops, moving toward the broccoli.
+
+The word [IndexWord: [Lemma: follow] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@1c9b9ca] verb.stative(42) [J@c4aad3] verb.stative(42) [J@1ab28fe] 
+The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+
+The word [IndexWord: [Lemma: be] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@105738] verb.stative(42) [J@ce5b1c] verb.stative(42) [J@1bfc93a] 
+In the background is a large tree whose trunk splits into two large branches which form the tree's crown.
+The crown is cut off at the top at the stage.
+She is facing towards the viewer but turned 45° to the left of the stage.
+On the right side of the stage in the foregrouns is a dark hole in the ground.
+What time is it?"
+There is a hole in the foreground to the right.
+In the foreground to the left is Alice.
+Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny.
+Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny.
+In the background to the right to there is a bunny which faces Alice.
+In the background to the left, there is a large tree with two branches.
+The grinning cat is not visible.
+What time is it?"
+While the bunny is moving, Alice watches until the bunny disappears.
+To the left hand side, there is a boy.
+The right, there is a girl.
+The boy is facing the girl.
+Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave.
+The animation is then complete.
+The sky is blue and the stage is a field of grass.
+The sky is blue and the stage is a field of grass.
+At the start of the scene, on the left is a light bulb which is off.
+At the start of the scene, on the left is a light bulb which is off.
+Behind it to the right is a yellow duckling wearing red socks, a crown and a scepter.
+Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer.
+The duckling is facing just slightly past the monkey.
+To the right is a penguin with white stomach and face and blue back and wings.
+It is facing the viewer.
+Behind it to the left is a metal bucket.
+Rightmost of the stage, in the back, is a sunflower, facing towards the characters.
+At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen.
+At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen.
+A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward.
+The animation is then complete.
+The scene is set on the moon, with black space instead of sky and grey rocky ground.
+Far away in space, Earth is visible blue and green.
+In the foreground in front of it is an astronaught, facing the viewer.
+At the right side of the scene in the background is an alien.
+The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him.
+When the alien is almost next to him, he says, "...one...".
+The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+The planet earth can be seen in the background in the sky.
+The moon lander is in the background to the left.
+The astronaut is in the foreground to the left.
+The alien is in the background to the right.
+The astronaut says: "That's one small step for man" and takes a step.
+The stage is a grassy field, with blue sky as a backdrop.
+The characters are a ninja tortoise, a rabbit and a T-Rex.
+The tortoise is standing just to the left of the centre of the stage, facing the viewer.
+The rabbit is sitting next to it to the right, looking at the tortoise.
+The T-Rex is standing to the right of the stage, looking at the rabbit.
+The rabbit is scared from this and runs away from the T-Rex, behind the tortoise.
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+The ground is covered with grass, the sky is blue.
+The ground is covered with grass, the sky is blue.
+In the background on the left hand side there is a PalmTree.
+In the foreground on the left hand side there is a closed Mailbox facing southeast.
+Right to the mailbox there is a Frog facing east.
+In the foreground on the right hand side there is a Bunny facing southwest.
+In front of the Bunny there is a Broccoli.
+Ground is covered with green grass.
+Half of screen is blue sky.
+The floor is covered in grass.
+In the far right foreground is a Broccoli.
+In the far left is a Mailbox and in front of it is a Frog.
+In the far left is a Mailbox and in front of it is a Frog.
+Behind the Mailbox in the background is a PalmTree.
+Behind the Broccoli in the background is a Bunny.
+The Bunny is facing the south, the Frog is facing the Broccoli.
+The Bunny is facing the south, the Frog is facing the Broccoli.
+The ground is covered with grass.
+In the background on the left there is a PalmTree.
+In the foreground in front of the PalmTree is a Mailbox.
+On the right side of the Mailbox there is a frog.
+On the right side in the foreground there is a Broccoli.
+Behind the Broccoli in the Background is a Bunny.
+The ground is covered with grass.
+The sky is blue.
+In the background there is a PalmTree on the left side.
+Left of the palm tree there is a mailbox.
+In the background on the left there is Bunny.
+In front of Bunny there is Broccoli.
+On the upper half of the screen is a clear blue sky.
+On the lower half of the screen is a green meadow.
+The ground is covered with grass.
+The sky is blue.
+In the background there is a palm tree on the left.
+In the foreground there is a broccoli on the right.
+Left to the broccoli there is a frog facing the broccoli.
+Behind the frog, to the left, there is a mail box facing southeast.
+Behind the Broccoli there is a rabbit facing south.
+There is nothing happening for 3 seconds.
+The ground is covered with grass.
+The sky is blue.
+There is a palmtree on the left side in the background.
+On the right side there is a big white bunny facing southwest.
+In front of palmtree there is a mailbox.
+Right to the mailbox, there is a frog facing southeast.
+In front of the bunny, there is a broccoli.
+There is a bunny in the picture turning towards the camera.
+A piece of Brokkoli is in front of him.
+Behind the frog there is a mailbox.
+Behind the mailbox there is a palm.
+Everything is placed on grass.
+The ground is covered with grass.
+There is a palm on the left side of the ground, before the palm there is a mailbox.
+There is a palm on the left side of the ground, before the palm there is a mailbox.
+In front of the mailbox, there is a frog.
+On the right side of the ground, there is a broccoli.
+A rabbit is sitting behind the broccoli.
+The ground is covered with grass.
+In the foreground to the right, there is a Broccoli.
+Behind the Broccoli, there is a Bunny facing south.
+In the foreground there is a Frog on the left facing southeast.
+Behind the frog, to the left, is a Mailbox.
+Behind the Mailbox, to the right, is a PalmTree.
+It is empty.
+The ground is covered with grass.
+In the background there is a palmtree on the far left.
+In front of the palmtree there is a mailbox.
+In the foreground to the right there is a broccoli.
+Right of the mailbox there is a frog facing the broccoli.
+On the right side behind the broccoli there is a bunny facing the frog.
+The floor is covered with grass.
+In the background on the left, there is a palm tree.
+In front of the palm tree, there is a postal mailbox facing southeast.
+In south of the bunny, there is a broccoli.
+The ground is covered with grass.
+In the background there is a palm tree on the left.
+In the foreground there is a frog on the left facing east-southeast and a broccoli on the right.
+Behind the broccoli there is a bunny facing south-southwest.
+Behind the frog, to the left, there is a mailbox facing southeast.
+The ground is covered with grass.
+In the background there is a sunflower on the far right facing southwest.
+In the foreground there is a monkey in the middle facing southwest.
+To the monkey's right, there is a penguin facing south.
+To the monkey's left, there is a remote.
+Left of the remote, there is a light bulb.
+Behind the light bulb, to the right, there is a duck prince facing southeast.
+Behind the monkey, to the right, there is a bucket.
+The ground is covered with grass.
+In the background there is a sunflower on the far right facing southwest.
+In the foreground there is a monkey in the middle facing southwest.
+To the monkey's right, there is a penguin facing south.
+To the monkey's left, there is a remote.
+Left of the remote, there is a light bulb.
+Behind the light bulb, to the right, there is a duck prince facing southeast.
+Behind the monkey, to the right, there is a bucket.
+
+The word [IndexWord: [Lemma: turn] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@6e293a] verb.change(30) [J@54a328] verb.stative(42) [J@a3d4cf] 
+She is facing towards the viewer but turned 45° to the left of the stage.
+Alice then turns to face the rabbit and says "???"
+It turns its head towards Alice and the rabbit, who turn their heads towards the cat.
+It turns its head towards Alice and the rabbit, who turn their heads towards the cat.
+and turns around towards the hole.
+and turns towards the hole too.
+Alice turns to face the bunny.
+Alice turns to face the bunny again.
+It says ":-D" and turns its head towards Alice.
+The bunny and Alice turn their heads towards the grinning cat.
+and turns to face the hole.
+It turns to the boy.
+The boy turns to face the camera.
+The girl turns to the camera as well.
+She then proceeds to wave, still facing forwards, and turns to face the man.
+Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer.
+First, the duckling turns completely towards the monkey and waves its scepter at it.
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again.
+The duckling turns around towards the penguin and wiggles from one foot to the other three times, waving its scepter.
+The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over.
+The monkey then bends down to press the switch again and turns off the light.
+The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"
+The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly.
+The astronaught then turns his body fully to face the monster and replies "I come in peace!"
+The astronaught says, "...giant leap for...", turning his head towards the alien.
+The alien turns to face him and bows its head, making unintelligible noises.
+As the flames dance around the astronaught, the alien turns around to the opposite side and moves off the stage to the right.
+The astronaut says: "...giant leap for..." and turns his head towards the alien.
+The alien turns to face the astronaut.
+The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien.
+The alien turns 180 degrees,
+Alien off to the right.
+It turns over backwards and falls on its back.
+The Bunny turns to face the Broccoli.
+The Bunny turns to face the Frog.
+The Frog turns to face northeast.
+The Bunny turns to face the Mailbox.
+The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny.
+The hare turns to the frog and taps its hindpaw.
+The frog turns its back to the observer and hops to the back (into the background).
+The frog turns back to the hare and also hops to the mailbox.
+Bunny turns left and hops 3 times in direction of viewer of video.
+Bunny turns right and taps two times with left foot.
+Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox.
+Frog turns and makes 2 hops back to mailbox.
+The Bunny turns to face the Mailbox and taps its foot two times.
+The bunny eats the Broccoli and turns left to the frog.
+The frog turns to the Palm tree.
+The frog turns to the Bunny.
+Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside.
+The frog turns around and hops back to Bunny and the open mailbox.
+The Bunny turns his head and body slightly to the left facing exactly to the south.
+Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox.
+Then the frog turns to the left facing northeast and making three jumps to the background.
+The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny.
+The bunny turns to face the broccoli.
+The bunny turns to face the frog.
+The frog turns to face north.
+The bunny turns to the mail box.
+The bunny turns its head down.
+Meanwhile the frog quickly turns to face the bunny.
+The bunny turns left to the south and hops three times to the broccoli.
+The bunny turns right to face the frog.
+The frog turns left and hops three times to the northeast.
+The frog turns right to face the bunny.
+There is a bunny in the picture turning towards the camera.
+The frog turns left and hops 3 times away.
+While looking down, the frog turns around, hops to the bunny and ribbits.
+The rabbit turns to the frog and taps foot.
+Meanwhile, the frog turns to the bunny, moves forward, and ribbits.
+The Bunny turns towards the frog.
+The Frog ribbits, turns to face north and hops away from the mailbox.
+The frog turns around to face the bunny.
+Then the bunny eats the broccoli and turns to face the frog.
+The frog ribbits, turns a half revelation to the left and hops away from mailbox.
+The frog turns to face the bunny, hops to the bunny and ribbits once.
+The bunny turns to the broccoli and hops 3 times towards it.
+The frog ribbits once, then turns north and hops 3 times.
+The bunny turns to the mailbox and hops 3 times.
+The frog turns around and hops twice towards the bunny.
+The bunny turns to face the broccoli.
+The bunny turns to face the frog.
+The frog turns left by 90 degrees.
+The bunny turns to face the mailbox.
+The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time.
+The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time.
+The duck prince turns to face the monkey.
+The monkey turns to face the remote.
+The penguin turns to face the bucket.
+The duck prince quickly turns to face the penguin.
+The penguin turns to face the duck prince.
+The duck prince turns to face the monkey.
+The monkey turns to face the remote.
+The penguin turns to face the bucket.
+The duck prince quickly turns to face the penguin.
+
+The word [IndexWord: [Lemma: nod] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@1e152c5] verb.communication(32) [J@1319c] verb.body(29) [J@6025e7] 
+Simultaneously, the monkey nods.
+The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly.
+The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien.
+
+The word [IndexWord: [Lemma: scream] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@587c94] verb.communication(32) [J@15b0afd] verb.perception(39) [J@2e7820] 
+The rabbit screams "Ahhhhhhhh!"
+When he sees the alien, he screams, "He???"
+
+The word [IndexWord: [Lemma: laugh] [POS: verb]] is filed under the following lexicographer file names: 
+verb.body(29) [J@37fb1e] 
+The monkey laughs.
+The monkey laughs.
+
+The word [IndexWord: [Lemma: form] [POS: verb]] is filed under the following lexicographer file names: 
+verb.social(41) [J@1479feb] verb.stative(42) [J@1543c88] verb.stative(42) [J@15212bc] 
+In the background is a large tree whose trunk splits into two large branches which form the tree's crown.
+
+The word [IndexWord: [Lemma: consist] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@14c1103] verb.stative(42) [J@f11404] verb.stative(42) [J@1592174] 
+The stage consists of a blue sky and a grassy green ground.
+
+The word [IndexWord: [Lemma: watch] [POS: verb]] is filed under the following lexicographer file names: 
+verb.perception(39) [J@a352a5] verb.social(41) [J@86fe26] verb.perception(39) [J@97a560] 
+While the bunny is moving, Alice watches until the bunny disappears.
+
+The word [IndexWord: [Lemma: strip] [POS: verb]] is filed under the following lexicographer file names: 
+verb.possession(40) [J@1ea5671] verb.body(29) [J@1d15445] verb.contact(35) [J@1f3aa07] 
+Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
+
+The word [IndexWord: [Lemma: flap] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@1fc2fb] verb.motion(38) [J@139eeda] verb.motion(38) [J@704baa] 
+The penguin then jumps, flapping its wings.
+After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again.
+
+The word [IndexWord: [Lemma: emerge] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@77a7f9] verb.change(30) [J@1b4fad5] verb.change(30) [J@bfea1d] 
+The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"
+
+The word [IndexWord: [Lemma: jump] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@c68c3] verb.motion(38) [J@b2002f] verb.competition(33) [J@2a4983] 
+The rabbit jumps into the hole.
+The bunny jumps into the hole and disappears.
+The penguin then jumps, flapping its wings.
+After a short pause, the penguin turns around towards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flapping its wings again.
+It knocks the bucket over and then jumps back on its feet, still facing the back of the stage.
+The penguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling, knocking it over.
+The penguin jumps back on its feet, directly after which the monkey's jaw drops and the monkey shakes its head.
+It jumps up, raising its right leg, and kicks the T-Rex's head from below.
+The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.
+The monkey jumps.
+The monkey sighs while the penguin jumps at the same time.
+The monkey jumps.
+The penguin jumps once.
+
+The word [IndexWord: [Lemma: fly] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@406199] verb.motion(38) [J@c7b00c] verb.motion(38) [J@1f6f296] 
+The T-Rex's head is knocked back, followed by its whole body being sent flying.
+
+The word [IndexWord: [Lemma: start] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@1b09468] verb.change(30) [J@1df5a8f] verb.motion(38) [J@b2a2d8] 
+As the rabbit starts hopping towards the hole, Alice shouts, "Hey!
+The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!"
+
+The word [IndexWord: [Lemma: say] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@1e13d52] verb.communication(32) [J@80fa6f] verb.communication(32) [J@1b9ce4b] 
+Alice then turns to face the rabbit and says "???"
+The rabbit hops three times towards Alice and says "Come over here!"
+The rabbit says, "Come on!
+Alice then says "Oh..." and hesitantly walks towards the rabbit.
+After two steps she says, "Okay...".
+Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
+The bunny says "Hello".
+Alice says: "???"
+The bunny says: "Come on over here."
+The bunny says: "Come on!
+While turning, Alice says "Oh".
+While walking, Alice says: "Okay...".
+It says ":-D" and turns its head towards Alice.
+The bunny says "Ahhhhhhh!"
+Alice says: "Hey!
+The girl says "Hello" and waves.
+He says "Hello" and waves.
+The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one...".
+The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"
+The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him.
+When the alien is almost next to him, he says, "...one...".
+The astronaught says, "...giant leap for...", turning his head towards the alien.
+The astronaught says, "I come in peace!"
+The astronaut says: "That's one small step for man" and takes a step.
+He says: "...one..."
+The alien reaches the foreground and stops moving.
+The astronaut says: "...giant leap for..." and turns his head towards the alien.
+He says: "He?"
+The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien.
+He says: "I come in Peace!"
+The moon lander says: "Houston..." and "...we have a problem!"
+It says, "Hey, evil T-Rex, stop scaring my friend!"
+The tortoise says, "Well, I guess I have no choice but to kick your butt."
+Frog says something to bunny.
+Frog says something to bunny.
+
+The word [IndexWord: [Lemma: lift] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@196c1b0] verb.contact(35) [J@861f24] verb.motion(38) [J@166aa18] 
+Both lift their right arm away from the body.
+Both lift their left arm away from the body.
+
+The word [IndexWord: [Lemma: wave] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@1292d26] verb.contact(35) [J@5329c5] verb.motion(38) [J@1db699b] 
+The duckling turns around towards the penguin and wiggles from one foot to the other three times, waving its scepter.
+
+The word [IndexWord: [Lemma: sigh] [POS: verb]] is filed under the following lexicographer file names: 
+verb.body(29) [J@1f26605] verb.communication(32) [J@107ebe1] 
+The monkey sighs while the penguin jumps at the same time.
+The monkey sighs.
+
+The word [IndexWord: [Lemma: eat] [POS: verb]] is filed under the following lexicographer file names: 
+verb.consumption(34) [J@10f11b8] verb.consumption(34) [J@544ec1] verb.consumption(34) [J@fe748f] 
+The Bunny eats the Broccoli.
+The hare hops and bends forward to eat something.
+Bunny eats broccoli.
+The Bunny hops toward the Broccoli and eats it.
+The bunny eats the Broccoli and turns left to the frog.
+Bunny hops with 3 leaps to Broccoli and eats it.
+The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.
+The bunny eats the broccoli.
+The bunny eats the broccoli.
+The bunny hops to the Brokkoli and eats it.
+The rabbit eats the broccoli.
+It eats the Broccoli.
+Then the bunny eats the broccoli and turns to face the frog.
+The bunny bends down and eats the broccoli.
+The bunny eats the broccoli.
+
+The word [IndexWord: [Lemma: split] [POS: verb]] is filed under the following lexicographer file names: 
+verb.social(41) [J@1968e23] verb.contact(35) [J@14da8f4] verb.social(41) [J@18f6235] 
+In the background is a large tree whose trunk splits into two large branches which form the tree's crown.
+
+The word [IndexWord: [Lemma: burn] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@78a212] verb.weather(43) [J@1d85f79] verb.change(30) [J@641e9a] 
+The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"
+
+The word [IndexWord: [Lemma: scare] [POS: verb]] is filed under the following lexicographer file names: 
+verb.emotion(37) [J@115273a] verb.emotion(37) [J@1c282a1] 
+The rabbit is scared from this and runs away from the T-Rex, behind the tortoise.
+It says, "Hey, evil T-Rex, stop scaring my friend!"
+
+The word [IndexWord: [Lemma: dance] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@10e3293] verb.creation(36) [J@11a64ed] verb.motion(38) [J@1d80e6d] 
+As the flames dance around the astronaught, the alien turns around to the opposite side and moves off the stage to the right.
+
+The word [IndexWord: [Lemma: make] [POS: verb]] is filed under the following lexicographer file names: 
+verb.social(41) [J@bd928a] verb.change(30) [J@1dfc547] verb.creation(36) [J@10f6d3] 
+The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly.
+The alien turns to face him and bows its head, making unintelligible noises.
+The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!"
+Frog turns and makes 2 hops back to mailbox.
+Then the frog turns to the left facing northeast and making three jumps to the background.
+
+The word [IndexWord: [Lemma: walk] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@111a3a4] verb.motion(38) [J@10e790c] verb.competition(33) [J@12d263f] 
+Alice then says "Oh..." and hesitantly walks towards the rabbit.
+Both the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it.
+
+The word [IndexWord: [Lemma: hop] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@12a0f6c] verb.motion(38) [J@5a9de6] verb.motion(38) [J@134a7d8] 
+The rabbit hops three times towards Alice and says "Come over here!"
+As the rabbit starts hopping towards the hole, Alice shouts, "Hey!
+The bunny hops three times towards Alice.
+The bunny hops four times towards the hole.
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+It hops around the tortoise and stops left of it.
+The Bunny hops three times to the Broccoli.
+The frog hops three times to northeast.
+The Bunny hops three times to the Mailbox.
+The Frog hops two times to the Bunny.
+The hare hops and bends forward to eat something.
+The frog turns its back to the observer and hops to the back (into the background).
+The hare hops to the mailbox and opens it.
+The frog turns back to the hare and also hops to the mailbox.
+Bunny turns left and hops 3 times in direction of viewer of video.
+Frog hops 3 times from front left part of the scene to centre of the screen.
+Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox.
+Frog turns and makes 2 hops back to mailbox.
+The Bunny hops toward the Broccoli and eats it.
+The Frog ribbits and hops into the background.
+The Bunny hops toward the Mailbox and opens the Mailbox.
+The Frog hops toward the Bunny.
+The Bunny hops to the broccoli.
+The Frog hops in the background.
+The Bunny hops to the Mailbox.
+The frog hops to the Bunny.
+Bunny hops with 3 leaps to Broccoli and eats it.
+Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside.
+The frog turns around and hops back to Bunny and the open mailbox.
+The Bunny hops to the mailbox, opens it and looks into it.
+The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny.
+The bunny hops towards the broccoli.
+The frog hops to the background.
+The bunny hops towards the mailbox.
+The frog hops towards the bunny.
+The bunny turns left to the south and hops three times to the broccoli.
+The frog turns left and hops three times to the northeast.
+The bunny hops three times to the mailbox.
+The frog hops two times back to the bunny.
+The bunny hops to the Brokkoli and eats it.
+The frog turns left and hops 3 times away.
+The bunny then hops 3 times to the mailbox, opens it and looks down on the floor.
+While looking down, the frog turns around, hops to the bunny and ribbits.
+The rabbit hops, moving toward the broccoli.
+The frog ribbits, turns left and hops to the back.
+The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+The Bunny hops to the Broccoli.
+The Frog ribbits, turns to face north and hops away from the mailbox.
+The Bunny hops to the Mailbox.
+The Frog hops towards the Bunny.
+The bunny faces the broccoli and hops to it.
+The frog ribbits, turns a half revelation to the left and hops away from mailbox.
+The bunny hops to the mailbox and opens mailbox.
+The frog turns to face the bunny, hops to the bunny and ribbits once.
+The bunny turns to the broccoli and hops 3 times towards it.
+The frog ribbits once, then turns north and hops 3 times.
+The bunny turns to the mailbox and hops 3 times.
+The frog turns around and hops twice towards the bunny.
+The bunny hops three times.
+The frog hops three times.
+The bunny hops three times.
+The frog hops twice.
+
+The word [IndexWord: [Lemma: position] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@1f78ef1] verb.contact(35) [J@1c9a690] 
+At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen.
+
+The word [IndexWord: [Lemma: stop] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@1d6776d] verb.stative(42) [J@13ad085] verb.social(41) [J@4fce71] 
+She stops in front of the rabbit.
+The alien stops next to the astronaught and looks at him, with its body facing the viewer.
+It says, "Hey, evil T-Rex, stop scaring my friend!"
+
+The word [IndexWord: [Lemma: face] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@17a8a02] verb.competition(33) [J@1faba46] verb.stative(42) [J@1db7df8] 
+She is facing towards the viewer but turned 45° to the left of the stage.
+Behind the hole, further back to the stage sits a white rabbit, facing towards Alice.
+Alice then turns to face the rabbit and says "???"
+Alice is a human girl with blonde hair in a blue dress
+Alice is facing away from the bunny.
+In the background to the right to there is a bunny which faces Alice.
+Alice turns to face the bunny.
+Alice turns to face the bunny again.
+and turns to face the hole.
+The boy is facing the girl.
+The boy turns to face the camera.
+The start depicts a boy facing to the right of the screen, and a woman facing to the front.
+The start depicts a boy facing to the right of the screen, and a woman facing to the front.
+She then proceeds to wave, still facing forwards, and turns to face the man.
+She then proceeds to wave, still facing forwards, and turns to face the man.
+Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the button but slightly turned towards the viewer.
+The duckling is facing just slightly past the monkey.
+It is facing the viewer.
+Rightmost of the stage, in the back, is a sunflower, facing towards the characters.
+It knocks the bucket over and then jumps back on its feet, still facing the back of the stage.
+At the start the astronaught is facing to the front of the screen and the monster on wheels is positioned towards the back of the screen.
+The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"
+The monsters body then turns to face the astronaught and the moster makes stranges noises and nods slowly.
+The astronaught then turns his body fully to face the monster and replies "I come in peace!"
+In the foreground in front of it is an astronaught, facing the viewer.
+The alien stops next to the astronaught and looks at him, with its body facing the viewer.
+The alien turns to face him and bows its head, making unintelligible noises.
+While moving, the alien's head faces the astronaut.
+The alien turns to face the astronaut.
+The alien nods and says: "/§$%5a§$&"
+The astronaut turns to face the alien.
+The tortoise is standing just to the left of the centre of the stage, facing the viewer.
+Both the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it.
+In the foreground on the left hand side there is a closed Mailbox facing southeast.
+Right to the mailbox there is a Frog facing east.
+In the foreground on the right hand side there is a Bunny facing southwest.
+The Bunny turns to face the Broccoli.
+The Bunny turns to face the Frog.
+The Frog turns to face northeast.
+The Bunny turns to face the Mailbox.
+The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny.
+Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox.
+The Bunny is facing the south, the Frog is facing the Broccoli.
+The Bunny is facing the south, the Frog is facing the Broccoli.
+The Bunny turns to face the Mailbox and taps its foot two times.
+On the right in the foreground sits a Bunny on his hind legs facing southwest.
+To the right of the mailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the direction of the mushroom.
+The Bunny turns his head and body slightly to the left facing exactly to the south.
+Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox.
+Then the frog turns to the left facing northeast and making three jumps to the background.
+The frog turns to the right now facing southwest and hops in two jumps to the right side of the Bunny.
+Left to the broccoli there is a frog facing the broccoli.
+Behind the frog, to the left, there is a mail box facing southeast.
+Behind the Broccoli there is a rabbit facing south.
+The bunny turns to face the broccoli.
+The bunny turns to face the frog.
+The frog turns to face north.
+Meanwhile the frog quickly turns to face the bunny.
+On the right side there is a big white bunny facing southwest.
+Right to the mailbox, there is a frog facing southeast.
+The bunny turns right to face the frog.
+The frog turns right to face the bunny.
+A frog sits left of the Brokkoli facing it.
+Behind the Broccoli, there is a Bunny facing south.
+In the foreground there is a Frog on the left facing southeast.
+The Frog ribbits, turns to face north and hops away from the mailbox.
+The frog turns around to face the bunny.
+Right of the mailbox there is a frog facing the broccoli.
+On the right side behind the broccoli there is a bunny facing the frog.
+The bunny faces the broccoli and hops to it.
+Then the bunny eats the broccoli and turns to face the frog.
+The frog turns to face the bunny, hops to the bunny and ribbits once.
+In front of the palm tree, there is a postal mailbox facing southeast.
+In the foreground on the left, there sits a green frog with a yellow belly facing eastsoutheast.
+In the background on the right, there sits a white bunny facing southsouthwest.
+The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+In the foreground there is a frog on the left facing east-southeast and a broccoli on the right.
+Behind the broccoli there is a bunny facing south-southwest.
+Behind the frog, to the left, there is a mailbox facing southeast.
+The bunny turns to face the broccoli.
+The bunny turns to face the frog.
+The bunny turns to face the mailbox.
+The bunny's head turns forward by a small amount while the frog turns to face the bunny at the same time.
+In the background there is a sunflower on the far right facing southwest.
+In the foreground there is a monkey in the middle facing southwest.
+To the monkey's right, there is a penguin facing south.
+Behind the light bulb, to the right, there is a duck prince facing southeast.
+The duck prince turns to face the monkey.
+The monkey turns to face the remote.
+The penguin turns to face the bucket.
+The duck prince quickly turns to face the penguin.
+The penguin turns to face the duck prince.
+In the background there is a sunflower on the far right facing southwest.
+In the foreground there is a monkey in the middle facing southwest.
+To the monkey's right, there is a penguin facing south.
+Behind the light bulb, to the right, there is a duck prince facing southeast.
+The duck prince turns to face the monkey.
+The monkey turns to face the remote.
+The penguin turns to face the bucket.
+The duck prince quickly turns to face the penguin.
+
+The word [IndexWord: [Lemma: press] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@1c74f37] verb.communication(32) [J@21b220] verb.stative(42) [J@3570b0] 
+The monkey then turns towards the switch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+The monkey then bends down to press the switch again and turns off the light.
+
+The word [IndexWord: [Lemma: raise] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@79717e] verb.motion(38) [J@10a2d64] verb.communication(32) [J@12a3722] 
+The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello."
+A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves.
+Both characters then raise their left arm upwards in a smooth motion at a 90 degree angle and rotate multiple times.
+Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave.
+and raises his left leg to take a big leap forward towards the monster.
+It jumps up, raising its right leg, and kicks the T-Rex's head from below.
+
+The word [IndexWord: [Lemma: frog] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@89cf1e] 
+Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+
+The word [IndexWord: [Lemma: have] [POS: verb]] is filed under the following lexicographer file names: 
+verb.possession(40) [J@17ce4e7] verb.stative(42) [J@982589] verb.perception(39) [J@c88440] 
+Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a problem!"
+The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"
+The moon lander says: "Houston..." and "...we have a problem!"
+The tortoise says, "Well, I guess I have no choice but to kick your butt."
+
+The word [IndexWord: [Lemma: set] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@62937c] verb.cognition(31) [J@1c0e45a] verb.communication(32) [J@cfec48] 
+The moster then extends a hand and sets fire to the astronaught.
+The scene is set on the moon, with black space instead of sky and grey rocky ground.
+The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+
+The word [IndexWord: [Lemma: run] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@10da5eb] verb.motion(38) [J@1081d2e] verb.stative(42) [J@1b3f829] 
+The rabbit is scared from this and runs away from the T-Rex, behind the tortoise.
+
+The word [IndexWord: [Lemma: grin] [POS: verb]] is filed under the following lexicographer file names: 
+verb.body(29) [J@698403] 
+Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
+The grinning cat is not visible.
+The grinning cat appears in the branches of the tree.
+The bunny and Alice turn their heads towards the grinning cat.
+
+The word [IndexWord: [Lemma: consume] [POS: verb]] is filed under the following lexicographer file names: 
+verb.consumption(34) [J@15a0305] verb.consumption(34) [J@7c4c51] verb.consumption(34) [J@765a16] 
+A giant flame column appears and consumes the astronaut.
+
+The word [IndexWord: [Lemma: pose] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@148bd3] verb.perception(39) [J@e80842] verb.communication(32) [J@17653ae] 
+The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+
+The word [IndexWord: [Lemma: reach] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@16fe0f4] verb.motion(38) [J@19d0a1] verb.contact(35) [J@d02b51] 
+He says: "...one..."
+The alien reaches the foreground and stops moving.
+
+The word [IndexWord: [Lemma: leave] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@cbf30e] verb.cognition(31) [J@1c247a0] verb.stative(42) [J@1ec6696] 
+The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello."
+It hops around the tortoise and stops left of it.
+Left background with palm.
+Left in front of palm: mailbox in brown american style.
+Left in front of mailbox: frog in green colour.
+Bunny turns left and hops 3 times in direction of viewer of video.
+Frog hops 3 times from front left part of the scene to centre of the screen.
+The bunny eats the Broccoli and turns left to the frog.
+Left of the palm tree there is a mailbox.
+Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+Left to the broccoli there is a frog facing the broccoli.
+The bunny turns left to the south and hops three times to the broccoli.
+The frog turns left and hops three times to the northeast.
+A frog sits left of the Brokkoli facing it.
+The frog turns left and hops 3 times away.
+The frog ribbits, turns left and hops to the back.
+The frog turns left by 90 degrees.
+Left of the remote, there is a light bulb.
+Left of the remote, there is a light bulb.
+
+The word [IndexWord: [Lemma: shut] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@1431340] verb.contact(35) [J@a4e2e3] verb.social(41) [J@12bb7e0] 
+Before the palm and somewhat to the left of it stands a shut mailbox on a brown post.
+
+The word [IndexWord: [Lemma: reply] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@134f69a] 
+The astronaught then turns his body fully to face the monster and replies "I come in peace!"
+, to which the T-Rex replies with another loud "ROAAAAAAAAR!!"
+
+The word [IndexWord: [Lemma: read] [POS: verb]] is filed under the following lexicographer file names: 
+verb.cognition(31) [J@fd68b1] verb.stative(42) [J@e45076] verb.cognition(31) [J@15e9756] 
+The woman then raises her left arm and a speech bubble appears from her mouth which reads "hello."
+A speech bubble then appears from the mouth of the man which also reads "hello," and he raises his left arm and waves.
+
+The word [IndexWord: [Lemma: do] [POS: verb]] is filed under the following lexicographer file names: 
+verb.social(41) [J@121ab80] verb.creation(36) [J@1827284] verb.social(41) [J@12c7568] 
+The frog looks at what the hare does.
+
+The word [IndexWord: [Lemma: turn] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@10a3b24] verb.change(30) [J@b0ce8f] verb.stative(42) [J@1c92535] 
+Then it turns/moves to the rabbit and taps its foot.
+
+The word [IndexWord: [Lemma: look] [POS: verb]] is filed under the following lexicographer file names: 
+verb.perception(39) [J@a9c09e] verb.perception(39) [J@a4e743] verb.body(29) [J@4aeb52] 
+The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him.
+The alien stops next to the astronaught and looks at him, with its body facing the viewer.
+The rabbit is sitting next to it to the right, looking at the tortoise.
+The T-Rex is standing to the right of the stage, looking at the rabbit.
+The Bunny looks in the Mailbox and at the same time the Frog turns to face the Bunny.
+The frog looks at what the hare does.
+He looks inside.
+Bunny looks inside the mailbox.
+Frog sits behind bunny and looks into his direction.
+Frog turns backward and hops with three leaps to the mailbox, opens it and looks inside.
+The Bunny hops to the mailbox, opens it and looks into it.
+The bunny looks inside the mailbox.
+The bunny then hops 3 times to the mailbox, opens it and looks down on the floor.
+While looking down, the frog turns around, hops to the bunny and ribbits.
+The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+The bunny opens the mailbox's door with his left hand, lowers his head and looks into the mailbox.
+
+The word [IndexWord: [Lemma: depict] [POS: verb]] is filed under the following lexicographer file names: 
+verb.creation(36) [J@9f671b] verb.communication(32) [J@12a3793] verb.creation(36) [J@a6d51e] 
+The start depicts a boy facing to the right of the screen, and a woman facing to the front.
+
+The word [IndexWord: [Lemma: extend] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@f1bb78] verb.stative(42) [J@4b035d] verb.stative(42) [J@ca0115] 
+Next she extends her right hand and shakes.
+The moster then extends a hand and sets fire to the astronaught.
+The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+
+The word [IndexWord: [Lemma: play] [POS: verb]] is filed under the following lexicographer file names: 
+verb.competition(33) [J@d1fa5] verb.social(41) [J@198a455] verb.creation(36) [J@4cee32] 
+The Bunny plays a sound (disappointment).
+
+The word [IndexWord: [Lemma: come] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@aa37a6] verb.motion(38) [J@12b7eea] verb.change(30) [J@99353f] 
+The rabbit hops three times towards Alice and says "Come over here!"
+The rabbit says, "Come on!
+The bunny says: "Come on over here."
+The bunny says: "Come on!
+Both spin quickly five times, then they come to a rest.
+The monster then comes towards the astronaught and another speech bubble appears from his head saying "...one...".
+The astronaught then turns his body fully to face the monster and replies "I come in peace!"
+The astronaught says, "I come in peace!"
+He says: "I come in Peace!"
+
+-- Cannot find word "ribbit" in WordNet dictionary.
+The Frog ribbits.
+The Frog ribbits.
+The Frog ribbits and hops into the background.
+The frog ribbits.
+The frog ribbits.
+The frog ribbits.
+The frog ribbits.
+The frog ribbits.
+The Frog ribbits, turns to face north and hops away from the mailbox.
+The Frog ribbits.
+The frog ribbits, turns a half revelation to the left and hops away from mailbox.
+The frog ribbits once, then turns north and hops 3 times.
+The frog ribbits.
+The frog ribbits.
+
+The word [IndexWord: [Lemma: sit] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@14c194d] verb.stative(42) [J@1112783] verb.motion(38) [J@1394894] 
+Behind the hole, further back to the stage sits a white rabbit, facing towards Alice.
+The rabbit is sitting next to it to the right, looking at the tortoise.
+In the foreground there sits a frog on the left and a hare on the right of the screen.
+Frog sits with back to viewer.
+Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in front of the mailbox.
+Frog sits behind bunny and looks into his direction.
+On the right side of the palm tree there sits a frog.
+On the right in the foreground sits a Bunny on his hind legs facing southwest.
+To the right of the mailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the direction of the mushroom.
+A frog sits left of the Brokkoli facing it.
+A rabbit is sitting behind the broccoli.
+In the foreground on the left, there sits a green frog with a yellow belly facing eastsoutheast.
+In the background on the right, there sits a white bunny facing southsouthwest.
+
+The word [IndexWord: [Lemma: replace] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@1cbfe9d] verb.social(41) [J@1b8f864] verb.contact(35) [J@bb7759] 
+Both arms are then replaced at the characters hips before they raise their left arm 90 defrees once again and wave.
+
+The word [IndexWord: [Lemma: see] [POS: verb]] is filed under the following lexicographer file names: 
+verb.perception(39) [J@1989f84] verb.cognition(31) [J@110c424] verb.perception(39) [J@1bd2664] 
+When he sees the alien, he screams, "He???"
+The planet earth can be seen in the background in the sky.
+I see a palm tree on the left of the screen, a mailbox in front of it.
+
+The word [IndexWord: [Lemma: stand] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@1238bd2] verb.stative(42) [J@b0bad7] verb.stative(42) [J@ba9340] 
+The tree stands slightly to the left of the horizontal centre of the stage and drops a shade to its right.
+In the foreground, to the left of the stage stands the girl Alice.
+In the background, slightly on the moon stands a space ship with a sign reading "UNITED STATES".
+The tortoise is standing just to the left of the centre of the stage, facing the viewer.
+The T-Rex is standing to the right of the stage, looking at the rabbit.
+Before the Bunny stands a mushroom.
+On the left side in the foreground stands a palm with a brown trunk and green leaves.
+Before the palm and somewhat to the left of it stands a shut mailbox on a brown post.
+Then the Bunny stands up on his hind legs again and turns right facing west in the direction of the mailbox.
+
+The word [IndexWord: [Lemma: guess] [POS: verb]] is filed under the following lexicographer file names: 
+verb.cognition(31) [J@1198891] verb.communication(32) [J@1551d7f] verb.cognition(31) [J@10382a9] 
+The tortoise says, "Well, I guess I have no choice but to kick your butt."
+
+The word [IndexWord: [Lemma: take] [POS: verb]] is filed under the following lexicographer file names: 
+verb.social(41) [J@17725c4] verb.possession(40) [J@1506dc4] verb.motion(38) [J@15663a2] 
+The scene takes place on the grass.
+Alice takes 12 steps towards the bunny.
+The scene takes place on a meadow.
+A speech bubble then appears from the astronaught reading "That's one small step for man..." and the man takes a step foward.
+and raises his left leg to take a big leap forward towards the monster.
+The astronaught says, "That's one small step for man..." and takes a step forward, while the alien moves towards him, looking at him.
+, and takes a step towards the alien.
+The scene takes place on the moon surface.
+The astronaut says: "That's one small step for man" and takes a step.
+and takes one step towards the alien.
+
+The word [IndexWord: [Lemma: fall] [POS: verb]] is filed under the following lexicographer file names: 
+verb.motion(38) [J@a761fe] verb.motion(38) [J@1126b07] verb.change(30) [J@30d082] 
+It turns over backwards and falls on its back.
+
+The word [IndexWord: [Lemma: continue] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@c931fc] verb.communication(32) [J@f0c0d3] verb.stative(42) [J@3820e] 
+The flames continue to burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"
+
+The word [IndexWord: [Lemma: alien] [POS: verb]] is filed under the following lexicographer file names: 
+verb.possession(40) [J@4f80d6] 
+The alien turns 180 degrees,
+Alien off to the right.
+
+The word [IndexWord: [Lemma: accompany] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@193722c] verb.motion(38) [J@12cc95d] verb.creation(36) [J@157fb52] 
+The alien extends its arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+
+The word [IndexWord: [Lemma: bow] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@134e4fb] verb.communication(32) [J@1a52fdf] verb.motion(38) [J@1ea0252] 
+The alien turns to face him and bows its head, making unintelligible noises.
+
+The word [IndexWord: [Lemma: cut] [POS: verb]] is filed under the following lexicographer file names: 
+verb.contact(35) [J@3e89c3] verb.change(30) [J@1c695a6] verb.motion(38) [J@8acf6e] 
+The crown is cut off at the top at the stage.
+
+The word [IndexWord: [Lemma: disappear] [POS: verb]] is filed under the following lexicographer file names: 
+verb.change(30) [J@1386918] verb.perception(39) [J@7bb290] verb.change(30) [J@10849bc] 
+The bunny jumps into the hole and disappears.
+While the bunny is moving, Alice watches until the bunny disappears.
+
+The word [IndexWord: [Lemma: wear] [POS: verb]] is filed under the following lexicographer file names: 
+verb.body(29) [J@120d62b] verb.body(29) [J@ccc588] verb.stative(42) [J@1bc82e7] 
+Behind it to the right is a yellow duckling wearing red socks, a crown and a scepter.
+
+-- Cannot find word "???" in WordNet dictionary.
+The astronaught's head then turns to face the head of the monster and the next speech bubble pops up reading "...giant leap for..." and then another saying "He???"
+When he sees the alien, he screams, "He???"
+
+The word [IndexWord: [Lemma: lie] [POS: verb]] is filed under the following lexicographer file names: 
+verb.stative(42) [J@1362012] verb.contact(35) [J@73a34b] verb.stative(42) [J@1e59128] 
+The Bunny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.
+
+The word [IndexWord: [Lemma: shout] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@9ced8e] verb.communication(32) [J@b02efa] verb.communication(32) [J@dc57db] 
+The rabbit shouts "Hello!"
+As the rabbit starts hopping towards the hole, Alice shouts, "Hey!
+
+The word [IndexWord: [Lemma: scold] [POS: verb]] is filed under the following lexicographer file names: 
+verb.communication(32) [J@c24c0] verb.communication(32) [J@140c281] 
+The duck prince scolds.
+The duck prince scolds.
+
+{End of runtime.}
