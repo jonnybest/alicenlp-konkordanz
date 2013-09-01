@@ -9,7 +9,7 @@ The grinning cat is not visible.
 
 The bunny says "Hello".
 Alice turns to face the bunny.
-Alice says: "???"
+Alice says: "???".
 The bunny hops three times towards Alice.
 The bunny says: "Come on over here."
 Alice shakes her head from the left to the right and to the left again.

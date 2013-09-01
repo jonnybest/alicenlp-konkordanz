@@ -7,7 +7,7 @@ The alien is in the background to the right.
 The alien moves towards the right foreground.
 While moving, the alien's head faces the astronaut.
 The astronaut says: "That's one small step for man" and takes a step.
-He says: "...one..."
+He says: "...one...".
 The alien reaches the foreground and stops moving.
 The astronaut says: "...giant leap for..." and turns his head towards the alien.
 He says: "He?"
