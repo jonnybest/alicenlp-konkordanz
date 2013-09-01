@@ -12,11 +12,11 @@ The alien reaches the foreground and stops moving.
 The astronaut says: "...giant leap for..." and turns his head towards the alien.
 He says: "He?"
 The alien turns to face the astronaut.
-The alien nods and says: "/§$%5a§$&"
+The alien nods and says: "/§$%5a§$&".
 The astronaut turns to face the alien.
 He says: "I come in Peace!" and takes one step towards the alien.
 The alien points at the astronaut.
 A giant flame column appears and consumes the astronaut.
-The alien turns 180 degrees,
+The alien turns 180 degrees.
 Alien off to the right.
 The moon lander says: "Houston..." and "...we have a problem!"
