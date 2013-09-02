@@ -46,8 +46,8 @@ public class StaticDynamicClassifier {
 		if (mypipeline == null) {			
 		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
 		    Properties props = new Properties();
-		    // nimm das wsj-bidirectional model, weil das bessere ergebnisse liefert
-		    props.put("pos.model", "edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger");
+		    // alternativ: wsj-bidirectional 
+		    //props.put("pos.model", "edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger");
 		    // konfiguriere pipeline
 		    props.put("annotators", "tokenize, ssplit, pos, lemma");
 		    pipeline = new StanfordCoreNLP(props);	    
@@ -68,6 +68,7 @@ public class StaticDynamicClassifier {
 	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
+			printTaggedSentence(sentence);
 			// traversing the words in the current sentence
 			// a CoreLabel is a CoreMap with additional token-specific methods
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -82,7 +83,8 @@ public class StaticDynamicClassifier {
 							otherse = new TreeSet<String>();
 							verblist.put(word, otherse);
 						}
-						otherse.add(concordance(sentence, token));				
+						otherse.add(concordance(sentence, token));						
+						nop();
 					}
 				}
 			}
@@ -137,6 +139,17 @@ public class StaticDynamicClassifier {
 	     */
 	}
 	
+	private static void nop() {
+		// nop		
+	}
+
+	private static void printTaggedSentence(CoreMap sentence) {
+		for (CoreLabel item : sentence.get(TokensAnnotation.class)) {
+			System.out.print(item.originalText() + "/"+ item.get(PartOfSpeechAnnotation.class) + " ");
+		}
+		System.out.println();
+	}
+
 	private static String concordance(CoreMap sentence, CoreLabel word) {
 		int lastindex = 100;
 		int alignby = 39;
