@@ -1,7 +1,7 @@
 The scene takes place on the grass.
 There is a hole in the foreground to the right.
 In the foreground to the left is Alice.
-Alice is a human girl with blonde hair in a blue dress
+Alice is a human girl with blonde hair in a blue dress.
 Alice is facing away from the bunny.
 In the background to the right to there is a bunny which faces Alice.
 In the background to the left, there is a large tree with two branches.
