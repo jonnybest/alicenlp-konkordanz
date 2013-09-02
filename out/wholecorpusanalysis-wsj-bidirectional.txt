@@ -28,11 +28,11 @@
 Adding annotator tokenize
 Adding annotator ssplit
 Adding annotator pos
-Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1,3 sec].
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger ... done [1,2 sec].
 Adding annotator lemma
 {annotation is now done}
-{have verb list with 86 entries}
-[???, accompany, appear, be, bend, bow, burn, cause, close, come, consist, consume, continue, cover, cut, dance, depict, disappear, do, drop, eat, emerge, extend, face, fall, flap, fly, follow, form, grin, guess, happen, have, hop, jump, kick, knock, last, laugh, leave, lie, lift, look, lower, make, move, nod, open, pass, place, play, pop, pose, press, proceed, raise, reach, read, replace, reply, rotate, run, say, scare, scold, scream, see, send, set, shake, shout, shut, sigh, sit, slide, split, stand, start, stop, take, turn, wait, walk, watch, wave, wear]
+{have verb list with 90 entries}
+[???, accompany, appear, be, bend, bow, burn, cause, close, come, consist, consume, continue, cover, cut, dance, depict, disappear, do, drop, eat, emerge, extend, face, fall, flap, fly, follow, foot, form, frog, glide, grin, guess, happen, have, hop, jump, kick, knock, last, laugh, leave, lie, lift, look, lower, make, move, nod, open, place, play, pop, pose, position, press, proceed, raise, reach, read, replace, reply, ribbit, rotate, run, say, scare, scold, scream, see, send, set, shake, shout, shut, sigh, sit, split, stand, start, stop, strip, take, turn, wait, walk, watch, wave, wear]
 
 -- Cannot find word "???" in WordNet dictionary.
 
@@ -47,8 +47,8 @@ astronaught is set ablaze with flames, accompanied by the noise of an explosion.
                   A speech bubble then appears from the mouth of the man which also reads "hello," a
        Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a p
  astronaught and another speech bubble appears from his head saying "...one...".
+Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
 aises her left arm and a speech bubble appears from her mouth which reads "hello."
-ddenly, a grinning, orange striped cat appears between the two branches of the tree and says ":-D".
 
                                     to be: verb.stative(42) verb.stative(42) verb.stative(42) 
                                     It is empty.
@@ -363,12 +363,22 @@ stomach and slides towards the bucket, flapping its wings again.
             The alien extends its arm, following which the astronaught is set ablaze with flames, ac
      The T-Rex's head is knocked back, followed by its whole body being sent flying.
 
+                                    to foot: verb.possession(40) verb.motion(38) verb.cognition(31) 
+                        The bunny taps foot twice.
+
                                     to form: verb.social(41) verb.stative(42) verb.stative(42) 
 k splits into two large branches which form the tree's crown.
+
+                                    to frog: verb.contact(35) 
+             Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+
+                                    to glide: verb.motion(38) verb.motion(38) verb.motion(38) 
+                           The penguin glides.
 
                                     to grin: verb.body(29) 
                                    The grinning cat appears in the branches of the tree.
                                    The grinning cat is not visible.
+                            Suddenly a grinning orange striped cat appears between the two branches 
 and Alice turn their heads towards the grinning cat.
 
                                     to guess: verb.cognition(31) verb.communication(32) verb.cognition(31) 
@@ -481,15 +491,18 @@ again and slides through the duckling, knocking it over.
                                        Left of the palm tree there is a mailbox.
                                        Left of the remote, there is a light bulb.
                                        Left to the broccoli there is a frog facing the broccoli.
+                           A frog sits left of the Brokkoli facing it.
+                           Bunny turns left and hops 3 times in direction of viewer of video.
+                        The frog turns left and hops 3 times away.
+                        The frog turns left and hops three times to the northeast.
                         The frog turns left by 90 degrees.
                        The bunny turns left to the south and hops three times to the broccoli.
                      Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
-              In the background on the left there is Bunny.
-              In the background on the left there is a PalmTree.
+               The frog ribbits, turns left and hops to the back.
              The woman then raises her left arm and a speech bubble appears from her mouth which rea
-        Alice shakes her head from the left to the right and to the left again.
+          Frog hops 3 times from front left part of the scene to centre of the screen.
+ It hops around the tortoise and stops left of it.
  The bunny eats the Broccoli and turns left to the frog.
-kground there is a palmtree on the far left.
 
                                     to lie: verb.stative(42) verb.contact(35) verb.stative(42) 
 rd three times and then bends forward, lies down on the meadow and eats the mushroom.
@@ -528,12 +541,11 @@ turns to the left facing northeast and making three jumps to the background.
 
                                     to move: verb.motion(38) verb.motion(38) verb.motion(38) 
                                  While moving, the alien's head faces the astronaut.
+                             The alien moves towards the right foreground.
                       The rabbit hops, moving toward the broccoli.
                      Then it turns and moves to the rabbit and taps its foot.
                     While the bunny is moving, Alice watches until the bunny disappears.
- turns around to the opposite side and moves off the stage to the right.
 alien reaches the foreground and stops moving.
-eanwhile, the frog turns to the bunny, moves forward, and ribbits.
 
                                     to nod: verb.communication(32) verb.communication(32) verb.body(29) 
                              The alien nods and says: "/§$%5a§$&".
@@ -558,9 +570,6 @@ d the moster makes stranges noises and nods slowly.
  hops with three leaps to the mailbox, opens it and looks inside.
 unny then hops 3 times to the mailbox, opens it and looks down on the floor.
 
-                                    to pass: verb.motion(38) verb.motion(38) verb.social(41) 
-                     A very short time passes.
-
                                     to place: verb.contact(35) verb.social(41) verb.cognition(31) 
                                He then places his arm back by his side.
                          Everything is placed on grass.
@@ -573,6 +582,9 @@ the monster and the next speech bubble pops up reading "...giant leap for..." an
 
                                     to pose: verb.stative(42) verb.perception(39) verb.communication(32) 
                         The bunny sets pose, turns face to face to the frog and taps his left foot t
+
+                                    to position: verb.motion(38) verb.contact(35) 
+he screen and the monster on wheels is positioned towards the back of the screen.
 
                                     to press: verb.contact(35) verb.communication(32) verb.stative(42) 
          The monkey then bends down to press the switch again and turns off the light.
@@ -602,6 +614,9 @@ s from the mouth of the man which also reads "hello," and he raises his left arm
                                     to reply: verb.communication(32) 
                   , to which the T-Rex replies with another loud "ROAAAAAAAAR!!"
 his body fully to face the monster and replies "I come in peace!"
+
+-- Cannot find word "ribbit" in WordNet dictionary.
+
 
                                     to rotate: verb.motion(38) verb.social(41) verb.competition(33) 
 smooth motion at a 90 degree angle and rotate multiple times.
@@ -652,6 +667,7 @@ tween the two branches of the tree and says ":-D".
                        The duck prince scolds.
 
                                     to scream: verb.communication(32) verb.communication(32) verb.perception(39) 
+                            The rabbit screams "Ahhhhhhhh!"
             When he sees the alien, he screams, "He???"
 
                                     to see: verb.perception(39) verb.cognition(31) verb.perception(39) 
@@ -682,6 +698,7 @@ nd somewhat to the left of it stands a shut mailbox on a brown post.
 
                                     to sigh: verb.body(29) verb.communication(32) 
                             The monkey sighs while the penguin jumps at the same time.
+                            The monkey sighs.
 
                                     to sit: verb.contact(35) verb.stative(42) verb.motion(38) 
                                   Frog sits behind bunny and looks into his direction.
@@ -697,9 +714,6 @@ nd somewhat to the left of it stands a shut mailbox on a brown post.
 3 times to left part of the screen and sits down in front of the mailbox.
 ailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the
 nd the hole, further back to the stage sits a white rabbit, facing towards Alice.
-
-                                    to slide: verb.motion(38) verb.motion(38) verb.motion(38) 
-ling, jumps onto its stomach again and slides through the duckling, knocking it over.
 
                                     to split: verb.social(41) verb.contact(35) verb.social(41) 
 background is a large tree whose trunk splits into two large branches which form the tree's crown.
@@ -721,9 +735,11 @@ n the background, slightly on the moon stands a space ship with a sign reading "
 
                                     to stop: verb.motion(38) verb.stative(42) verb.social(41) 
                                    She stops in front of the rabbit.
+                             The alien stops next to the astronaught and looks at him, with its body
             It says, "Hey, evil T-Rex, stop scaring my friend!"
-       It hops around the tortoise and stops left of it.
-  The alien reaches the foreground and stops moving.
+
+                                    to strip: verb.possession(40) verb.body(29) verb.contact(35) 
+            Suddenly a grinning orange striped cat appears between the two branches of the tree and 
 
                                     to take: verb.social(41) verb.possession(40) verb.motion(38) 
                                    and takes one step towards the alien.
@@ -751,7 +767,6 @@ s: "That's one small step for man" and takes a step.
                                  Bunny turns a bit right to face the mailbox and hops 3 times to lef
                                  Bunny turns left and hops 3 times in direction of viewer of video.
                                  Bunny turns right and taps two times with left foot.
-                                 While turning, Alice says "Oh".
                                The boy turns to face the camera.
                                Then it turns and moves to the rabbit and taps its foot.
                               The Frog turns to face northeast.
@@ -777,6 +792,9 @@ s: "That's one small step for man" and takes a step.
                              The Bunny turns to face the Mailbox and taps its foot two times.
                              The Bunny turns to face the Mailbox.
                              The Bunny turns towards the frog.
+                             The alien turns 180 degrees.
+                             The alien turns to face him and bows its head, making unintelligible no
+                             The alien turns to face the astronaut.
                              The bunny turns its head down.
                              The bunny turns left to the south and hops three times to the broccoli.
                              The bunny turns right to face the frog.
@@ -802,12 +820,10 @@ s: "That's one small step for man" and takes a step.
                      It says ":-D" and turns its head towards Alice.
                      The Frog ribbits, turns to face north and hops away from the mailbox.
                      The frog ribbits, turns a half revelation to the left and hops away from mailbo
-                     The frog ribbits, turns left and hops to the back.
                    First, the duckling turns completely towards the monkey and waves its scepter at 
                    Meanwhile, the frog turns to the bunny, moves forward, and ribbits.
                    The bunny and Alice turn their heads towards the grinning cat.
                   The astronaught then turns his body fully to face the monster and replies "I come 
-                  The bunny sets pose, turns face to face to the frog and taps his left foot twice.
                 The monsters body then turns to face the astronaught and the moster makes stranges n
                The duck prince quickly turns to face the penguin.
             Meanwhile the frog quickly turns to face the bunny.
@@ -821,6 +837,7 @@ s: "That's one small step for man" and takes a step.
   Then the bunny eats the broccoli and turns to face the frog.
  Mailbox and at the same time the Frog turns to face the Bunny.
  to it, facing the button but slightly turned towards the viewer.
+ance around the astronaught, the alien turns around to the opposite side and moves off the stage to 
 ds to wave, still facing forwards, and turns to face the man.
 nds down to press the switch again and turns off the light.
 onaut says: "...giant leap for..." and turns his head towards the alien.
@@ -831,7 +848,6 @@ y stands up on his hind legs again and turns right facing west in the direction 
                                        Wait!"
 
                                     to walk: verb.motion(38) verb.motion(38) verb.competition(33) 
-                                 While walking, Alice says: "Okay...".
 Alice then says "Oh..." and hesitantly walks towards the rabbit.
 urn to face the T-Rex and the tortoise walks towards it.
 
@@ -839,8 +855,6 @@ urn to face the T-Rex and the tortoise walks towards it.
       While the bunny is moving, Alice watches until the bunny disappears.
 
                                     to wave: verb.communication(32) verb.contact(35) verb.motion(38) 
-                                  They wave again.
-                  She then proceeds to wave, still facing forwards, and turns to face the man.
 rom one foot to the other three times, waving its scepter.
 
                                     to wear: verb.body(29) verb.body(29) verb.stative(42) 

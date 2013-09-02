@@ -21,6 +21,9 @@ import net.sf.extjwnl.dictionary.Dictionary;
 
 
 
+
+
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
@@ -62,7 +65,7 @@ public class StaticDynamicClassifier {
 	    System.out.println("{annotation is now done}");
 
 	    // get all distinct verbs as a list
-	    HashMap<String, List<String>> verblist = new HashMap<String, List<String>>();
+	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
 			// traversing the words in the current sentence
@@ -74,19 +77,19 @@ public class StaticDynamicClassifier {
 				if (pos.startsWith("VB")) {
 					String word = token.lemma();
 					if(word != null) {
-						List<String> otherse = verblist.get(word);
+						SortedSet<String> otherse = verblist.get(word);
 						if (otherse == null) {
-							otherse = new ArrayList<String>();
+							otherse = new TreeSet<String>();
 							verblist.put(word, otherse);
 						}
-						otherse.add(concordance(sentence, token));						
+						otherse.add(concordance(sentence, token));				
 					}
 				}
 			}
 		}
 	
 		System.out.println("{have verb list with " + verblist.size() + " entries}");
-		System.out.println(verblist);
+		System.out.println(verblist.keySet());
 		System.out.println();
 	    
 	    /* do word net stuff
@@ -117,9 +120,11 @@ public class StaticDynamicClassifier {
 			}
 	    	for (String token : verblist.keySet()) 
 	    	{
-				myclassifier.analyzeLexicographerFileNamesForVerbs(token);
-				for (String item : verblist.get(token)) {
-					System.out.println(item.toString());
+				Boolean found = myclassifier.analyzeLexicographerFileNamesForVerbs(token);
+				if (found) {
+					for (String item : verblist.get(token)) {
+						System.out.println(item.toString());
+					}
 				}
 				System.out.println();
 			}
@@ -133,31 +138,46 @@ public class StaticDynamicClassifier {
 	}
 	
 	private static String concordance(CoreMap sentence, CoreLabel word) {
-		int alignby = 30;
+		int lastindex = 100;
+		int alignby = 39;
 		String sestring = sentence.toString();
 		String wordstring = word.toString();
 		int indexof = sestring.indexOf(wordstring);
 		if (indexof < alignby) {
-			// TODO: implementiere den fall dass das wort zu weit links liegt  
+			// TODO: implementiere den fall dass das wort zu weit links liegt
+			// füge (alignby - indexof) leerzeichen links ein
+			int offset = alignby - indexof;
+			String aligner = "";
+			for (int i = 0; i < offset; i++) {
+				aligner += " ";
+			}
+			sestring = aligner + sestring;
 		}
-		else {
+		else if (alignby < indexof) {
 			// TODO: implementiere den fall dass das wort zu weit rechts liegt
+			int offset = indexof - alignby;
+			sestring = sestring.substring(offset);
 		}
 		// TODO: zeichen hintenraus löschen.
-		return sentence.toString();
+		if (sestring.length() > lastindex) {
+			sestring = sestring.substring(0, lastindex);
+		}
+		return sestring;
 	}
 
-	private void analyzeLexicographerFileNamesForVerbs(String token) throws JWNLException {
+	private Boolean analyzeLexicographerFileNamesForVerbs(String token) throws JWNLException {
 		IndexWord word = dictionary.getIndexWord(POS.VERB, token);
 		if (word == null) {
 			word = dictionary.lookupIndexWord(POS.VERB, token);
 			if (word == null) {
 				// skip
 				System.err.println("-- Cannot find word \"" + token + "\" in WordNet dictionary.");
-				return;
+				System.err.println();
+				return false;
 			}
-		}		
-		demonstrateLexicographerFileNames(word);		
+		}
+		demonstrateLexicographerFileNames(word);
+		return true;
 	}
 
 	private IndexWord ACCOMPLISH;
@@ -189,12 +209,12 @@ public class StaticDynamicClassifier {
 	private void demonstrateLexicographerFileNames(IndexWord word) {
 		word.sortSenses();
 		List<Synset> senses = word.getSenses();
-		System.out.println("The word " + word + " is filed under the following lexicographer file names: ");
+		System.out.print("                                    to " + word.getLemma() + ": ");
 		for (Synset synset : senses) {
 			if (senses.indexOf(synset) > 2) {
 				break;
 			}
-			System.out.print(synset.getLexFileName() + "(" + synset.getLexFileNum() + ") " + word.getSynsetOffsets() + "] ");
+			System.out.print(synset.getLexFileName() + "(" + synset.getLexFileNum() + ") ");
 		}
 		System.out.println();
 	}

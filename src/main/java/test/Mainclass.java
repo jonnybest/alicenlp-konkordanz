@@ -69,7 +69,7 @@ public class Mainclass {
 	    	  	while (readbytes > 0);
 				stream.close();
 				texts.add(strbuffer.toString());
-				System.out.println("{read: " +strbuffer.toString() + " }");
+				//System.out.println("{read: " +strbuffer.toString() + " }");
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			} catch (IOException e) {
