@@ -31,8 +31,455 @@ Adding annotator pos
 Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger ... done [1,2 sec].
 Adding annotator lemma
 {annotation is now done}
-{have verb list with 90 entries}
-[???, accompany, appear, be, bend, bow, burn, cause, close, come, consist, consume, continue, cover, cut, dance, depict, disappear, do, drop, eat, emerge, extend, face, fall, flap, fly, follow, foot, form, frog, glide, grin, guess, happen, have, hop, jump, kick, knock, last, laugh, leave, lie, lift, look, lower, make, move, nod, open, place, play, pop, pose, position, press, proceed, raise, reach, read, replace, reply, ribbit, rotate, run, say, scare, scold, scream, see, send, set, shake, shout, shut, sigh, sit, split, stand, start, stop, strip, take, turn, wait, walk, watch, wave, wear]
+The/DT stage/NN consists/VBZ of/IN a/DT blue/JJ sky/NN and/CC a/DT grassy/JJ green/JJ ground/NN ./. 
+In/IN the/DT background/NN is/VBZ a/DT large/JJ tree/NN whose/WP$ trunk/NN splits/VBZ into/IN two/CD large/JJ branches/NNS which/WDT form/VBP the/DT tree/NN 's/POS crown/NN ./. 
+The/DT crown/NN is/VBZ cut/VBN off/RP at/IN the/DT top/NN at/IN the/DT stage/NN ./. 
+The/DT tree/NN stands/VBZ slightly/RB to/TO the/DT left/NN of/IN the/DT horizontal/JJ centre/NN of/IN the/DT stage/NN and/CC drops/VBZ a/DT shade/NN to/TO its/PRP$ right/NN ./. 
+In/IN the/DT foreground/NN ,/, to/TO the/DT left/NN of/IN the/DT stage/NN stands/VBZ the/DT girl/NN Alice/NNP ./. 
+She/PRP is/VBZ facing/VBG towards/IN the/DT viewer/NN but/CC turned/VBD 45/CD °/NN to/TO the/DT left/NN of/IN the/DT stage/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT stage/NN in/IN the/DT foregrouns/NNS is/VBZ a/DT dark/JJ hole/NN in/IN the/DT ground/NN ./. 
+Behind/IN the/DT hole/NN ,/, further/RB back/RB to/TO the/DT stage/NN sits/VBZ a/DT white/JJ rabbit/NN ,/, facing/VBG towards/IN Alice/NNP ./. 
+The/DT rabbit/NN shouts/VBZ "/`` Hello/UH !/. "/'' 
+./. 
+Alice/NNP then/RB turns/VBZ to/TO face/VB the/DT rabbit/NN and/CC says/VBZ "/'' ???/NN "/'' 
+./. 
+The/DT rabbit/NN hops/VBZ three/CD times/NNS towards/IN Alice/NNP and/CC says/VBZ "/`` Come/VBN over/RP here/RB !/. "/'' 
+./. 
+Alice/NNP shakes/VBZ her/PRP$ head/NN ./. 
+The/DT rabbit/NN says/VBZ ,/, "/`` Come/VBD on/IN !/. 
+What/WP time/NN is/VBZ it/PRP ?/. "/'' 
+Alice/NNP then/RB says/VBZ "/`` Oh/UH .../: "/'' and/CC hesitantly/RB walks/VBZ towards/IN the/DT rabbit/NN ./. 
+After/IN two/CD steps/NNS she/PRP says/VBZ ,/, "/`` Okay/UH .../: "/'' ./. 
+She/PRP stops/VBZ in/IN front/NN of/IN the/DT rabbit/NN ./. 
+Suddenly/RB ,/, a/DT grinning/NN ,/, orange/NN striped/VBD cat/NN appears/VBZ between/IN the/DT two/CD branches/NNS of/IN the/DT tree/NN and/CC says/VBZ "/'' :-D/NNP "/'' ./. 
+It/PRP turns/VBZ its/PRP$ head/NN towards/IN Alice/NNP and/CC the/DT rabbit/NN ,/, who/WP turn/VBP their/PRP$ heads/NNS towards/IN the/DT cat/NN ./. 
+The/DT rabbit/NN screams/VBZ "/`` Ahhhhhhhh/JJ !/. "/'' 
+and/CC turns/VBZ around/RB towards/IN the/DT hole/NN ./. 
+As/IN the/DT rabbit/NN starts/VBZ hopping/VBG towards/IN the/DT hole/NN ,/, Alice/NNP shouts/VBZ ,/, "/`` Hey/NN !/. 
+Wait/VB !/. "/'' 
+and/CC turns/VBZ towards/IN the/DT hole/NN too/RB ./. 
+The/DT rabbit/NN jumps/VBZ into/IN the/DT hole/NN ./. 
+The/DT scene/NN takes/VBZ place/NN on/IN the/DT grass/NN ./. 
+There/EX is/VBZ a/DT hole/NN in/IN the/DT foreground/NN to/TO the/DT right/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT left/NN is/VBZ Alice/NNP ./. 
+Alice/NNP is/VBZ a/DT human/JJ girl/NN with/IN blonde/JJ hair/NN in/IN a/DT blue/JJ dress/NN ./. 
+Alice/NNP is/VBZ facing/VBG away/RB from/IN the/DT bunny/NN ./. 
+In/IN the/DT background/NN to/TO the/DT right/NN to/TO there/EX is/VBZ a/DT bunny/NN which/WDT faces/VBZ Alice/NNP ./. 
+In/IN the/DT background/NN to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT large/JJ tree/NN with/IN two/CD branches/NNS ./. 
+The/DT grinning/VBG cat/NN is/VBZ not/RB visible/JJ ./. 
+The/DT bunny/NN says/VBZ "/`` Hello/UH "/'' ./. 
+Alice/NNP turns/VBZ to/TO face/VB the/DT bunny/NN ./. 
+Alice/NNP says/VBZ :/: "/'' ???/NN "/'' 
+./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS towards/IN Alice/NNP ./. 
+The/DT bunny/NN says/VBZ :/: "/`` Come/VBN on/IN over/IN here/RB ./. "/'' 
+Alice/NNP shakes/VBZ her/PRP$ head/NN from/IN the/DT left/NN to/TO the/DT right/NN and/CC to/TO the/DT left/NN again/RB ./. 
+The/DT bunny/NN says/VBZ :/: "/`` Come/VBN on/IN !/. 
+What/WP time/NN is/VBZ it/PRP ?/. "/'' 
+Alice/NNP turns/VBZ to/TO face/VB the/DT bunny/NN again/RB ./. 
+While/IN turning/NN ,/, Alice/NNP says/VBZ "/`` Oh/UH "/'' ./. 
+Alice/NNP takes/VBZ 12/CD steps/NNS towards/IN the/DT bunny/NN ./. 
+While/IN walking/NN ,/, Alice/NNP says/VBZ :/: "/`` Okay/UH .../: "/'' ./. 
+The/DT grinning/VBG cat/NN appears/VBZ in/IN the/DT branches/NNS of/IN the/DT tree/NN ./. 
+It/PRP says/VBZ "/'' :-D/NNP "/'' and/CC turns/VBZ its/PRP$ head/NN towards/IN Alice/NNP ./. 
+The/DT bunny/NN and/CC Alice/NNP turn/VBP their/PRP$ heads/NNS towards/IN the/DT grinning/VBG cat/NN ./. 
+The/DT bunny/NN says/VBZ "/`` Ahhhhhhh/NNP !/. "/'' 
+and/CC turns/VBZ to/TO face/VB the/DT hole/NN ./. 
+Alice/NNP says/VBZ :/: "/`` Hey/NNP !/. 
+Wait/VB !/. "/'' 
+The/DT bunny/NN hops/VBZ four/CD times/NNS towards/IN the/DT hole/NN ./. 
+The/DT bunny/NN jumps/VBZ into/IN the/DT hole/NN and/CC disappears/VBZ ./. 
+While/IN the/DT bunny/NN is/VBZ moving/VBG ,/, Alice/NNP watches/VBZ until/IN the/DT bunny/NN disappears/VBZ ./. 
+The/DT scene/NN takes/VBZ place/NN on/IN a/DT meadow/NN ./. 
+To/TO the/DT left/JJ hand/NN side/NN ,/, there/EX is/VBZ a/DT boy/NN ./. 
+The/DT right/NN ,/, there/EX is/VBZ a/DT girl/NN ./. 
+The/DT boy/NN is/VBZ facing/VBG the/DT girl/NN ./. 
+The/DT girl/NN says/VBZ "/`` Hello/UH "/'' and/CC waves/NNS ./. 
+It/PRP turns/VBZ to/TO the/DT boy/NN ./. 
+The/DT girl/NN points/NNS at/IN the/DT boy/NN ./. 
+The/DT boy/NN turns/VBZ to/TO face/VB the/DT camera/NN ./. 
+He/PRP says/VBZ "/`` Hello/UH "/'' and/CC waves/NNS ./. 
+The/DT girl/NN turns/VBZ to/TO the/DT camera/NN as/RB well/RB ./. 
+Both/DT lift/VBP their/PRP$ right/JJ arm/NN away/RB from/IN the/DT body/NN ./. 
+Both/DT lift/VBP their/PRP$ left/JJ arm/NN away/RB from/IN the/DT body/NN ./. 
+Both/DT spin/NN quickly/RB five/CD times/NNS ,/, then/RB they/PRP come/VBP to/TO a/DT rest/NN ./. 
+They/PRP wave/NN again/RB ./. 
+The/DT start/NN depicts/VBZ a/DT boy/NN facing/VBG to/TO the/DT right/NN of/IN the/DT screen/NN ,/, and/CC a/DT woman/NN facing/VBG to/TO the/DT front/NN ./. 
+The/DT woman/NN then/RB raises/VBZ her/PRP left/VBD arm/NN and/CC a/DT speech/NN bubble/NN appears/VBZ from/IN her/PRP$ mouth/NN which/WDT reads/VBZ "/`` hello/UH ./. "/'' 
+She/PRP then/RB proceeds/VBZ to/TO wave/NN ,/, still/RB facing/VBG forwards/RB ,/, and/CC turns/VBZ to/TO face/VB the/DT man/NN ./. 
+Next/IN she/PRP extends/VBZ her/PRP$ right/JJ hand/NN and/CC shakes/VBZ ./. 
+A/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT mouth/NN of/IN the/DT man/NN which/WDT also/RB reads/VBZ "/`` hello/UH ,/, "/'' and/CC he/PRP raises/VBZ his/PRP$ left/JJ arm/NN and/CC waves/NNS ./. 
+He/PRP then/RB places/VBZ his/PRP$ arm/NN back/RB by/IN his/PRP$ side/NN ./. 
+Both/DT characters/NNS then/RB raise/VBP their/PRP$ left/JJ arm/NN upwards/NNS in/IN a/DT smooth/JJ motion/NN at/IN a/DT 90/CD degree/NN angle/NN and/CC rotate/VB multiple/JJ times/NNS ./. 
+Both/DT arms/NNS are/VBP then/RB replaced/VBN at/IN the/DT characters/NNS hips/NNS before/IN they/PRP raise/VBP their/PRP$ left/JJ arm/NN 90/CD defrees/NNS once/RB again/RB and/CC wave/NN ./. 
+The/DT animation/NN is/VBZ then/RB complete/JJ ./. 
+The/DT sky/NN is/VBZ blue/JJ and/CC the/DT stage/NN is/VBZ a/DT field/NN of/IN grass/NN ./. 
+At/IN the/DT start/NN of/IN the/DT scene/NN ,/, on/IN the/DT left/NN is/VBZ a/DT light/JJ bulb/NN which/WDT is/VBZ off/RB ./. 
+Behind/IN it/PRP to/TO the/DT right/NN is/VBZ a/DT yellow/JJ duckling/NN wearing/VBG red/JJ socks/NNS ,/, a/DT crown/NN and/CC a/DT scepter/NN ./. 
+Next/JJ to/TO the/DT bulb/NN on/IN the/DT ground/NN is/VBZ a/DT switch/NN ,/, with/IN a/DT brown/JJ monkey/NN next/JJ to/TO it/PRP ,/, facing/VBG the/DT button/NN but/CC slightly/RB turned/VBD towards/IN the/DT viewer/NN ./. 
+The/DT duckling/NN is/VBZ facing/VBG just/RB slightly/RB past/IN the/DT monkey/NN ./. 
+To/TO the/DT right/NN is/VBZ a/DT penguin/NN with/IN white/JJ stomach/NN and/CC face/NN and/CC blue/JJ back/NN and/CC wings/NNS ./. 
+It/PRP is/VBZ facing/VBG the/DT viewer/NN ./. 
+Behind/IN it/PRP to/TO the/DT left/NN is/VBZ a/DT metal/NN bucket/NN ./. 
+Rightmost/NNP of/IN the/DT stage/NN ,/, in/IN the/DT back/NN ,/, is/VBZ a/DT sunflower/NN ,/, facing/VBG towards/IN the/DT characters/NNS ./. 
+First/RB ,/, the/DT duckling/NN turns/VBZ completely/RB towards/IN the/DT monkey/NN and/CC waves/NNS its/PRP$ scepter/NN at/IN it/PRP ./. 
+The/DT monkey/NN then/RB turns/VBZ towards/IN the/DT switch/NN ,/, hops/VBZ towards/IN it/PRP and/CC bends/VBZ down/RP to/TO press/VB it/PRP ,/, which/WDT causes/VBZ the/DT light/JJ bulb/NN to/TO turn/VB on/RP ./. 
+The/DT penguin/NN then/RB jumps/VBZ ,/, flapping/VBG its/PRP$ wings/NNS ./. 
+Simultaneously/RB ,/, the/DT monkey/NN nods/VBZ ./. 
+After/IN a/DT short/JJ pause/NN ,/, the/DT penguin/NN turns/VBZ around/RB towards/IN the/DT back/NN of/IN the/DT bucket/NN behind/IN it/PRP ,/, jumps/VBZ onto/IN its/PRP$ stomach/NN and/CC slides/NNS towards/IN the/DT bucket/NN ,/, flapping/VBG its/PRP$ wings/NNS again/RB ./. 
+It/PRP knocks/VBZ the/DT bucket/NN over/IN and/CC then/RB jumps/VBZ back/RB on/IN its/PRP$ feet/NNS ,/, still/RB facing/VBG the/DT back/NN of/IN the/DT stage/NN ./. 
+The/DT duckling/NN turns/VBZ around/RB towards/IN the/DT penguin/NN and/CC wiggles/NNS from/IN one/CD foot/NN to/TO the/DT other/JJ three/CD times/NNS ,/, waving/VBG its/PRP$ scepter/NN ./. 
+The/DT penguin/NN then/RB turns/VBZ towards/IN the/DT duckling/NN ,/, jumps/VBZ onto/IN its/PRP$ stomach/NN again/RB and/CC slides/NNS through/IN the/DT duckling/NN ,/, knocking/VBG it/PRP over/RP ./. 
+The/DT penguin/NN jumps/VBZ back/RB on/IN its/PRP$ feet/NNS ,/, directly/RB after/IN which/WDT the/DT monkey/NN 's/POS jaw/NN drops/NNS and/CC the/DT monkey/NN shakes/VBZ its/PRP$ head/NN ./. 
+The/DT monkey/NN then/RB bends/VBZ down/RP to/TO press/VB the/DT switch/NN again/RB and/CC turns/VBZ off/RP the/DT light/NN ./. 
+At/IN the/DT start/NN the/DT astronaught/NN is/VBZ facing/VBG to/TO the/DT front/NN of/IN the/DT screen/NN and/CC the/DT monster/NN on/IN wheels/NNS is/VBZ positioned/VBN towards/IN the/DT back/NN of/IN the/DT screen/NN ./. 
+A/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT astronaught/JJ reading/NN "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN .../: "/'' and/CC the/DT man/NN takes/VBZ a/DT step/NN foward/JJ ./. 
+The/DT monster/NN then/RB comes/VBZ towards/IN the/DT astronaught/NN and/CC another/DT speech/NN bubble/NN appears/VBZ from/IN his/PRP$ head/NN saying/VBG "/'' .../: one/CD .../: "/'' ./. 
+The/DT astronaught/NN 's/POS head/NN then/RB turns/VBZ to/TO face/VB the/DT head/NN of/IN the/DT monster/NN and/CC the/DT next/JJ speech/NN bubble/NN pops/VBZ up/RP reading/NN "/'' .../: giant/JJ leap/NN for/IN .../: "/'' and/CC then/RB another/DT saying/VBG "/`` He/PRP ???/VBD "/'' 
+./. 
+The/DT monsters/NNS body/NN then/RB turns/VBZ to/TO face/VB the/DT astronaught/NN and/CC the/DT moster/NN makes/VBZ stranges/NNS noises/NNS and/CC nods/VBZ slowly/RB ./. 
+The/DT astronaught/NN then/RB turns/VBZ his/PRP$ body/NN fully/RB to/TO face/VB the/DT monster/NN and/CC replies/VBZ "/`` I/PRP come/VBP in/IN peace/NN !/. "/'' 
+and/CC raises/VBZ his/PRP$ left/JJ leg/NN to/TO take/VB a/DT big/JJ leap/NN forward/RB towards/IN the/DT monster/NN ./. 
+The/DT moster/NN then/RB extends/VBZ a/DT hand/NN and/CC sets/VBZ fire/NN to/TO the/DT astronaught/NN ./. 
+The/DT fire/NN lasts/VBZ for/IN around/IN 10/CD seconds/NNS ./. 
+Meanwhile/RB ,/, a/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT shuttle/NN reading/NN "/`` Houston/NNP .../: "/'' "/'' .../: We/PRP have/VBP a/DT problem/NN !/. "/'' 
+The/DT animation/NN is/VBZ then/RB complete/JJ ./. 
+The/DT scene/NN is/VBZ set/VBN on/IN the/DT moon/NN ,/, with/IN black/JJ space/NN instead/RB of/IN sky/NN and/CC grey/JJ rocky/JJ ground/NN ./. 
+Far/RB away/RB in/IN space/NN ,/, Earth/NNP is/VBZ visible/JJ blue/JJ and/CC green/JJ ./. 
+In/IN the/DT background/NN ,/, slightly/RB on/IN the/DT moon/NN stands/VBZ a/DT space/NN ship/NN with/IN a/DT sign/NN reading/NN "/`` UNITED/NNP STATES/NNS "/'' ./. 
+In/IN the/DT foreground/NN in/IN front/NN of/IN it/PRP is/VBZ an/DT astronaught/NN ,/, facing/VBG the/DT viewer/NN ./. 
+At/IN the/DT right/JJ side/NN of/IN the/DT scene/NN in/IN the/DT background/NN is/VBZ an/DT alien/NN ./. 
+The/DT astronaught/NN says/VBZ ,/, "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN .../: "/'' and/CC takes/VBZ a/DT step/NN forward/RB ,/, while/IN the/DT alien/JJ moves/NNS towards/IN him/PRP ,/, looking/VBG at/IN him/PRP ./. 
+When/WRB the/DT alien/NN is/VBZ almost/RB next/JJ to/TO him/PRP ,/, he/PRP says/VBZ ,/, "/'' .../: one/CD .../: "/'' ./. 
+The/DT alien/NN stops/VBZ next/JJ to/TO the/DT astronaught/NN and/CC looks/VBZ at/IN him/PRP ,/, with/IN its/PRP$ body/NN facing/VBG the/DT viewer/NN ./. 
+The/DT astronaught/NN says/VBZ ,/, "/'' .../: giant/JJ leap/NN for/IN .../: "/'' ,/, turning/VBG his/PRP$ head/NN towards/IN the/DT alien/NN ./. 
+When/WRB he/PRP sees/VBZ the/DT alien/NN ,/, he/PRP screams/VBZ ,/, "/`` He/PRP ???/VBD "/'' 
+The/DT alien/NN turns/VBZ to/TO face/VB him/PRP and/CC bows/VBZ its/PRP$ head/NN ,/, making/VBG unintelligible/JJ noises/NNS ./. 
+The/DT astronaught/NN says/VBZ ,/, "/`` I/PRP come/VBP in/IN peace/NN !/. "/'' 
+,/, and/CC takes/VBZ a/DT step/NN towards/IN the/DT alien/NN ./. 
+The/DT alien/NN extends/VBZ its/PRP$ arm/NN ,/, following/VBG which/WDT the/DT astronaught/NN is/VBZ set/VBN ablaze/RB with/IN flames/NNS ,/, accompanied/VBN by/IN the/DT noise/NN of/IN an/DT explosion/NN ./. 
+As/IN the/DT flames/NNS dance/VBP around/IN the/DT astronaught/NN ,/, the/DT alien/NN turns/VBZ around/RB to/TO the/DT opposite/JJ side/NN and/CC moves/NNS off/IN the/DT stage/NN to/TO the/DT right/NN ./. 
+The/DT flames/NNS continue/VBP to/TO burn/VB and/CC from/IN the/DT space/NN ship/NN the/DT words/NNS emerge/VBP ,/, "/`` Houston/NNP .../: "/'' ,/, and/CC then/RB ,/, "/'' .../: we/PRP have/VBP a/DT problem/NN !/. "/'' 
+./. 
+The/DT scene/NN takes/VBZ place/NN on/IN the/DT moon/NN surface/NN ./. 
+The/DT planet/NN earth/NN can/MD be/VB seen/VBN in/IN the/DT background/NN in/IN the/DT sky/NN ./. 
+The/DT moon/NN lander/NN is/VBZ in/IN the/DT background/NN to/TO the/DT left/NN ./. 
+The/DT astronaut/NN is/VBZ in/IN the/DT foreground/NN to/TO the/DT left/NN ./. 
+The/DT alien/NN is/VBZ in/IN the/DT background/NN to/TO the/DT right/NN ./. 
+The/DT alien/NN moves/VBZ towards/IN the/DT right/JJ foreground/NN ./. 
+While/IN moving/VBG ,/, the/DT alien/NN 's/POS head/NN faces/VBZ the/DT astronaut/NN ./. 
+The/DT astronaut/NN says/VBZ :/: "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN "/'' and/CC takes/VBZ a/DT step/NN ./. 
+He/PRP says/VBZ :/: "/'' .../: one/CD .../: "/'' ./. 
+The/DT alien/NN reaches/VBZ the/DT foreground/NN and/CC stops/NNS moving/VBG ./. 
+The/DT astronaut/NN says/VBZ :/: "/'' .../: giant/JJ leap/NN for/IN .../: "/'' and/CC turns/VBZ his/PRP$ head/NN towards/IN the/DT alien/NN ./. 
+He/PRP says/VBZ :/: "/`` He/PRP ?/. "/'' 
+The/DT alien/NN turns/VBZ to/TO face/VB the/DT astronaut/NN ./. 
+The/DT alien/NN nods/VBZ and/CC says/VBZ :/: "/'' //FW §/FW $/$ %/NN 5a/FW §/FW $/$ &/CC "/'' ./. 
+The/DT astronaut/NN turns/VBZ to/TO face/VB the/DT alien/NN ./. 
+He/PRP says/VBZ :/: "/`` I/PRP come/VBP in/IN Peace/NNP !/. "/'' 
+and/CC takes/VBZ one/CD step/NN towards/IN the/DT alien/NN ./. 
+The/DT alien/JJ points/NNS at/IN the/DT astronaut/NN ./. 
+A/DT giant/JJ flame/NN column/NN appears/VBZ and/CC consumes/VBZ the/DT astronaut/NN ./. 
+The/DT alien/NN turns/VBZ 180/CD degrees/NNS ./. 
+Alien/JJ off/IN to/TO the/DT right/NN ./. 
+The/DT moon/NN lander/NN says/VBZ :/: "/`` Houston/NNP .../: "/'' and/CC "/'' .../: we/PRP have/VBP a/DT problem/NN !/. "/'' 
+The/DT stage/NN is/VBZ a/DT grassy/JJ field/NN ,/, with/IN blue/JJ sky/NN as/IN a/DT backdrop/NN ./. 
+The/DT characters/NNS are/VBP a/DT ninja/JJ tortoise/NN ,/, a/DT rabbit/NN and/CC a/DT T-Rex/NN ./. 
+The/DT tortoise/NN is/VBZ standing/VBG just/RB to/TO the/DT left/NN of/IN the/DT centre/NN of/IN the/DT stage/NN ,/, facing/VBG the/DT viewer/NN ./. 
+The/DT rabbit/NN is/VBZ sitting/VBG next/JJ to/TO it/PRP to/TO the/DT right/NN ,/, looking/VBG at/IN the/DT tortoise/NN ./. 
+The/DT T-Rex/NN is/VBZ standing/VBG to/TO the/DT right/NN of/IN the/DT stage/NN ,/, looking/VBG at/IN the/DT rabbit/NN ./. 
+The/DT scene/NN starts/VBZ by/IN the/DT T-Rex/NN making/VBG a/DT loud/JJ "/`` ROAAAAAAAAR/FW !!!/FW "/'' 
+,/, opening/VBG its/PRP$ mouth/NN wide/JJ ./. 
+The/DT rabbit/NN is/VBZ scared/VBN from/IN this/DT and/CC runs/VBZ away/RB from/IN the/DT T-Rex/NNP ,/, behind/IN the/DT tortoise/NN ./. 
+It/PRP hops/VBZ around/IN the/DT tortoise/NN and/CC stops/NNS left/VBN of/IN it/PRP ./. 
+Both/DT the/DT rabbit/NN and/CC the/DT tortoise/NN turn/NN to/TO face/VB the/DT T-Rex/NNP and/CC the/DT tortoise/NN walks/VBZ towards/IN it/PRP ./. 
+It/PRP says/VBZ ,/, "/`` Hey/JJ ,/, evil/JJ T-Rex/NN ,/, stop/VB scaring/VBG my/PRP$ friend/NN !/. "/'' 
+,/, to/TO which/WDT the/DT T-Rex/NN replies/VBZ with/IN another/DT loud/JJ "/`` ROAAAAAAAAR/FW !!/FW "/'' 
+./. 
+The/DT tortoise/NN says/VBZ ,/, "/`` Well/UH ,/, I/PRP guess/VBP I/PRP have/VBP no/DT choice/NN but/CC to/TO kick/VB your/PRP$ butt/NN ./. "/'' 
+It/PRP jumps/VBZ up/RP ,/, raising/VBG its/PRP$ right/JJ leg/NN ,/, and/CC kicks/VBZ the/DT T-Rex/NN 's/POS head/NN from/IN below/IN ./. 
+The/DT T-Rex/NN 's/POS head/NN is/VBZ knocked/VBN back/RB ,/, followed/VBN by/IN its/PRP$ whole/JJ body/NN being/VBG sent/VBN flying/VBG ./. 
+It/PRP turns/VBZ over/IN backwards/RB and/CC falls/VBZ on/IN its/PRP$ back/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ,/, the/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN on/IN the/DT left/JJ hand/NN side/NN there/EX is/VBZ a/DT PalmTree/NN ./. 
+In/IN the/DT foreground/NN on/IN the/DT left/JJ hand/NN side/NN there/EX is/VBZ a/DT closed/JJ Mailbox/NN facing/VBG southeast/NN ./. 
+Right/RB to/TO the/DT mailbox/NN there/EX is/VBZ a/DT Frog/NN facing/VBG east/JJ ./. 
+In/IN the/DT foreground/NN on/IN the/DT right/JJ hand/NN side/NN there/EX is/VBZ a/DT Bunny/NNP facing/VBG southwest/NN ./. 
+In/IN front/NN of/IN the/DT Bunny/NNP there/EX is/VBZ a/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP hops/VBZ three/CD times/NNS to/TO the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP eats/VBZ the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Frog/NNP ./. 
+The/DT Bunny/NNP taps/NNS his/PRP$ foot/NN twice/RB ./. 
+The/DT Frog/NN ribbits/VBZ ./. 
+The/DT Frog/NNP turns/VBZ to/TO face/VB northeast/RB ./. 
+The/DT frog/NN hops/VBZ three/CD times/NNS to/TO northeast/NN ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Mailbox/NNP ./. 
+The/DT Bunny/NNP hops/VBZ three/CD times/NNS to/TO the/DT Mailbox/NNP ./. 
+The/DT Bunny/NNP opens/VBZ the/DT Mailbox/NNP ./. 
+The/DT Bunny/NNP looks/VBZ in/IN the/DT Mailbox/NNP and/CC at/IN the/DT same/JJ time/NN the/DT Frog/NNP turns/VBZ to/TO face/VB the/DT Bunny/NNP ./. 
+The/DT Frog/NNP hops/VBZ two/CD times/NNS to/TO the/DT Bunny/NNP ./. 
+The/DT Frog/NN ribbits/VBZ ./. 
+I/PRP see/VBP a/DT palm/NN tree/NN on/IN the/DT left/NN of/IN the/DT screen/NN ,/, a/DT mailbox/NN in/IN front/NN of/IN it/PRP ./. 
+In/IN the/DT foreground/NN there/EX sits/VBZ a/DT frog/NN on/IN the/DT left/NN and/CC a/DT hare/NN on/IN the/DT right/NN of/IN the/DT screen/NN ./. 
+The/DT hare/NN hops/VBZ and/CC bends/VBZ forward/RB to/TO eat/VB something/NN ./. 
+The/DT frog/NN looks/VBZ at/IN what/WP the/DT hare/NN does/VBZ ./. 
+The/DT hare/NN turns/VBZ to/TO the/DT frog/NN and/CC taps/NNS its/PRP$ hindpaw/NN ./. 
+The/DT frog/NN turns/VBZ its/PRP$ back/NN to/TO the/DT observer/NN and/CC hops/VBZ to/TO the/DT back/NN (/-LRB- into/IN the/DT background/NN )/-RRB- ./. 
+The/DT hare/NN hops/VBZ to/TO the/DT mailbox/NN and/CC opens/VBZ it/PRP ./. 
+He/PRP looks/VBZ inside/JJ ./. 
+The/DT frog/NN turns/VBZ back/RB to/TO the/DT hare/NN and/CC also/RB hops/VBZ to/TO the/DT mailbox/NN ./. 
+Ground/NNP is/VBZ covered/VBN with/IN green/JJ grass/NN ./. 
+Left/VBN background/NN with/IN palm/NN ./. 
+Left/VBN in/IN front/NN of/IN palm/NN :/: mailbox/NN in/IN brown/JJ american/JJ style/NN ./. 
+Left/VBN in/IN front/NN of/IN mailbox/NN :/: frog/NN in/IN green/JJ colour/NN ./. 
+Right/RB front/JJ :/: bunny/NN in/IN white/JJ colour/NN ./. 
+Half/NN of/IN screen/NN is/VBZ blue/JJ sky/NN ./. 
+In/IN front/NN of/IN bunny/NN on/IN right/JJ side/NN :/: green/JJ broccoli/NNS ./. 
+Bunny/NNP turns/VBZ left/VBN and/CC hops/VBZ 3/CD times/NNS in/IN direction/NN of/IN viewer/NN of/IN video/NN ./. 
+Bunny/NNP eats/VBZ broccoli/NNS ./. 
+Bunny/NNP turns/VBZ right/JJ and/CC taps/NNS two/CD times/NNS with/IN left/JJ foot/NN ./. 
+Frog/NNP says/VBZ something/NN to/TO bunny/NN ./. 
+Frog/NNP hops/VBZ 3/CD times/NNS from/IN front/NN left/VBD part/NN of/IN the/DT scene/NN to/TO centre/NN of/IN the/DT screen/NN ./. 
+Frog/NNP sits/VBZ with/IN back/RB to/TO viewer/NN ./. 
+Bunny/NNP turns/VBZ a/DT bit/NN right/NN to/TO face/VB the/DT mailbox/NN and/CC hops/VBZ 3/CD times/NNS to/TO left/JJ part/NN of/IN the/DT screen/NN and/CC sits/VBZ down/RP in/IN front/NN of/IN the/DT mailbox/NN ./. 
+Bunny/NNP opens/VBZ mailbox/NN with/IN right/JJ hand/NN ./. 
+Bunny/NNP looks/VBZ inside/IN the/DT mailbox/NN ./. 
+Frog/NNP turns/VBZ and/CC makes/VBZ 2/CD hops/VBZ back/RB to/TO mailbox/NN ./. 
+Frog/NNP sits/VBZ behind/IN bunny/NN and/CC looks/VBZ into/IN his/PRP$ direction/NN ./. 
+Frog/NNP says/VBZ something/NN to/TO bunny/NN ./. 
+The/DT floor/NN is/VBZ covered/VBN in/IN grass/NN ./. 
+In/IN the/DT far/RB right/JJ foreground/NN is/VBZ a/DT Broccoli/NNP ./. 
+In/IN the/DT far/JJ left/NN is/VBZ a/DT Mailbox/NN and/CC in/IN front/NN of/IN it/PRP is/VBZ a/DT Frog/NN ./. 
+Behind/IN the/DT Mailbox/NNP in/IN the/DT background/NN is/VBZ a/DT PalmTree/NN ./. 
+Behind/IN the/DT Broccoli/NNP in/IN the/DT background/NN is/VBZ a/DT Bunny/NNP ./. 
+The/DT Bunny/NNP is/VBZ facing/VBG the/DT south/NN ,/, the/DT Frog/NNP is/VBZ facing/VBG the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP hops/VBZ toward/IN the/DT Broccoli/NNP and/CC eats/VBZ it/PRP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Mailbox/NNP and/CC taps/NNS its/PRP$ foot/NN two/CD times/NNS ./. 
+The/DT Frog/NN ribbits/VBZ and/CC hops/VBZ into/IN the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ toward/IN the/DT Mailbox/NNP and/CC opens/VBZ the/DT Mailbox/NNP ./. 
+The/DT Frog/NNP hops/VBZ toward/IN the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/NN there/EX is/VBZ a/DT PalmTree/NN ./. 
+In/IN the/DT foreground/NN in/IN front/NN of/IN the/DT PalmTree/NNP is/VBZ a/DT Mailbox/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT Mailbox/NNP there/EX is/VBZ a/DT frog/NN ./. 
+On/IN the/DT right/JJ side/NN in/IN the/DT foreground/NN there/EX is/VBZ a/DT Broccoli/NNP ./. 
+Behind/IN the/DT Broccoli/NNP in/IN the/DT Background/NN is/VBZ a/DT Bunny/NNP ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT broccoli/NN ./. 
+The/DT bunny/NN eats/VBZ the/DT Broccoli/NNP and/CC turns/VBZ left/VBN to/TO the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ foot/NN ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT Palm/NNP tree/NN ./. 
+The/DT Frog/NNP hops/VBZ in/IN the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Mailbox/NNP ./. 
+The/DT Bunny/NNP opens/VBZ the/DT Mailbox/NNP ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT Bunny/NNP ./. 
+The/DT frog/NN hops/VBZ to/TO the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT PalmTree/NN on/IN the/DT left/JJ side/NN ./. 
+Left/VBN of/IN the/DT palm/NN tree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT palm/NN tree/NN there/EX sits/VBZ a/DT frog/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/NN there/EX is/VBZ Bunny/NNP ./. 
+In/IN front/NN of/IN Bunny/NNP there/EX is/VBZ Broccoli/NNP ./. 
+Bunny/NNP hops/VBZ with/IN 3/CD leaps/NNS to/TO Broccoli/NNP and/CC eats/VBZ it/PRP ./. 
+Then/RB ,/, Bunny/NNP turns/VBZ left/VBN to/TO Frog/NNP and/CC waves/NNS to/TO Frog/VB twice/RB with/IN the/DT left/JJ paw/NN ./. 
+Frog/NNP opens/VBZ the/DT mouth/NN and/CC closes/VBZ it/PRP again/RB ./. 
+Frog/NNP turns/VBZ backward/RB and/CC hops/VBZ with/IN three/CD leaps/NNS to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ inside/JJ ./. 
+The/DT frog/NN turns/VBZ around/RB and/CC hops/VBZ back/RB to/TO Bunny/NNP and/CC the/DT open/JJ mailbox/NN ./. 
+On/IN the/DT upper/JJ half/NN of/IN the/DT screen/NN is/VBZ a/DT clear/JJ blue/JJ sky/NN ./. 
+On/IN the/DT lower/JJR half/NN of/IN the/DT screen/NN is/VBZ a/DT green/JJ meadow/NN ./. 
+On/IN the/DT right/NN in/IN the/DT foreground/NN sits/VBZ a/DT Bunny/NNP on/IN his/PRP$ hind/JJ legs/NNS facing/VBG southwest/NN ./. 
+Before/IN the/DT Bunny/NNP stands/VBZ a/DT mushroom/NN ./. 
+On/IN the/DT left/JJ side/NN in/IN the/DT foreground/NN stands/VBZ a/DT palm/NN with/IN a/DT brown/JJ trunk/NN and/CC green/JJ leaves/NNS ./. 
+Before/IN the/DT palm/NN and/CC somewhat/RB to/TO the/DT left/NN of/IN it/PRP stands/VBZ a/DT shut/VBN mailbox/NN on/IN a/DT brown/JJ post/NN ./. 
+To/TO the/DT right/NN of/IN the/DT mailbox/NN a/DT little/RB more/JJR in/IN the/DT foreground/NN sits/VBZ a/DT green/JJ frog/NN with/IN a/DT yellow/JJ belly/NN facing/VBG southeast/NN in/IN the/DT direction/NN of/IN the/DT mushroom/NN ./. 
+The/DT Bunny/NNP turns/VBZ his/PRP$ head/NN and/CC body/NN slightly/RB to/TO the/DT left/NN facing/VBG exactly/RB to/TO the/DT south/NN ./. 
+The/DT Bunny/NNP jumps/VBZ upward/RB three/CD times/NNS and/CC then/RB bends/VBZ forward/RB ,/, lies/VBZ down/RP on/IN the/DT meadow/NN and/CC eats/VBZ the/DT mushroom/NN ./. 
+Then/RB the/DT Bunny/NNP stands/VBZ up/RP on/IN his/PRP$ hind/JJ legs/NNS again/RB and/CC turns/VBZ right/RB facing/VBG west/NN in/IN the/DT direction/NN of/IN the/DT mailbox/NN ./. 
+The/DT Bunny/NNP taps/NNS his/PRP$ left/JJ foot/NN leg/NN twice/RB on/IN the/DT ground/NN ./. 
+Then/RB the/DT frog/NN turns/VBZ to/TO the/DT left/NN facing/VBG northeast/NN and/CC making/VBG three/CD jumps/NNS to/TO the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ into/IN it/PRP ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT right/NN now/RB facing/VBG southwest/NN and/CC hops/VBZ in/IN two/CD jumps/NNS to/TO the/DT right/JJ side/NN of/IN the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palm/NN tree/NN on/IN the/DT left/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT broccoli/NN on/IN the/DT right/NN ./. 
+Left/VBN to/TO the/DT broccoli/NN there/EX is/VBZ a/DT frog/NN facing/VBG the/DT broccoli/NN ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT mail/NN box/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT Broccoli/NNP there/EX is/VBZ a/DT rabbit/NN facing/VBG south/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT broccoli/NNS ./. 
+The/DT bunny/NN hops/VBZ towards/IN the/DT broccoli/NN ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ left/JJ foot/NN two/CD times/NNS ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+The/DT frog/NN turns/VBZ to/TO face/VB north/RB ./. 
+The/DT frog/NN hops/VBZ to/TO the/DT background/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT mail/NN box/NN ./. 
+The/DT bunny/NN hops/VBZ towards/IN the/DT mailbox/NN ./. 
+The/DT bunny/NN opens/VBZ the/DT mail/NN box/NN ./. 
+The/DT bunny/NN turns/VBZ its/PRP$ head/NN down/RP ./. 
+Meanwhile/RB the/DT frog/NN quickly/RB turns/VBZ to/TO face/VB the/DT bunny/NN ./. 
+The/DT frog/NN hops/VBZ towards/IN the/DT bunny/NN ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+There/EX is/VBZ nothing/NN happening/VBG for/IN 3/CD seconds/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+There/EX is/VBZ a/DT palmtree/NN on/IN the/DT left/JJ side/NN in/IN the/DT background/NN ./. 
+On/IN the/DT right/JJ side/NN there/EX is/VBZ a/DT big/JJ white/JJ bunny/NN facing/VBG southwest/NN ./. 
+In/IN front/NN of/IN palmtree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+Right/RB to/TO the/DT mailbox/NN ,/, there/EX is/VBZ a/DT frog/NN facing/VBG southeast/NN ./. 
+In/IN front/NN of/IN the/DT bunny/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ left/VBN to/TO the/DT south/NN and/CC hops/VBZ three/CD times/NNS to/TO the/DT broccoli/NN ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ right/JJ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS two/CD times/NNS on/IN the/DT ground/NN ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+The/DT frog/NN turns/VBZ left/VBN and/CC hops/VBZ three/CD times/NNS to/TO the/DT northeast/NN ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS to/TO the/DT mailbox/NN ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN door/NN ./. 
+The/DT bunny/NN looks/VBZ inside/IN the/DT mailbox/NN ./. 
+The/DT frog/NN turns/VBZ right/JJ to/TO face/VB the/DT bunny/NN ./. 
+The/DT frog/NN hops/VBZ two/CD times/NNS back/RB to/TO the/DT bunny/NN ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+There/EX is/VBZ a/DT bunny/NN in/IN the/DT picture/NN turning/VBG towards/IN the/DT camera/NN ./. 
+A/DT piece/NN of/IN Brokkoli/NNP is/VBZ in/IN front/NN of/IN him/PRP ./. 
+A/DT frog/NN sits/VBZ left/VBN of/IN the/DT Brokkoli/NNP facing/VBG it/PRP ./. 
+Behind/IN the/DT frog/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+Behind/IN the/DT mailbox/NN there/EX is/VBZ a/DT palm/NN ./. 
+Everything/NNP is/VBZ placed/VBN on/IN grass/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT Brokkoli/NNP and/CC eats/VBZ it/PRP ./. 
+Then/RB it/PRP turns/VBZ and/CC moves/VBZ to/TO the/DT rabbit/NN and/CC taps/NNS its/PRP$ foot/NN ./. 
+The/DT frog/NN turns/VBZ left/VBN and/CC hops/VBZ 3/CD times/NNS away/RB ./. 
+The/DT bunny/NN then/RB hops/VBZ 3/CD times/NNS to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ down/RP on/IN the/DT floor/NN ./. 
+While/IN looking/VBG down/RP ,/, the/DT frog/NN turns/VBZ around/RB ,/, hops/VBZ to/TO the/DT bunny/NN and/CC ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+There/EX is/VBZ a/DT palm/NN on/IN the/DT left/JJ side/NN of/IN the/DT ground/NN ,/, before/IN the/DT palm/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+In/IN front/NN of/IN the/DT mailbox/NN ,/, there/EX is/VBZ a/DT frog/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT ground/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+A/DT rabbit/NN is/VBZ sitting/VBG behind/IN the/DT broccoli/NNS ./. 
+The/DT rabbit/NN hops/VBZ ,/, moving/VBG toward/IN the/DT broccoli/NN ./. 
+The/DT rabbit/NN eats/VBZ the/DT broccoli/NN ./. 
+The/DT rabbit/NN turns/VBZ to/TO the/DT frog/NN and/CC taps/NNS foot/NN ./. 
+The/DT frog/NN ribbits/NNS ,/, turns/NNS left/VBD and/CC hops/VBZ to/TO the/DT back/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP ,/, and/CC looks/VBZ inside/IN the/DT mailbox/NN ./. 
+Meanwhile/RB ,/, the/DT frog/NN turns/VBZ to/TO the/DT bunny/NN ,/, moves/NNS forward/RB ,/, and/CC ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT Broccoli/NNP ./. 
+Behind/IN the/DT Broccoli/NNP ,/, there/EX is/VBZ a/DT Bunny/NNP facing/VBG south/RB ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT Frog/NN on/IN the/DT left/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, is/VBZ a/DT Mailbox/NN ./. 
+Behind/IN the/DT Mailbox/NNP ,/, to/TO the/DT right/NN ,/, is/VBZ a/DT PalmTree/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Broccoli/NNP ./. 
+It/PRP eats/VBZ the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ towards/IN the/DT frog/NN ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT Bunny/NNP taps/NNS its/PRP$ foot/NN ./. 
+The/DT Frog/NN ribbits/VBZ ,/, turns/VBZ to/TO face/VB north/NN and/CC hops/VBZ away/RB from/IN the/DT mailbox/NN ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Mailbox/NNP ./. 
+The/DT Bunny/NNP opens/VBZ the/DT mailbox/NN ./. 
+It/PRP is/VBZ empty/JJ ./. 
+The/DT Bunny/NNP plays/VBZ a/DT sound/NN (/-LRB- disappointment/NN )/-RRB- ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT frog/NN turns/VBZ around/RB to/TO face/VB the/DT bunny/NN ./. 
+The/DT Frog/NNP hops/VBZ towards/IN the/DT Bunny/NNP ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT Frog/NN ribbits/VBZ ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palmtree/NN on/IN the/DT far/JJ left/NN ./. 
+In/IN front/NN of/IN the/DT palmtree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT right/NN there/EX is/VBZ a/DT broccoli/NN ./. 
+Right/RB of/IN the/DT mailbox/NN there/EX is/VBZ a/DT frog/NN facing/VBG the/DT broccoli/NN ./. 
+On/IN the/DT right/JJ side/NN behind/IN the/DT broccoli/NNS there/EX is/VBZ a/DT bunny/NN facing/VBG the/DT frog/NN ./. 
+The/DT bunny/NN faces/VBZ the/DT broccoli/NN and/CC hops/VBZ to/TO it/PRP ./. 
+Then/RB the/DT bunny/NN eats/VBZ the/DT broccoli/NN and/CC turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/VBZ ,/, turns/VBZ a/DT half/JJ revelation/NN to/TO the/DT left/NN and/CC hops/VBZ away/RB from/IN mailbox/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT mailbox/NN and/CC opens/VBZ mailbox/NN ./. 
+The/DT frog/NN turns/VBZ to/TO face/VB the/DT bunny/NN ,/, hops/VBZ to/TO the/DT bunny/NN and/CC ribbits/NNS once/RB ./. 
+The/DT floor/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/NN ,/, there/EX is/VBZ a/DT palm/NN tree/NN ./. 
+In/IN front/NN of/IN the/DT palm/NN tree/NN ,/, there/EX is/VBZ a/DT postal/JJ mailbox/NN facing/VBG southeast/NN ./. 
+In/IN the/DT foreground/NN on/IN the/DT left/NN ,/, there/EX sits/VBZ a/DT green/JJ frog/NN with/IN a/DT yellow/JJ belly/NN facing/VBG eastsoutheast/NN ./. 
+In/IN the/DT background/NN on/IN the/DT right/NN ,/, there/EX sits/VBZ a/DT white/JJ bunny/NN facing/VBG southsouthwest/NN ./. 
+In/IN south/RB of/IN the/DT bunny/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT broccoli/NN and/CC hops/VBZ 3/CD times/NNS towards/IN it/PRP ./. 
+The/DT bunny/NN bends/VBZ down/RB and/CC eats/VBZ the/DT broccoli/NN ./. 
+The/DT bunny/NN sets/NNS pose/VBP ,/, turns/NNS face/VBP to/TO face/VB to/TO the/DT frog/NN and/CC taps/NNS his/PRP$ left/JJ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/VBZ once/RB ,/, then/RB turns/VBZ north/NN and/CC hops/VBZ 3/CD times/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT mailbox/NN and/CC hops/VBZ 3/CD times/NNS ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN 's/POS door/NN with/IN his/PRP$ left/JJ hand/NN ,/, lowers/VBZ his/PRP$ head/NN and/CC looks/VBZ into/IN the/DT mailbox/NN ./. 
+The/DT frog/NN turns/VBZ around/RB and/CC hops/VBZ twice/RB towards/IN the/DT bunny/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palm/NN tree/NN on/IN the/DT left/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT frog/NN on/IN the/DT left/NN facing/VBG east-southeast/NN and/CC a/DT broccoli/NN on/IN the/DT right/NN ./. 
+Behind/IN the/DT broccoli/NN there/EX is/VBZ a/DT bunny/NN facing/VBG south-southwest/JJ ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT mailbox/NN facing/VBG southeast/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT broccoli/NNS ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NN ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ left/JJ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+The/DT frog/NN turns/VBZ left/VBN by/IN 90/CD degrees/NNS ./. 
+The/DT frog/NN hops/VBZ three/CD times/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT mailbox/NN ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN ./. 
+The/DT bunny/NN 's/POS head/NN turns/VBZ forward/RB by/IN a/DT small/JJ amount/NN while/IN the/DT frog/NN turns/VBZ to/TO face/VB the/DT bunny/NN at/IN the/DT same/JJ time/NN ./. 
+The/DT frog/NN hops/VBZ twice/RB ./. 
+The/DT frog/NN ribbits/VBZ ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT sunflower/NN on/IN the/DT far/RB right/JJ facing/VBG southwest/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT monkey/NN in/IN the/DT middle/NN facing/VBG southwest/NN ./. 
+To/TO the/DT monkey/NN 's/POS right/NN ,/, there/EX is/VBZ a/DT penguin/NN facing/VBG south/RB ./. 
+To/TO the/DT monkey/NN 's/POS left/NN ,/, there/EX is/VBZ a/DT remote/JJ ./. 
+Left/VBN of/IN the/DT remote/JJ ,/, there/EX is/VBZ a/DT light/JJ bulb/NN ./. 
+Behind/IN the/DT light/JJ bulb/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT duck/NN prince/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT monkey/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT bucket/NN ./. 
+The/DT duck/NN prince/NN turns/VBZ to/TO face/VB the/DT monkey/NN ./. 
+The/DT duck/NN prince/NN commands/NNS ./. 
+The/DT monkey/NN turns/VBZ to/TO face/VB the/DT remote/JJ ./. 
+The/DT monkey/NN jumps/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT monkey/NN sighs/VBZ while/IN the/DT penguin/NN jumps/VBZ at/IN the/DT same/JJ time/NN ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT bucket/NN ./. 
+The/DT penguin/NN glides/VBZ ./. 
+The/DT duck/NN prince/NN quickly/RB turns/VBZ to/TO face/VB the/DT penguin/NN ./. 
+The/DT duck/NN prince/NN scolds/VBZ ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT duck/NN prince/NN ./. 
+The/DT penguin/NN glides/VBZ ./. 
+The/DT monkey/NN laughs/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT sunflower/NN on/IN the/DT far/RB right/JJ facing/VBG southwest/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT monkey/NN in/IN the/DT middle/NN facing/VBG southwest/NN ./. 
+To/TO the/DT monkey/NN 's/POS right/NN ,/, there/EX is/VBZ a/DT penguin/NN facing/VBG south/RB ./. 
+To/TO the/DT monkey/NN 's/POS left/NN ,/, there/EX is/VBZ a/DT remote/JJ ./. 
+Left/VBN of/IN the/DT remote/JJ ,/, there/EX is/VBZ a/DT light/JJ bulb/NN ./. 
+Behind/IN the/DT light/JJ bulb/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT duck/NN prince/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT monkey/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT bucket/NN ./. 
+The/DT duck/NN prince/NN turns/VBZ to/TO face/VB the/DT monkey/NN ./. 
+The/DT duck/NN prince/NN commands/NNS ./. 
+The/DT monkey/NN sighs/VBZ ./. 
+The/DT monkey/NN turns/VBZ to/TO face/VB the/DT remote/JJ ./. 
+The/DT monkey/NN jumps/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT bucket/NN ./. 
+The/DT penguin/NN glides/VBZ ./. 
+The/DT duck/NN prince/NN quickly/RB turns/VBZ to/TO face/VB the/DT penguin/NN ./. 
+The/DT duck/NN prince/NN scolds/VBZ ./. 
+A/DT very/RB short/JJ time/NN passes/NNS ./. 
+The/DT monkey/NN laughs/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT penguin/NN jumps/VBZ once/RB ./. 
+{have verb list with 89 entries}
+[???, accompany, appear, be, bend, bow, burn, cause, close, come, consist, consume, continue, cover, cut, dance, depict, disappear, do, drop, eat, emerge, extend, face, fall, flap, fly, follow, form, frog, glide, grin, guess, happen, have, hop, jump, kick, knock, last, laugh, leave, lie, lift, look, lower, make, move, nod, open, place, play, pop, pose, position, press, proceed, raise, reach, read, replace, reply, ribbit, rotate, run, say, scare, scold, scream, see, send, set, shake, shout, shut, sigh, sit, split, stand, start, stop, strip, take, turn, wait, walk, watch, wave, wear]
 
 -- Cannot find word "???" in WordNet dictionary.
 
@@ -47,8 +494,8 @@ astronaught is set ablaze with flames, accompanied by the noise of an explosion.
                   A speech bubble then appears from the mouth of the man which also reads "hello," a
        Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a p
  astronaught and another speech bubble appears from his head saying "...one...".
-Suddenly a grinning orange striped cat appears between the two branches of the tree and says ":-D".
 aises her left arm and a speech bubble appears from her mouth which reads "hello."
+ddenly, a grinning, orange striped cat appears between the two branches of the tree and says ":-D".
 
                                     to be: verb.stative(42) verb.stative(42) verb.stative(42) 
                                     It is empty.
@@ -363,9 +810,6 @@ stomach and slides towards the bucket, flapping its wings again.
             The alien extends its arm, following which the astronaught is set ablaze with flames, ac
      The T-Rex's head is knocked back, followed by its whole body being sent flying.
 
-                                    to foot: verb.possession(40) verb.motion(38) verb.cognition(31) 
-                        The bunny taps foot twice.
-
                                     to form: verb.social(41) verb.stative(42) verb.stative(42) 
 k splits into two large branches which form the tree's crown.
 
@@ -378,7 +822,6 @@ k splits into two large branches which form the tree's crown.
                                     to grin: verb.body(29) 
                                    The grinning cat appears in the branches of the tree.
                                    The grinning cat is not visible.
-                            Suddenly a grinning orange striped cat appears between the two branches 
 and Alice turn their heads towards the grinning cat.
 
                                     to guess: verb.cognition(31) verb.communication(32) verb.cognition(31) 
@@ -739,7 +1182,7 @@ n the background, slightly on the moon stands a space ship with a sign reading "
             It says, "Hey, evil T-Rex, stop scaring my friend!"
 
                                     to strip: verb.possession(40) verb.body(29) verb.contact(35) 
-            Suddenly a grinning orange striped cat appears between the two branches of the tree and 
+          Suddenly, a grinning, orange striped cat appears between the two branches of the tree and 
 
                                     to take: verb.social(41) verb.possession(40) verb.motion(38) 
                                    and takes one step towards the alien.
