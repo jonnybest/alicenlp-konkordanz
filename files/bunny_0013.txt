@@ -6,7 +6,7 @@ Right of the mailbox there is a frog facing the broccoli.
 On the right side behind the broccoli there is a bunny facing the frog. 
 The bunny faces the broccoli and hops to it. 
 Then the bunny eats the broccoli and turns to face the frog. 
-The bunny taps foot twice. 
+The bunny taps its foot twice. 
 The frog ribbits, turns a half revelation to the left and hops away from mailbox. 
 The bunny hops to the mailbox and opens mailbox. 
 The frog turns to face the bunny, hops to the bunny and ribbits once.
