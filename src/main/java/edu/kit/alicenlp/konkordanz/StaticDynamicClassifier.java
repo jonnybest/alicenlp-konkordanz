@@ -24,6 +24,7 @@ import net.sf.extjwnl.dictionary.Dictionary;
 
 
 
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
@@ -47,9 +48,9 @@ public class StaticDynamicClassifier {
 		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
 		    Properties props = new Properties();
 		    // alternativ: wsj-bidirectional 
-		    //props.put("pos.model", "edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger");
+		    props.put("pos.model", Settings.getString("settings.pos-model-tagger")); //$NON-NLS-1$ //$NON-NLS-2$
 		    // konfiguriere pipeline
-		    props.put("annotators", "tokenize, ssplit, pos, lemma");
+		    props.put("annotators", "tokenize, ssplit, pos, lemma"); //$NON-NLS-1$ //$NON-NLS-2$
 		    pipeline = new StanfordCoreNLP(props);	    
 		    mypipeline = pipeline;
 		}
@@ -62,7 +63,7 @@ public class StaticDynamicClassifier {
 	    
 	    // run all Annotators on this text
 	    pipeline.annotate(document);
-	    System.out.println("{annotation is now done}");
+	    System.out.println("{annotation is now done}"); //$NON-NLS-1$
 
 	    // get all distinct verbs as a list
 	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
@@ -75,7 +76,7 @@ public class StaticDynamicClassifier {
 				// this is the POS tag of the token
 				String pos = token.get(PartOfSpeechAnnotation.class);
 				// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only? No. Root is a bad idea.
-				if (pos.startsWith("VB")) {
+				if (pos.startsWith("VB")) { //$NON-NLS-1$
 					String word = token.lemma();
 					if(word != null) {
 						SortedSet<String> otherse = verblist.get(word);
@@ -90,7 +91,7 @@ public class StaticDynamicClassifier {
 			}
 		}
 	
-		System.out.println("{have verb list with " + verblist.size() + " entries}");
+		System.out.println("{have verb list with " + verblist.size() + " entries}"); //$NON-NLS-1$ //$NON-NLS-2$
 		System.out.println(verblist.keySet());
 		System.out.println();
 	    
@@ -98,7 +99,7 @@ public class StaticDynamicClassifier {
 	     * 
 	     */
 	    // set up properties file
-	    String propsFile = "src/main/java/edu.kit.alicenlp.konkordanz/file_properties.xml";
+	    String propsFile = Settings.getString("settings.wordnet-config-xml"); //$NON-NLS-1$
 	    FileInputStream properties = null;
 	    try {
 	    	properties = new FileInputStream(propsFile);
@@ -145,7 +146,7 @@ public class StaticDynamicClassifier {
 
 	private static void printTaggedSentence(CoreMap sentence) {
 		for (CoreLabel item : sentence.get(TokensAnnotation.class)) {
-			System.out.print(item.originalText() + "/"+ item.get(PartOfSpeechAnnotation.class) + " ");
+			System.out.print(item.originalText() + "/"+ item.get(PartOfSpeechAnnotation.class) + " "); //$NON-NLS-1$ //$NON-NLS-2$
 		}
 		System.out.println();
 	}
@@ -160,9 +161,9 @@ public class StaticDynamicClassifier {
 			// TODO: implementiere den fall dass das wort zu weit links liegt
 			// füge (alignby - indexof) leerzeichen links ein
 			int offset = alignby - indexof;
-			String aligner = "";
+			String aligner = ""; //$NON-NLS-1$
 			for (int i = 0; i < offset; i++) {
-				aligner += " ";
+				aligner += " "; //$NON-NLS-1$
 			}
 			sestring = aligner + sestring;
 		}
@@ -184,7 +185,7 @@ public class StaticDynamicClassifier {
 			word = dictionary.lookupIndexWord(POS.VERB, token);
 			if (word == null) {
 				// skip
-				System.err.println("-- Cannot find word \"" + token + "\" in WordNet dictionary.");
+				System.err.println("-- Cannot find word \"" + token + "\" in WordNet dictionary."); //$NON-NLS-1$ //$NON-NLS-2$
 				System.err.println();
 				return false;
 			}
@@ -198,16 +199,16 @@ public class StaticDynamicClassifier {
     private IndexWord CAT;
     private IndexWord FUNNY;
     private IndexWord DROLL;
-    private final String MORPH_PHRASE = "running-away";
+    private final String MORPH_PHRASE = "running-away"; //$NON-NLS-1$
     private final Dictionary dictionary;
 
     public StaticDynamicClassifier(Dictionary dictionary) throws JWNLException {
         this.dictionary = dictionary;
-        ACCOMPLISH = dictionary.getIndexWord(POS.VERB, "accomplish");
-        DOG = dictionary.getIndexWord(POS.NOUN, "dog");
-        CAT = dictionary.lookupIndexWord(POS.NOUN, "cat");
-        FUNNY = dictionary.lookupIndexWord(POS.ADJECTIVE, "funny");
-        DROLL = dictionary.lookupIndexWord(POS.ADJECTIVE, "droll");
+        ACCOMPLISH = dictionary.getIndexWord(POS.VERB, "accomplish"); //$NON-NLS-1$
+        DOG = dictionary.getIndexWord(POS.NOUN, "dog"); //$NON-NLS-1$
+        CAT = dictionary.lookupIndexWord(POS.NOUN, "cat"); //$NON-NLS-1$
+        FUNNY = dictionary.lookupIndexWord(POS.ADJECTIVE, "funny"); //$NON-NLS-1$
+        DROLL = dictionary.lookupIndexWord(POS.ADJECTIVE, "droll"); //$NON-NLS-1$
     }
 
     public void go() throws JWNLException, CloneNotSupportedException {
@@ -222,12 +223,12 @@ public class StaticDynamicClassifier {
 	private void demonstrateLexicographerFileNames(IndexWord word) {
 		word.sortSenses();
 		List<Synset> senses = word.getSenses();
-		System.out.print("                                    to " + word.getLemma() + ": ");
+		System.out.print("                                    to " + word.getLemma() + ": "); //$NON-NLS-1$ //$NON-NLS-2$
 		for (Synset synset : senses) {
 			if (senses.indexOf(synset) > 2) {
 				break;
 			}
-			System.out.print(synset.getLexFileName() + "(" + synset.getLexFileNum() + ") ");
+			System.out.print(synset.getLexFileName() + "(" + synset.getLexFileNum() + ") "); //$NON-NLS-1$ //$NON-NLS-2$
 		}
 		System.out.println();
 	}
@@ -237,43 +238,43 @@ public class StaticDynamicClassifier {
         // two words that are joined by a hyphen, and one of the words
         // is not stemmed. So we have to both remove the hyphen and stem
         // "running" before we get to an entry that is in WordNet
-        System.out.println("Base form for \"" + phrase + "\": " +
+        System.out.println("Base form for \"" + phrase + "\": " + //$NON-NLS-1$ //$NON-NLS-2$
                 dictionary.lookupIndexWord(POS.VERB, phrase));
     }
 
     private void demonstrateListOperation(IndexWord word) throws JWNLException {
         // Get all of the hypernyms (parents) of the first sense of <var>word</var>
         PointerTargetNodeList hypernyms = PointerUtils.getDirectHypernyms(word.getSenses().get(0));
-        System.out.println("Direct hypernyms of \"" + word.getLemma() + "\":");
+        System.out.println("Direct hypernyms of \"" + word.getLemma() + "\":"); //$NON-NLS-1$ //$NON-NLS-2$
         hypernyms.print();
     }
 
     private void demonstrateTreeOperation(IndexWord word) throws JWNLException {
         // Get all the hyponyms (children) of the first sense of <var>word</var>
         PointerTargetTree hyponyms = PointerUtils.getHyponymTree(word.getSenses().get(0));
-        System.out.println("Hyponyms of \"" + word.getLemma() + "\":");
+        System.out.println("Hyponyms of \"" + word.getLemma() + "\":"); //$NON-NLS-1$ //$NON-NLS-2$
         hyponyms.print();
     }
 
     private void demonstrateAsymmetricRelationshipOperation(IndexWord start, IndexWord end) throws JWNLException, CloneNotSupportedException {
         // Try to find a relationship between the first sense of <var>start</var> and the first sense of <var>end</var>
         RelationshipList list = RelationshipFinder.findRelationships(start.getSenses().get(0), end.getSenses().get(0), PointerType.HYPERNYM);
-        System.out.println("Hypernym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":");
+        System.out.println("Hypernym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
         for (Object aList : list) {
             ((Relationship) aList).getNodeList().print();
         }
-        System.out.println("Common Parent Index: " + ((AsymmetricRelationship) list.get(0)).getCommonParentIndex());
-        System.out.println("Depth: " + list.get(0).getDepth());
+        System.out.println("Common Parent Index: " + ((AsymmetricRelationship) list.get(0)).getCommonParentIndex()); //$NON-NLS-1$
+        System.out.println("Depth: " + list.get(0).getDepth()); //$NON-NLS-1$
     }
 
     private void demonstrateSymmetricRelationshipOperation(IndexWord start, IndexWord end) throws JWNLException, CloneNotSupportedException {
         // find all synonyms that <var>start</var> and <var>end</var> have in common
         RelationshipList list = RelationshipFinder.findRelationships(start.getSenses().get(0), end.getSenses().get(0), PointerType.SIMILAR_TO);
-        System.out.println("Synonym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":");
+        System.out.println("Synonym relationship between \"" + start.getLemma() + "\" and \"" + end.getLemma() + "\":"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
         for (Object aList : list) {
             ((Relationship) aList).getNodeList().print();
         }
-        System.out.println("Depth: " + list.get(0).getDepth());
+        System.out.println("Depth: " + list.get(0).getDepth()); //$NON-NLS-1$
     }
 
 }
