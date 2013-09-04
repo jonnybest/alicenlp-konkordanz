@@ -22,8 +22,11 @@ import net.sf.extjwnl.data.relationship.Relationship;
 import net.sf.extjwnl.data.relationship.RelationshipFinder;
 import net.sf.extjwnl.data.relationship.RelationshipList;
 import net.sf.extjwnl.dictionary.Dictionary;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreAnnotations.OriginalTextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.IndexedWord;
@@ -81,7 +84,7 @@ public class StaticDynamicClassifier {
 				
 			try {
 				IndexedWord word = graph.getFirstRoot();
-				System.out.println(graph.getFirstRoot());
+				System.out.println(graph.getRoots());
 				if(word != null) {
 					SortedSet<String> otherse = verblist.get(word.lemma());
 					if (otherse == null) {
@@ -97,7 +100,9 @@ public class StaticDynamicClassifier {
 					throw(e);	
 				}
 				else {
-					System.err.println(" --no root: "+ sentence);
+					if (sentence != null) {
+						System.err.println(" --no root: "+ sentence.get(TextAnnotation.class));					
+					}
 				}
 			}
 		}
@@ -139,6 +144,9 @@ public class StaticDynamicClassifier {
 					for (String item : verblist.get(token)) {
 						System.out.println(item.toString());
 					}
+				}
+				else {
+					System.err.println(verblist.get(token).first());
 				}
 				System.out.println();
 			}
