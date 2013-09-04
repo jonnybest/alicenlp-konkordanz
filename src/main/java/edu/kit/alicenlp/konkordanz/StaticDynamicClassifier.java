@@ -1,4 +1,4 @@
-package test;
+package edu.kit.alicenlp.konkordanz;
 
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class StaticDynamicClassifier {
 	     * 
 	     */
 	    // set up properties file
-	    String propsFile = "src/main/java/test/file_properties.xml";
+	    String propsFile = "src/main/java/edu.kit.alicenlp.konkordanz/file_properties.xml";
 	    FileInputStream properties = null;
 	    try {
 	    	properties = new FileInputStream(propsFile);
