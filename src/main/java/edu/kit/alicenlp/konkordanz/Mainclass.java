@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test;
+package edu.kit.alicenlp.konkordanz;
 
 import java.io.BufferedInputStream;
 import java.io.File;
