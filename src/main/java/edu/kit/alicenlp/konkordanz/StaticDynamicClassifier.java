@@ -1,6 +1,13 @@
 package edu.kit.alicenlp.konkordanz;
 
-import java.util.*;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.List;
+import java.util.Properties;
+import java.util.SortedMap;
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.data.IndexWord;
@@ -15,24 +22,15 @@ import net.sf.extjwnl.data.relationship.Relationship;
 import net.sf.extjwnl.data.relationship.RelationshipFinder;
 import net.sf.extjwnl.data.relationship.RelationshipList;
 import net.sf.extjwnl.dictionary.Dictionary;
-
-
-
-
-
-
-
-
-
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
-import edu.stanford.nlp.pipeline.*;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.IndexedWord;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.semgraph.SemanticGraph;
+import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenciesAnnotation;
 import edu.stanford.nlp.util.CoreMap;
 
 public class StaticDynamicClassifier {
@@ -48,9 +46,14 @@ public class StaticDynamicClassifier {
 		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
 		    Properties props = new Properties();
 		    // alternativ: wsj-bidirectional 
-		    props.put("pos.model", Settings.getString("settings.pos-model-tagger")); //$NON-NLS-1$ //$NON-NLS-2$
+		    try {
+				props.put("pos.model", Settings.getString("settings.pos-model-tagger")); //$NON-NLS-1$ //$NON-NLS-2$
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		    // konfiguriere pipeline
-		    props.put("annotators", "tokenize, ssplit, pos, lemma"); //$NON-NLS-1$ //$NON-NLS-2$
+		    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse"); //$NON-NLS-1$ //$NON-NLS-2$
 		    pipeline = new StanfordCoreNLP(props);	    
 		    mypipeline = pipeline;
 		}
@@ -72,22 +75,29 @@ public class StaticDynamicClassifier {
 			//printTaggedSentence(sentence); // debug output
 			
 			// traversing the words in the current sentence
-			// a CoreLabel is a CoreMap with additional token-specific methods
-			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
-				// this is the POS tag of the token
-				String pos = token.get(PartOfSpeechAnnotation.class);
-				// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only? No. Root is a bad idea.
-				if (pos.startsWith("VB")) { //$NON-NLS-1$
-					String word = token.lemma();
-					if(word != null) {
-						SortedSet<String> otherse = verblist.get(word);
-						if (otherse == null) {
-							otherse = new TreeSet<String>();
-							verblist.put(word, otherse);
-						}
-						otherse.add(concordance(sentence, token));						
-						nop();
+			SemanticGraph graph = sentence.get(CollapsedDependenciesAnnotation.class);
+			
+			// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only?
+				
+			try {
+				String word = graph.getFirstRoot().lemma();
+				System.out.println(graph.getFirstRoot());
+				if(word != null) {
+					SortedSet<String> otherse = verblist.get(word);
+					if (otherse == null) {
+						otherse = new TreeSet<String>();
+						verblist.put(word, otherse);
 					}
+					otherse.add(concordance(sentence.toString(), word.toString()));						
+					nop();				
+				}
+			} catch (RuntimeException e) { // because Stanford doesn't declare proper exceptions		
+				if (!e.getMessage().contains("No roots in graph")) {
+					e.printStackTrace();
+					throw(e);	
+				}
+				else {
+					System.err.println(" --no root: "+ sentence);
 				}
 			}
 		}
@@ -152,11 +162,11 @@ public class StaticDynamicClassifier {
 		System.out.println();
 	}
 
-	private static String concordance(CoreMap sentence, CoreLabel word) {
+	private static String concordance(String sentence, String word) {
 		int lastindex = 100;
 		int alignby = 39;
-		String sestring = sentence.toString();
-		String wordstring = word.toString();
+		String sestring = sentence;
+		String wordstring = word;
 		int indexof = sestring.indexOf(wordstring);
 		if (indexof < alignby) {
 			// implementiere den fall dass das wort zu weit links liegt
