@@ -1,0 +1,1296 @@
+{Begin runtime.}
+{Reading best_Alice.txt}
+{Reading best_alice2.txt}
+{Reading best_dancing-boy-and-girl.txt}
+{Reading best_dancing-boy-and-girl2.txt}
+{Reading best_monkey.txt}
+{Reading best_moon1.txt}
+{Reading best_moon2.txt}
+{Reading best_moon3.txt}
+{Reading best_NinjaTortoiseVsTrex.txt}
+{Reading bunny_0001.txt}
+{Reading bunny_0002.txt}
+{Reading bunny_0003.txt}
+{Reading bunny_0004.txt}
+{Reading bunny_0005.txt}
+{Reading bunny_0006.txt}
+{Reading bunny_0007.txt}
+{Reading bunny_0008.txt}
+{Reading bunny_0009.txt}
+{Reading bunny_0010.txt}
+{Reading bunny_0011.txt}
+{Reading bunny_0012.txt}
+{Reading bunny_0013.txt}
+{Reading bunny_0014.txt}
+{Reading bunny_0015.txt}
+{Reading monkey_0001.txt}
+{Reading penguin_0001.txt}
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator pos
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1,2 sec].
+Adding annotator lemma
+{annotation is now done}
+The/DT stage/NN consists/VBZ of/IN a/DT blue/JJ sky/NN and/CC a/DT grassy/JJ green/JJ ground/NN ./. 
+In/IN the/DT background/NN is/VBZ a/DT large/JJ tree/NN whose/WP$ trunk/NN splits/VBZ into/IN two/CD large/JJ branches/NNS which/WDT form/VBP the/DT tree/NN 's/POS crown/NN ./. 
+The/DT crown/NN is/VBZ cut/VBN off/RP at/IN the/DT top/NN at/IN the/DT stage/NN ./. 
+The/DT tree/NN stands/VBZ slightly/RB to/TO the/DT left/NN of/IN the/DT horizontal/JJ centre/NN of/IN the/DT stage/NN and/CC drops/VBZ a/DT shade/NN to/TO its/PRP$ right/NN ./. 
+In/IN the/DT foreground/NN ,/, to/TO the/DT left/NN of/IN the/DT stage/NN stands/VBZ the/DT girl/NN Alice/NNP ./. 
+She/PRP is/VBZ facing/VBG towards/IN the/DT viewer/NN but/CC turned/VBD 45/CD °/NN to/TO the/DT left/NN of/IN the/DT stage/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT stage/NN in/IN the/DT foregrouns/NNS is/VBZ a/DT dark/JJ hole/NN in/IN the/DT ground/NN ./. 
+Behind/IN the/DT hole/NN ,/, further/RB back/RB to/TO the/DT stage/NN sits/VBZ a/DT white/JJ rabbit/NN ,/, facing/VBG towards/IN Alice/NNP ./. 
+The/DT rabbit/NN shouts/VBZ "/`` Hello/UH !/. "/'' 
+./. 
+Alice/NNP then/RB turns/VBZ to/TO face/VB the/DT rabbit/NN and/CC says/VBZ "/'' ???/CD "/'' 
+./. 
+The/DT rabbit/NN hops/VBZ three/CD times/NNS towards/IN Alice/NNP and/CC says/VBZ "/`` Come/VBN over/IN here/RB !/. "/'' 
+./. 
+Alice/NNP shakes/VBZ her/PRP$ head/NN ./. 
+The/DT rabbit/NN says/VBZ ,/, "/`` Come/VB on/IN !/. 
+What/WDT time/NN is/VBZ it/PRP ?/. "/'' 
+Alice/NNP then/RB says/VBZ "/`` Oh/UH .../: "/'' and/CC hesitantly/RB walks/VBZ towards/IN the/DT rabbit/NN ./. 
+After/IN two/CD steps/NNS she/PRP says/VBZ ,/, "/`` Okay/UH .../: "/'' ./. 
+She/PRP stops/VBZ in/IN front/NN of/IN the/DT rabbit/NN ./. 
+Suddenly/RB ,/, a/DT grinning/NN ,/, orange/JJ striped/JJ cat/NN appears/VBZ between/IN the/DT two/CD branches/NNS of/IN the/DT tree/NN and/CC says/VBZ "/'' :-D/NN "/'' ./. 
+It/PRP turns/VBZ its/PRP$ head/NN towards/IN Alice/NNP and/CC the/DT rabbit/NN ,/, who/WP turn/VBP their/PRP$ heads/NNS towards/IN the/DT cat/NN ./. 
+The/DT rabbit/NN screams/NNS "/`` Ahhhhhhhh/NNP !/. "/'' 
+and/CC turns/VBZ around/RP towards/IN the/DT hole/NN ./. 
+As/IN the/DT rabbit/NN starts/VBZ hopping/VBG towards/IN the/DT hole/NN ,/, Alice/NNP shouts/VBZ ,/, "/`` Hey/UH !/. 
+Wait/VB !/. "/'' 
+and/CC turns/VBZ towards/IN the/DT hole/NN too/RB ./. 
+The/DT rabbit/NN jumps/VBZ into/IN the/DT hole/NN ./. 
+The/DT scene/NN takes/VBZ place/NN on/IN the/DT grass/NN ./. 
+There/EX is/VBZ a/DT hole/NN in/IN the/DT foreground/NN to/TO the/DT right/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT left/NN is/VBZ Alice/NNP ./. 
+Alice/NNP is/VBZ a/DT human/JJ girl/NN with/IN blonde/JJ hair/NN in/IN a/DT blue/JJ dress/NN ./. 
+Alice/NNP is/VBZ facing/VBG away/RB from/IN the/DT bunny/NN ./. 
+In/IN the/DT background/NN to/TO the/DT right/NN to/TO there/EX is/VBZ a/DT bunny/NN which/WDT faces/VBZ Alice/NNP ./. 
+In/IN the/DT background/NN to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT large/JJ tree/NN with/IN two/CD branches/NNS ./. 
+The/DT grinning/VBG cat/NN is/VBZ not/RB visible/JJ ./. 
+The/DT bunny/NN says/VBZ "/`` Hello/UH "/'' ./. 
+Alice/NNP turns/VBZ to/TO face/VB the/DT bunny/NN ./. 
+Alice/NNP says/VBZ :/: "/'' ???/CD "/'' 
+./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS towards/IN Alice/NNP ./. 
+The/DT bunny/NN says/VBZ :/: "/`` Come/VB on/IN over/IN here/RB ./. "/'' 
+Alice/NNP shakes/VBZ her/PRP$ head/NN from/IN the/DT left/VBN to/TO the/DT right/NN and/CC to/TO the/DT left/NN again/RB ./. 
+The/DT bunny/NN says/VBZ :/: "/`` Come/VB on/IN !/. 
+What/WDT time/NN is/VBZ it/PRP ?/. "/'' 
+Alice/NNP turns/VBZ to/TO face/VB the/DT bunny/NN again/RB ./. 
+While/IN turning/VBG ,/, Alice/NNP says/VBZ "/`` Oh/UH "/'' ./. 
+Alice/NNP takes/VBZ 12/CD steps/NNS towards/IN the/DT bunny/NN ./. 
+While/IN walking/VBG ,/, Alice/NNP says/VBZ :/: "/`` Okay/UH .../: "/'' ./. 
+The/DT grinning/VBG cat/NN appears/VBZ in/IN the/DT branches/NNS of/IN the/DT tree/NN ./. 
+It/PRP says/VBZ "/'' :-D/NN "/'' and/CC turns/VBZ its/PRP$ head/NN towards/IN Alice/NNP ./. 
+The/DT bunny/NN and/CC Alice/NNP turn/VB their/PRP$ heads/NNS towards/IN the/DT grinning/VBG cat/NN ./. 
+The/DT bunny/NN says/VBZ "/`` Ahhhhhhh/NNP !/. "/'' 
+and/CC turns/VBZ to/TO face/VB the/DT hole/NN ./. 
+Alice/NNP says/VBZ :/: "/`` Hey/UH !/. 
+Wait/VB !/. "/'' 
+The/DT bunny/NN hops/VBZ four/CD times/NNS towards/IN the/DT hole/NN ./. 
+The/DT bunny/NN jumps/VBZ into/IN the/DT hole/NN and/CC disappears/VBZ ./. 
+While/IN the/DT bunny/NN is/VBZ moving/VBG ,/, Alice/NNP watches/VBZ until/IN the/DT bunny/NN disappears/VBZ ./. 
+The/DT scene/NN takes/VBZ place/NN on/IN a/DT meadow/NN ./. 
+To/TO the/DT left/JJ hand/NN side/NN ,/, there/EX is/VBZ a/DT boy/NN ./. 
+The/DT right/NN ,/, there/EX is/VBZ a/DT girl/NN ./. 
+The/DT boy/NN is/VBZ facing/VBG the/DT girl/NN ./. 
+The/DT girl/NN says/VBZ "/`` Hello/UH "/'' and/CC waves/NNS ./. 
+It/PRP turns/VBZ to/TO the/DT boy/NN ./. 
+The/DT girl/NN points/NNS at/IN the/DT boy/NN ./. 
+The/DT boy/NN turns/VBZ to/TO face/VB the/DT camera/NN ./. 
+He/PRP says/VBZ "/`` Hello/UH "/'' and/CC waves/NNS ./. 
+The/DT girl/NN turns/VBZ to/TO the/DT camera/NN as/RB well/RB ./. 
+Both/DT lift/VBP their/PRP$ right/JJ arm/NN away/RB from/IN the/DT body/NN ./. 
+Both/DT lift/VBP their/PRP$ left/JJ arm/NN away/RB from/IN the/DT body/NN ./. 
+Both/DT spin/NN quickly/RB five/CD times/NNS ,/, then/RB they/PRP come/VBP to/TO a/DT rest/NN ./. 
+They/PRP wave/VBP again/RB ./. 
+The/DT start/NN depicts/VBZ a/DT boy/NN facing/VBG to/TO the/DT right/NN of/IN the/DT screen/NN ,/, and/CC a/DT woman/NN facing/VBG to/TO the/DT front/NN ./. 
+The/DT woman/NN then/RB raises/VBZ her/PRP left/VBD arm/NN and/CC a/DT speech/NN bubble/NN appears/VBZ from/IN her/PRP$ mouth/NN which/WDT reads/VBZ "/`` hello/UH ./. "/'' 
+She/PRP then/RB proceeds/VBZ to/TO wave/VB ,/, still/RB facing/VBG forwards/RB ,/, and/CC turns/VBZ to/TO face/VB the/DT man/NN ./. 
+Next/JJ she/PRP extends/VBZ her/PRP$ right/JJ hand/NN and/CC shakes/VBZ ./. 
+A/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT mouth/NN of/IN the/DT man/NN which/WDT also/RB reads/VBZ "/`` hello/UH ,/, "/'' and/CC he/PRP raises/VBZ his/PRP$ left/JJ arm/NN and/CC waves/NNS ./. 
+He/PRP then/RB places/VBZ his/PRP$ arm/NN back/RB by/IN his/PRP$ side/NN ./. 
+Both/DT characters/NNS then/RB raise/VBP their/PRP$ left/JJ arm/NN upwards/NNS in/IN a/DT smooth/JJ motion/NN at/IN a/DT 90/CD degree/NN angle/NN and/CC rotate/VB multiple/JJ times/NNS ./. 
+Both/DT arms/NNS are/VBP then/RB replaced/VBN at/IN the/DT characters/NNS hips/NNS before/IN they/PRP raise/VBP their/PRP$ left/JJ arm/NN 90/CD defrees/NNS once/RB again/RB and/CC wave/NN ./. 
+The/DT animation/NN is/VBZ then/RB complete/JJ ./. 
+The/DT sky/NN is/VBZ blue/JJ and/CC the/DT stage/NN is/VBZ a/DT field/NN of/IN grass/NN ./. 
+At/IN the/DT start/NN of/IN the/DT scene/NN ,/, on/IN the/DT left/NN is/VBZ a/DT light/JJ bulb/NN which/WDT is/VBZ off/RB ./. 
+Behind/IN it/PRP to/TO the/DT right/NN is/VBZ a/DT yellow/JJ duckling/NN wearing/VBG red/JJ socks/NNS ,/, a/DT crown/NN and/CC a/DT scepter/NN ./. 
+Next/JJ to/TO the/DT bulb/NN on/IN the/DT ground/NN is/VBZ a/DT switch/NN ,/, with/IN a/DT brown/JJ monkey/NN next/IN to/TO it/PRP ,/, facing/VBG the/DT button/NN but/CC slightly/RB turned/VBD towards/IN the/DT viewer/NN ./. 
+The/DT duckling/NN is/VBZ facing/VBG just/RB slightly/RB past/IN the/DT monkey/NN ./. 
+To/TO the/DT right/NN is/VBZ a/DT penguin/NN with/IN white/JJ stomach/NN and/CC face/NN and/CC blue/JJ back/RB and/CC wings/NNS ./. 
+It/PRP is/VBZ facing/VBG the/DT viewer/NN ./. 
+Behind/IN it/PRP to/TO the/DT left/NN is/VBZ a/DT metal/NN bucket/NN ./. 
+Rightmost/NNP of/IN the/DT stage/NN ,/, in/IN the/DT back/RB ,/, is/VBZ a/DT sunflower/NN ,/, facing/VBG towards/IN the/DT characters/NNS ./. 
+First/RB ,/, the/DT duckling/NN turns/VBZ completely/RB towards/IN the/DT monkey/NN and/CC waves/NNS its/PRP$ scepter/NN at/IN it/PRP ./. 
+The/DT monkey/NN then/RB turns/VBZ towards/IN the/DT switch/NN ,/, hops/VBZ towards/IN it/PRP and/CC bends/VBZ down/RP to/TO press/VB it/PRP ,/, which/WDT causes/VBZ the/DT light/JJ bulb/NN to/TO turn/VB on/RP ./. 
+The/DT penguin/NN then/RB jumps/VBZ ,/, flapping/VBG its/PRP$ wings/NNS ./. 
+Simultaneously/RB ,/, the/DT monkey/NN nods/VBZ ./. 
+After/IN a/DT short/JJ pause/NN ,/, the/DT penguin/NN turns/VBZ around/IN towards/IN the/DT back/NN of/IN the/DT bucket/NN behind/IN it/PRP ,/, jumps/VBZ onto/IN its/PRP$ stomach/NN and/CC slides/NNS towards/IN the/DT bucket/NN ,/, flapping/VBG its/PRP$ wings/NNS again/RB ./. 
+It/PRP knocks/VBZ the/DT bucket/NN over/IN and/CC then/RB jumps/VBZ back/RB on/IN its/PRP$ feet/NNS ,/, still/RB facing/VBG the/DT back/NN of/IN the/DT stage/NN ./. 
+The/DT duckling/NN turns/VBZ around/IN towards/IN the/DT penguin/NN and/CC wiggles/NNS from/IN one/CD foot/NN to/TO the/DT other/JJ three/CD times/NNS ,/, waving/VBG its/PRP$ scepter/NN ./. 
+The/DT penguin/NN then/RB turns/VBZ towards/IN the/DT duckling/NN ,/, jumps/VBZ onto/IN its/PRP$ stomach/NN again/RB and/CC slides/VBZ through/IN the/DT duckling/NN ,/, knocking/VBG it/PRP over/IN ./. 
+The/DT penguin/NN jumps/VBZ back/RB on/IN its/PRP$ feet/NNS ,/, directly/RB after/IN which/WDT the/DT monkey/NN 's/POS jaw/NN drops/NNS and/CC the/DT monkey/NN shakes/VBZ its/PRP$ head/NN ./. 
+The/DT monkey/NN then/RB bends/VBZ down/RP to/TO press/VB the/DT switch/NN again/RB and/CC turns/VBZ off/RP the/DT light/NN ./. 
+At/IN the/DT start/NN the/DT astronaught/NN is/VBZ facing/VBG to/TO the/DT front/NN of/IN the/DT screen/NN and/CC the/DT monster/NN on/IN wheels/NNS is/VBZ positioned/JJ towards/IN the/DT back/NN of/IN the/DT screen/NN ./. 
+A/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT astronaught/JJ reading/NN "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN .../: "/'' and/CC the/DT man/NN takes/VBZ a/DT step/NN foward/JJ ./. 
+The/DT monster/NN then/RB comes/VBZ towards/IN the/DT astronaught/NN and/CC another/DT speech/NN bubble/NN appears/VBZ from/IN his/PRP$ head/NN saying/VBG "/'' .../: one/CD .../: "/'' ./. 
+The/DT astronaught/NN 's/POS head/NN then/RB turns/VBZ to/TO face/VB the/DT head/NN of/IN the/DT monster/NN and/CC the/DT next/JJ speech/NN bubble/NN pops/VBZ up/RP reading/NN "/'' .../: giant/JJ leap/NN for/IN .../: "/'' and/CC then/RB another/DT saying/VBG "/`` He/PRP ???/VBZ "/'' 
+./. 
+The/DT monsters/NNS body/NN then/RB turns/VBZ to/TO face/VB the/DT astronaught/NN and/CC the/DT moster/NN makes/VBZ stranges/NNS noises/NNS and/CC nods/VBZ slowly/RB ./. 
+The/DT astronaught/NN then/RB turns/VBZ his/PRP$ body/NN fully/RB to/TO face/VB the/DT monster/NN and/CC replies/VBZ "/`` I/PRP come/VBP in/IN peace/NN !/. "/'' 
+and/CC raises/VBZ his/PRP$ left/JJ leg/NN to/TO take/VB a/DT big/JJ leap/NN forward/RB towards/IN the/DT monster/NN ./. 
+The/DT moster/NN then/RB extends/VBZ a/DT hand/NN and/CC sets/VBZ fire/NN to/TO the/DT astronaught/NN ./. 
+The/DT fire/NN lasts/VBZ for/IN around/RB 10/CD seconds/NNS ./. 
+Meanwhile/RB ,/, a/DT speech/NN bubble/NN then/RB appears/VBZ from/IN the/DT shuttle/NN reading/NN "/`` Houston/NNP .../: "/'' "/'' .../: We/PRP have/VBP a/DT problem/NN !/. "/'' 
+The/DT animation/NN is/VBZ then/RB complete/JJ ./. 
+The/DT scene/NN is/VBZ set/VBN on/IN the/DT moon/NN ,/, with/IN black/JJ space/NN instead/RB of/IN sky/NN and/CC grey/JJ rocky/JJ ground/NN ./. 
+Far/RB away/RB in/IN space/NN ,/, Earth/NNP is/VBZ visible/JJ blue/JJ and/CC green/JJ ./. 
+In/IN the/DT background/NN ,/, slightly/RB on/IN the/DT moon/NN stands/VBZ a/DT space/NN ship/NN with/IN a/DT sign/NN reading/NN "/`` UNITED/NNP STATES/NNS "/'' ./. 
+In/IN the/DT foreground/NN in/IN front/NN of/IN it/PRP is/VBZ an/DT astronaught/NN ,/, facing/VBG the/DT viewer/NN ./. 
+At/IN the/DT right/JJ side/NN of/IN the/DT scene/NN in/IN the/DT background/NN is/VBZ an/DT alien/NN ./. 
+The/DT astronaught/NN says/VBZ ,/, "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN .../: "/'' and/CC takes/VBZ a/DT step/NN forward/RB ,/, while/IN the/DT alien/JJ moves/NNS towards/IN him/PRP ,/, looking/VBG at/IN him/PRP ./. 
+When/WRB the/DT alien/NN is/VBZ almost/RB next/JJ to/TO him/PRP ,/, he/PRP says/VBZ ,/, "/'' .../: one/CD .../: "/'' ./. 
+The/DT alien/JJ stops/NNS next/IN to/TO the/DT astronaught/NN and/CC looks/VBZ at/IN him/PRP ,/, with/IN its/PRP$ body/NN facing/VBG the/DT viewer/NN ./. 
+The/DT astronaught/NN says/VBZ ,/, "/'' .../: giant/JJ leap/NN for/IN .../: "/'' ,/, turning/VBG his/PRP$ head/NN towards/IN the/DT alien/NN ./. 
+When/WRB he/PRP sees/VBZ the/DT alien/NN ,/, he/PRP screams/VBZ ,/, "/`` He/PRP ???/VBZ "/'' 
+The/DT alien/JJ turns/NNS to/TO face/VB him/PRP and/CC bows/VBZ its/PRP$ head/NN ,/, making/VBG unintelligible/JJ noises/NNS ./. 
+The/DT astronaught/NN says/VBZ ,/, "/`` I/PRP come/VBP in/IN peace/NN !/. "/'' 
+,/, and/CC takes/VBZ a/DT step/NN towards/IN the/DT alien/NN ./. 
+The/DT alien/JJ extends/VBZ its/PRP$ arm/NN ,/, following/VBG which/WDT the/DT astronaught/NN is/VBZ set/VBN ablaze/NN with/IN flames/NNS ,/, accompanied/VBN by/IN the/DT noise/NN of/IN an/DT explosion/NN ./. 
+As/IN the/DT flames/NNS dance/VBP around/IN the/DT astronaught/NN ,/, the/DT alien/JJ turns/NNS around/IN to/TO the/DT opposite/JJ side/NN and/CC moves/VBZ off/RP the/DT stage/NN to/TO the/DT right/NN ./. 
+The/DT flames/NNS continue/VBP to/TO burn/VB and/CC from/IN the/DT space/NN ship/NN the/DT words/NNS emerge/VBP ,/, "/`` Houston/NNP .../: "/'' ,/, and/CC then/RB ,/, "/'' .../: we/PRP have/VBP a/DT problem/NN !/. "/'' 
+./. 
+The/DT scene/NN takes/VBZ place/NN on/IN the/DT moon/NN surface/NN ./. 
+The/DT planet/NN earth/NN can/MD be/VB seen/VBN in/IN the/DT background/NN in/IN the/DT sky/NN ./. 
+The/DT moon/NN lander/NN is/VBZ in/IN the/DT background/NN to/TO the/DT left/NN ./. 
+The/DT astronaut/NN is/VBZ in/IN the/DT foreground/NN to/TO the/DT left/NN ./. 
+The/DT alien/NN is/VBZ in/IN the/DT background/NN to/TO the/DT right/NN ./. 
+The/DT alien/JJ moves/NNS towards/IN the/DT right/JJ foreground/NN ./. 
+While/IN moving/VBG ,/, the/DT alien/NN 's/POS head/NN faces/VBZ the/DT astronaut/NN ./. 
+The/DT astronaut/NN says/VBZ :/: "/`` That/DT 's/VBZ one/CD small/JJ step/NN for/IN man/NN "/'' and/CC takes/VBZ a/DT step/NN ./. 
+He/PRP says/VBZ :/: "/'' .../: one/CD .../: "/'' ./. 
+The/DT alien/JJ reaches/VBZ the/DT foreground/NN and/CC stops/VBZ moving/VBG ./. 
+The/DT astronaut/NN says/VBZ :/: "/'' .../: giant/JJ leap/NN for/IN .../: "/'' and/CC turns/VBZ his/PRP$ head/NN towards/IN the/DT alien/NN ./. 
+He/PRP says/VBZ :/: "/`` He/PRP ?/. "/'' 
+The/DT alien/JJ turns/NNS to/TO face/VB the/DT astronaut/NN ./. 
+The/DT alien/JJ nods/VBZ and/CC says/VBZ :/: "/'' //: §/CD $/$ %/NN 5a/NN §/CD $/$ &/CC "/'' ./. 
+The/DT astronaut/NN turns/VBZ to/TO face/VB the/DT alien/NN ./. 
+He/PRP says/VBZ :/: "/`` I/PRP come/VBP in/IN Peace/NN !/. "/'' 
+and/CC takes/VBZ one/CD step/NN towards/IN the/DT alien/NN ./. 
+The/DT alien/JJ points/NNS at/IN the/DT astronaut/NN ./. 
+A/DT giant/JJ flame/NN column/NN appears/VBZ and/CC consumes/VBZ the/DT astronaut/NN ./. 
+The/DT alien/JJ turns/NNS 180/CD degrees/NNS ./. 
+Alien/JJ off/IN to/TO the/DT right/NN ./. 
+The/DT moon/NN lander/NN says/VBZ :/: "/`` Houston/NNP .../: "/'' and/CC "/'' .../: we/PRP have/VBP a/DT problem/NN !/. "/'' 
+The/DT stage/NN is/VBZ a/DT grassy/JJ field/NN ,/, with/IN blue/JJ sky/NN as/IN a/DT backdrop/NN ./. 
+The/DT characters/NNS are/VBP a/DT ninja/JJ tortoise/NN ,/, a/DT rabbit/NN and/CC a/DT T-Rex/NN ./. 
+The/DT tortoise/NN is/VBZ standing/VBG just/RB to/TO the/DT left/NN of/IN the/DT centre/NN of/IN the/DT stage/NN ,/, facing/VBG the/DT viewer/NN ./. 
+The/DT rabbit/NN is/VBZ sitting/VBG next/JJ to/TO it/PRP to/TO the/DT right/NN ,/, looking/VBG at/IN the/DT tortoise/NN ./. 
+The/DT T-Rex/NN is/VBZ standing/VBG to/TO the/DT right/NN of/IN the/DT stage/NN ,/, looking/VBG at/IN the/DT rabbit/NN ./. 
+The/DT scene/NN starts/VBZ by/IN the/DT T-Rex/NN making/VBG a/DT loud/JJ "/`` ROAAAAAAAAR/NN !!!/CD "/'' 
+,/, opening/VBG its/PRP$ mouth/NN wide/JJ ./. 
+The/DT rabbit/NN is/VBZ scared/VBN from/IN this/DT and/CC runs/VBZ away/RB from/IN the/DT T-Rex/NN ,/, behind/IN the/DT tortoise/NN ./. 
+It/PRP hops/VBZ around/IN the/DT tortoise/NN and/CC stops/VBZ left/NN of/IN it/PRP ./. 
+Both/CC the/DT rabbit/NN and/CC the/DT tortoise/NN turn/NN to/TO face/VB the/DT T-Rex/NN and/CC the/DT tortoise/NN walks/VBZ towards/IN it/PRP ./. 
+It/PRP says/VBZ ,/, "/`` Hey/UH ,/, evil/JJ T-Rex/NN ,/, stop/VB scaring/VBG my/PRP$ friend/NN !/. "/'' 
+,/, to/TO which/WDT the/DT T-Rex/NN replies/VBZ with/IN another/DT loud/JJ "/`` ROAAAAAAAAR/NN !!/NN "/'' 
+./. 
+The/DT tortoise/NN says/VBZ ,/, "/`` Well/UH ,/, I/PRP guess/VBP I/PRP have/VBP no/DT choice/NN but/CC to/TO kick/VB your/PRP$ butt/NN ./. "/'' 
+It/PRP jumps/VBZ up/RP ,/, raising/VBG its/PRP$ right/JJ leg/NN ,/, and/CC kicks/VBZ the/DT T-Rex/NN 's/POS head/NN from/IN below/IN ./. 
+The/DT T-Rex/NNP 's/POS head/NN is/VBZ knocked/VBN back/RB ,/, followed/VBN by/IN its/PRP$ whole/JJ body/NN being/VBG sent/VBN flying/VBG ./. 
+It/PRP turns/VBZ over/IN backwards/RB and/CC falls/VBZ on/IN its/PRP$ back/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ,/, the/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN on/IN the/DT left/JJ hand/NN side/NN there/EX is/VBZ a/DT PalmTree/NN ./. 
+In/IN the/DT foreground/NN on/IN the/DT left/JJ hand/NN side/NN there/EX is/VBZ a/DT closed/JJ Mailbox/NN facing/VBG southeast/NN ./. 
+Right/RB to/TO the/DT mailbox/NN there/EX is/VBZ a/DT Frog/NN facing/VBG east/JJ ./. 
+In/IN the/DT foreground/NN on/IN the/DT right/JJ hand/NN side/NN there/EX is/VBZ a/DT Bunny/NNP facing/VBG southwest/NN ./. 
+In/IN front/NN of/IN the/DT Bunny/NNP there/EX is/VBZ a/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP hops/VBZ three/CD times/NNS to/TO the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP eats/VBZ the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Frog/NN ./. 
+The/DT Bunny/NNP taps/NNS his/PRP$ foot/NN twice/RB ./. 
+The/DT Frog/NN ribbits/NNS ./. 
+The/DT Frog/NN turns/VBZ to/TO face/VB northeast/NN ./. 
+The/DT frog/NN hops/VBZ three/CD times/NNS to/TO northeast/NN ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Mailbox/NN ./. 
+The/DT Bunny/NNP hops/VBZ three/CD times/NNS to/TO the/DT Mailbox/NN ./. 
+The/DT Bunny/NNP opens/VBZ the/DT Mailbox/NN ./. 
+The/DT Bunny/NNP looks/VBZ in/IN the/DT Mailbox/NN and/CC at/IN the/DT same/JJ time/NN the/DT Frog/NN turns/VBZ to/TO face/VB the/DT Bunny/NNP ./. 
+The/DT Frog/NN hops/VBZ two/CD times/NNS to/TO the/DT Bunny/NNP ./. 
+The/DT Frog/NN ribbits/NNS ./. 
+I/PRP see/VBP a/DT palm/NN tree/NN on/IN the/DT left/NN of/IN the/DT screen/NN ,/, a/DT mailbox/NN in/IN front/NN of/IN it/PRP ./. 
+In/IN the/DT foreground/NN there/RB sits/VBZ a/DT frog/NN on/IN the/DT left/NN and/CC a/DT hare/NN on/IN the/DT right/NN of/IN the/DT screen/NN ./. 
+The/DT hare/NN hops/VBZ and/CC bends/VBZ forward/RB to/TO eat/VB something/NN ./. 
+The/DT frog/NN looks/VBZ at/IN what/WP the/DT hare/NN does/VBZ ./. 
+The/DT hare/NN turns/VBZ to/TO the/DT frog/NN and/CC taps/NNS its/PRP$ hindpaw/NN ./. 
+The/DT frog/NN turns/VBZ its/PRP$ back/NN to/TO the/DT observer/NN and/CC hops/VBZ to/TO the/DT back/NN (/-LRB- into/IN the/DT background/NN )/-RRB- ./. 
+The/DT hare/NN hops/VBZ to/TO the/DT mailbox/NN and/CC opens/VBZ it/PRP ./. 
+He/PRP looks/VBZ inside/RB ./. 
+The/DT frog/NN turns/VBZ back/RB to/TO the/DT hare/NN and/CC also/RB hops/VBZ to/TO the/DT mailbox/NN ./. 
+Ground/NN is/VBZ covered/VBN with/IN green/JJ grass/NN ./. 
+Left/VBN background/NN with/IN palm/NN ./. 
+Left/VBN in/IN front/NN of/IN palm/NN :/: mailbox/NN in/IN brown/JJ american/JJ style/NN ./. 
+Left/VBN in/IN front/NN of/IN mailbox/NN :/: frog/NN in/IN green/JJ colour/NN ./. 
+Right/RB front/NN :/: bunny/NN in/IN white/JJ colour/NN ./. 
+Half/NN of/IN screen/NN is/VBZ blue/JJ sky/NN ./. 
+In/IN front/NN of/IN bunny/NN on/IN right/JJ side/NN :/: green/JJ broccoli/NNS ./. 
+Bunny/NNP turns/VBZ left/JJ and/CC hops/VBZ 3/CD times/NNS in/IN direction/NN of/IN viewer/NN of/IN video/NN ./. 
+Bunny/NNP eats/VBZ broccoli/NNS ./. 
+Bunny/NNP turns/VBZ right/NN and/CC taps/NNS two/CD times/NNS with/IN left/JJ foot/NN ./. 
+Frog/NN says/VBZ something/NN to/TO bunny/NN ./. 
+Frog/NN hops/VBZ 3/CD times/NNS from/IN front/JJ left/JJ part/NN of/IN the/DT scene/NN to/TO centre/NN of/IN the/DT screen/NN ./. 
+Frog/NN sits/VBZ with/IN back/RB to/TO viewer/NN ./. 
+Bunny/NNP turns/VBZ a/DT bit/RB right/JJ to/TO face/VB the/DT mailbox/NN and/CC hops/VBZ 3/CD times/NNS to/TO left/JJ part/NN of/IN the/DT screen/NN and/CC sits/VBZ down/RP in/IN front/NN of/IN the/DT mailbox/NN ./. 
+Bunny/NNP opens/VBZ mailbox/NN with/IN right/JJ hand/NN ./. 
+Bunny/NNP looks/VBZ inside/IN the/DT mailbox/NN ./. 
+Frog/NN turns/VBZ and/CC makes/VBZ 2/CD hops/VBZ back/RB to/TO mailbox/NN ./. 
+Frog/NN sits/VBZ behind/IN bunny/NN and/CC looks/VBZ into/IN his/PRP$ direction/NN ./. 
+Frog/NN says/VBZ something/NN to/TO bunny/NN ./. 
+The/DT floor/NN is/VBZ covered/VBN in/IN grass/NN ./. 
+In/IN the/DT far/RB right/JJ foreground/NN is/VBZ a/DT Broccoli/NNP ./. 
+In/IN the/DT far/JJ left/NN is/VBZ a/DT Mailbox/NN and/CC in/IN front/NN of/IN it/PRP is/VBZ a/DT Frog/NN ./. 
+Behind/IN the/DT Mailbox/NN in/IN the/DT background/NN is/VBZ a/DT PalmTree/NN ./. 
+Behind/IN the/DT Broccoli/NNP in/IN the/DT background/NN is/VBZ a/DT Bunny/NNP ./. 
+The/DT Bunny/NNP is/VBZ facing/VBG the/DT south/NN ,/, the/DT Frog/NN is/VBZ facing/VBG the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP hops/VBZ toward/IN the/DT Broccoli/NNP and/CC eats/VBZ it/PRP ./. 
+The/DT Bunny/NNP turns/VBZ to/TO face/VB the/DT Mailbox/NN and/CC taps/NNS its/PRP$ foot/NN two/CD times/NNS ./. 
+The/DT Frog/NN ribbits/NNS and/CC hops/VBZ into/IN the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ toward/IN the/DT Mailbox/NN and/CC opens/VBZ the/DT Mailbox/NN ./. 
+The/DT Frog/NN hops/VBZ toward/IN the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/VBN there/EX is/VBZ a/DT PalmTree/NN ./. 
+In/IN the/DT foreground/NN in/IN front/NN of/IN the/DT PalmTree/NNP is/VBZ a/DT Mailbox/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT Mailbox/NN there/EX is/VBZ a/DT frog/NN ./. 
+On/IN the/DT right/JJ side/NN in/IN the/DT foreground/NN there/EX is/VBZ a/DT Broccoli/NNP ./. 
+Behind/IN the/DT Broccoli/NNP in/IN the/DT Background/NN is/VBZ a/DT Bunny/NNP ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT broccoli/NNS ./. 
+The/DT bunny/NN eats/VBZ the/DT Broccoli/NNP and/CC turns/VBZ left/VBN to/TO the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ foot/NN ./. 
+The/DT frog/NN ribbits/NNS ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT Palm/NNP tree/NN ./. 
+The/DT Frog/NN hops/VBZ in/IN the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Mailbox/NN ./. 
+The/DT Bunny/NNP opens/VBZ the/DT Mailbox/NN ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT Bunny/NNP ./. 
+The/DT frog/NN hops/VBZ to/TO the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT PalmTree/NN on/IN the/DT left/JJ side/NN ./. 
+Left/VBN of/IN the/DT palm/NN tree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT palm/NN tree/NN there/RB sits/VBZ a/DT frog/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/VBN there/EX is/VBZ Bunny/NNP ./. 
+In/IN front/NN of/IN Bunny/NNP there/EX is/VBZ Broccoli/NNP ./. 
+Bunny/NNP hops/VBZ with/IN 3/CD leaps/NNS to/TO Broccoli/NNP and/CC eats/VBZ it/PRP ./. 
+Then/RB ,/, Bunny/NNP turns/VBZ left/VBN to/TO Frog/NN and/CC waves/NNS to/TO Frog/NN twice/RB with/IN the/DT left/JJ paw/NN ./. 
+Frog/NN opens/VBZ the/DT mouth/NN and/CC closes/VBZ it/PRP again/RB ./. 
+Frog/NN turns/VBZ backward/RB and/CC hops/VBZ with/IN three/CD leaps/NNS to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ inside/RB ./. 
+The/DT frog/NN turns/VBZ around/RB and/CC hops/VBZ back/RB to/TO Bunny/NNP and/CC the/DT open/JJ mailbox/NN ./. 
+On/IN the/DT upper/JJ half/NN of/IN the/DT screen/NN is/VBZ a/DT clear/JJ blue/JJ sky/NN ./. 
+On/IN the/DT lower/JJR half/NN of/IN the/DT screen/NN is/VBZ a/DT green/JJ meadow/NN ./. 
+On/IN the/DT right/NN in/IN the/DT foreground/NN sits/VBZ a/DT Bunny/NNP on/IN his/PRP$ hind/JJ legs/NNS facing/VBG southwest/NN ./. 
+Before/IN the/DT Bunny/NNP stands/VBZ a/DT mushroom/NN ./. 
+On/IN the/DT left/JJ side/NN in/IN the/DT foreground/NN stands/VBZ a/DT palm/NN with/IN a/DT brown/JJ trunk/NN and/CC green/JJ leaves/NNS ./. 
+Before/IN the/DT palm/NN and/CC somewhat/RB to/TO the/DT left/NN of/IN it/PRP stands/VBZ a/DT shut/VBN mailbox/NN on/IN a/DT brown/JJ post/NN ./. 
+To/TO the/DT right/NN of/IN the/DT mailbox/NN a/DT little/RB more/RBR in/IN the/DT foreground/NN sits/VBZ a/DT green/JJ frog/NN with/IN a/DT yellow/JJ belly/NN facing/VBG southeast/NN in/IN the/DT direction/NN of/IN the/DT mushroom/NN ./. 
+The/DT Bunny/NNP turns/VBZ his/PRP$ head/NN and/CC body/NN slightly/RB to/TO the/DT left/JJ facing/VBG exactly/RB to/TO the/DT south/NN ./. 
+The/DT Bunny/NNP jumps/VBZ upward/RB three/CD times/NNS and/CC then/RB bends/VBZ forward/RB ,/, lies/VBZ down/RP on/IN the/DT meadow/NN and/CC eats/VBZ the/DT mushroom/NN ./. 
+Then/RB the/DT Bunny/NNP stands/VBZ up/RP on/IN his/PRP$ hind/JJ legs/NNS again/RB and/CC turns/VBZ right/JJ facing/VBG west/NN in/IN the/DT direction/NN of/IN the/DT mailbox/NN ./. 
+The/DT Bunny/NNP taps/NNS his/PRP$ left/JJ foot/NN leg/NN twice/RB on/IN the/DT ground/NN ./. 
+Then/RB the/DT frog/NN turns/VBZ to/TO the/DT left/JJ facing/VBG northeast/NN and/CC making/VBG three/CD jumps/NNS to/TO the/DT background/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ into/IN it/PRP ./. 
+The/DT frog/NN turns/VBZ to/TO the/DT right/NN now/RB facing/VBG southwest/NN and/CC hops/VBZ in/IN two/CD jumps/NNS to/TO the/DT right/JJ side/NN of/IN the/DT Bunny/NNP ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palm/NN tree/NN on/IN the/DT left/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT broccoli/NN on/IN the/DT right/NN ./. 
+Left/VBN to/TO the/DT broccoli/NNS there/EX is/VBZ a/DT frog/NN facing/VBG the/DT broccoli/NNS ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT mail/NN box/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT Broccoli/NNP there/EX is/VBZ a/DT rabbit/NN facing/VBG south/RB ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT broccoli/NNS ./. 
+The/DT bunny/NN hops/VBZ towards/IN the/DT broccoli/NNS ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ left/JJ foot/NN two/CD times/NNS ./. 
+The/DT frog/NN ribbits/NNS ./. 
+The/DT frog/NN turns/VBZ to/TO face/VB north/RB ./. 
+The/DT frog/NN hops/VBZ to/TO the/DT background/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT mail/NN box/NN ./. 
+The/DT bunny/NN hops/VBZ towards/IN the/DT mailbox/NN ./. 
+The/DT bunny/NN opens/VBZ the/DT mail/NN box/NN ./. 
+The/DT bunny/NN turns/VBZ its/PRP$ head/NN down/RB ./. 
+Meanwhile/RB the/DT frog/NN quickly/RB turns/VBZ to/TO face/VB the/DT bunny/NN ./. 
+The/DT frog/NN hops/VBZ towards/IN the/DT bunny/NN ./. 
+The/DT frog/NN ribbits/NNS ./. 
+There/EX is/VBZ nothing/NN happening/VBG for/IN 3/CD seconds/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+The/DT sky/NN is/VBZ blue/JJ ./. 
+There/EX is/VBZ a/DT palmtree/NN on/IN the/DT left/JJ side/NN in/IN the/DT background/NN ./. 
+On/IN the/DT right/JJ side/NN there/EX is/VBZ a/DT big/JJ white/JJ bunny/NN facing/VBG southwest/NN ./. 
+In/IN front/NN of/IN palmtree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+Right/RB to/TO the/DT mailbox/NN ,/, there/EX is/VBZ a/DT frog/NN facing/VBG southeast/NN ./. 
+In/IN front/NN of/IN the/DT bunny/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ left/VBN to/TO the/DT south/NN and/CC hops/VBZ three/CD times/NNS to/TO the/DT broccoli/NNS ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NNS ./. 
+The/DT bunny/NN turns/VBZ right/NN to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS two/CD times/NNS on/IN the/DT ground/NN ./. 
+The/DT frog/NN ribbits/NNS ./. 
+The/DT frog/NN turns/VBZ left/JJ and/CC hops/VBZ three/CD times/NNS to/TO the/DT northeast/NN ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS to/TO the/DT mailbox/NN ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN door/NN ./. 
+The/DT bunny/NN looks/VBZ inside/IN the/DT mailbox/NN ./. 
+The/DT frog/NN turns/VBZ right/NN to/TO face/VB the/DT bunny/NN ./. 
+The/DT frog/NN hops/VBZ two/CD times/NNS back/RB to/TO the/DT bunny/NN ./. 
+The/DT frog/NN ribbits/NNS ./. 
+There/EX is/VBZ a/DT bunny/NN in/IN the/DT picture/NN turning/VBG towards/IN the/DT camera/NN ./. 
+A/DT piece/NN of/IN Brokkoli/NNP is/VBZ in/IN front/NN of/IN him/PRP ./. 
+A/DT frog/NN sits/VBZ left/NN of/IN the/DT Brokkoli/NNP facing/VBG it/PRP ./. 
+Behind/IN the/DT frog/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+Behind/IN the/DT mailbox/NN there/EX is/VBZ a/DT palm/NN ./. 
+Everything/NN is/VBZ placed/VBN on/IN grass/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT Brokkoli/NNP and/CC eats/VBZ it/PRP ./. 
+Then/RB it/PRP turns/VBZ and/CC moves/VBZ to/TO the/DT rabbit/NN and/CC taps/NNS its/PRP$ foot/NN ./. 
+The/DT frog/NN turns/VBZ left/JJ and/CC hops/VBZ 3/CD times/NNS away/RB ./. 
+The/DT bunny/NN then/RB hops/VBZ 3/CD times/NNS to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP and/CC looks/VBZ down/RP on/IN the/DT floor/NN ./. 
+While/IN looking/VBG down/RP ,/, the/DT frog/NN turns/VBZ around/RB ,/, hops/VBZ to/TO the/DT bunny/NN and/CC ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+There/EX is/VBZ a/DT palm/NN on/IN the/DT left/JJ side/NN of/IN the/DT ground/NN ,/, before/IN the/DT palm/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+In/IN front/NN of/IN the/DT mailbox/NN ,/, there/EX is/VBZ a/DT frog/NN ./. 
+On/IN the/DT right/JJ side/NN of/IN the/DT ground/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+A/DT rabbit/NN is/VBZ sitting/VBG behind/IN the/DT broccoli/NNS ./. 
+The/DT rabbit/NN hops/VBZ ,/, moving/VBG toward/IN the/DT broccoli/NNS ./. 
+The/DT rabbit/NN eats/VBZ the/DT broccoli/NNS ./. 
+The/DT rabbit/NN turns/VBZ to/TO the/DT frog/NN and/CC taps/NNS foot/NN ./. 
+The/DT frog/NN ribbits/NNS ,/, turns/VBZ left/JJ and/CC hops/VBZ to/TO the/DT back/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT mailbox/NN ,/, opens/VBZ it/PRP ,/, and/CC looks/VBZ inside/IN the/DT mailbox/NN ./. 
+Meanwhile/RB ,/, the/DT frog/NN turns/VBZ to/TO the/DT bunny/NN ,/, moves/VBZ forward/RB ,/, and/CC ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT Broccoli/NNP ./. 
+Behind/IN the/DT Broccoli/NNP ,/, there/EX is/VBZ a/DT Bunny/NNP facing/VBG south/RB ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT Frog/NN on/IN the/DT left/JJ facing/VBG southeast/NN ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, is/VBZ a/DT Mailbox/NN ./. 
+Behind/IN the/DT Mailbox/NN ,/, to/TO the/DT right/NN ,/, is/VBZ a/DT PalmTree/NN ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Broccoli/NNP ./. 
+It/PRP eats/VBZ the/DT Broccoli/NNP ./. 
+The/DT Bunny/NNP turns/VBZ towards/IN the/DT frog/NN ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT Bunny/NNP taps/NNS its/PRP$ foot/NN ./. 
+The/DT Frog/NN ribbits/NNS ,/, turns/VBZ to/TO face/VB north/NN and/CC hops/VBZ away/RB from/IN the/DT mailbox/NN ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT Bunny/NNP hops/VBZ to/TO the/DT Mailbox/NN ./. 
+The/DT Bunny/NNP opens/VBZ the/DT mailbox/NN ./. 
+It/PRP is/VBZ empty/JJ ./. 
+The/DT Bunny/NNP plays/VBZ a/DT sound/NN (/-LRB- disappointment/NN )/-RRB- ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT frog/NN turns/VBZ around/IN to/TO face/VB the/DT bunny/NN ./. 
+The/DT Frog/NN hops/VBZ towards/IN the/DT Bunny/NNP ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT Frog/NN ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palmtree/NN on/IN the/DT far/RB left/VBN ./. 
+In/IN front/NN of/IN the/DT palmtree/NN there/EX is/VBZ a/DT mailbox/NN ./. 
+In/IN the/DT foreground/NN to/TO the/DT right/NN there/EX is/VBZ a/DT broccoli/NN ./. 
+Right/RB of/IN the/DT mailbox/NN there/EX is/VBZ a/DT frog/NN facing/VBG the/DT broccoli/NNS ./. 
+On/IN the/DT right/JJ side/NN behind/IN the/DT broccoli/NNS there/EX is/VBZ a/DT bunny/NN facing/VBG the/DT frog/NN ./. 
+The/DT bunny/NN faces/VBZ the/DT broccoli/NNS and/CC hops/VBZ to/TO it/PRP ./. 
+Then/RB the/DT bunny/NN eats/VBZ the/DT broccoli/NNS and/CC turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/NNS ,/, turns/VBZ a/DT half/NN revelation/NN to/TO the/DT left/NN and/CC hops/VBZ away/RB from/IN mailbox/NN ./. 
+The/DT bunny/NN hops/VBZ to/TO the/DT mailbox/NN and/CC opens/VBZ mailbox/NN ./. 
+The/DT frog/NN turns/VBZ to/TO face/VB the/DT bunny/NN ,/, hops/VBZ to/TO the/DT bunny/NN and/CC ribbits/NNS once/RB ./. 
+The/DT floor/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN on/IN the/DT left/NN ,/, there/EX is/VBZ a/DT palm/NN tree/NN ./. 
+In/IN front/NN of/IN the/DT palm/NN tree/NN ,/, there/EX is/VBZ a/DT postal/JJ mailbox/NN facing/VBG southeast/NN ./. 
+In/IN the/DT foreground/NN on/IN the/DT left/NN ,/, there/EX sits/VBZ a/DT green/JJ frog/NN with/IN a/DT yellow/JJ belly/NN facing/VBG eastsoutheast/NN ./. 
+In/IN the/DT background/NN on/IN the/DT right/NN ,/, there/EX sits/VBZ a/DT white/JJ bunny/NN facing/VBG southsouthwest/NN ./. 
+In/IN south/NN of/IN the/DT bunny/NN ,/, there/EX is/VBZ a/DT broccoli/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT broccoli/NNS and/CC hops/VBZ 3/CD times/NNS towards/IN it/PRP ./. 
+The/DT bunny/NN bends/VBZ down/RB and/CC eats/VBZ the/DT broccoli/NNS ./. 
+The/DT bunny/NN sets/NNS pose/VBP ,/, turns/VBZ face/NN to/TO face/VB to/TO the/DT frog/NN and/CC taps/NNS his/PRP$ left/JJ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/NNS once/RB ,/, then/RB turns/VBZ north/NN and/CC hops/VBZ 3/CD times/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO the/DT mailbox/NN and/CC hops/VBZ 3/CD times/NNS ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN 's/POS door/NN with/IN his/PRP$ left/JJ hand/NN ,/, lowers/VBZ his/PRP$ head/NN and/CC looks/VBZ into/IN the/DT mailbox/NN ./. 
+The/DT frog/NN turns/VBZ around/RB and/CC hops/VBZ twice/RB towards/IN the/DT bunny/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT palm/NN tree/NN on/IN the/DT left/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT frog/NN on/IN the/DT left/JJ facing/VBG east-southeast/JJ and/CC a/DT broccoli/NN on/IN the/DT right/NN ./. 
+Behind/IN the/DT broccoli/NNS there/EX is/VBZ a/DT bunny/NN facing/VBG south-southwest/NN ./. 
+Behind/IN the/DT frog/NN ,/, to/TO the/DT left/NN ,/, there/EX is/VBZ a/DT mailbox/NN facing/VBG southeast/NN ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT broccoli/NNS ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT bunny/NN eats/VBZ the/DT broccoli/NNS ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT frog/NN ./. 
+The/DT bunny/NN taps/NNS its/PRP$ left/JJ foot/NN twice/RB ./. 
+The/DT frog/NN ribbits/NNS ./. 
+The/DT frog/NN turns/VBZ left/VBN by/IN 90/CD degrees/NNS ./. 
+The/DT frog/NN hops/VBZ three/CD times/NNS ./. 
+The/DT bunny/NN turns/VBZ to/TO face/VB the/DT mailbox/NN ./. 
+The/DT bunny/NN hops/VBZ three/CD times/NNS ./. 
+The/DT bunny/NN opens/VBZ the/DT mailbox/NN ./. 
+The/DT bunny/NN 's/POS head/NN turns/VBZ forward/RB by/IN a/DT small/JJ amount/NN while/IN the/DT frog/NN turns/VBZ to/TO face/VB the/DT bunny/NN at/IN the/DT same/JJ time/NN ./. 
+The/DT frog/NN hops/VBZ twice/RB ./. 
+The/DT frog/NN ribbits/NNS ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT sunflower/NN on/IN the/DT far/RB right/JJ facing/VBG southwest/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT monkey/NN in/IN the/DT middle/JJ facing/VBG southwest/NN ./. 
+To/TO the/DT monkey/NN 's/POS right/NN ,/, there/EX is/VBZ a/DT penguin/NN facing/VBG south/RB ./. 
+To/TO the/DT monkey/NN 's/POS left/NN ,/, there/EX is/VBZ a/DT remote/JJ ./. 
+Left/VBN of/IN the/DT remote/JJ ,/, there/EX is/VBZ a/DT light/JJ bulb/NN ./. 
+Behind/IN the/DT light/JJ bulb/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT duck/NN prince/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT monkey/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT bucket/NN ./. 
+The/DT duck/NN prince/NN turns/VBZ to/TO face/VB the/DT monkey/NN ./. 
+The/DT duck/NN prince/NN commands/NNS ./. 
+The/DT monkey/NN turns/VBZ to/TO face/VB the/DT remote/JJ ./. 
+The/DT monkey/NN jumps/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT monkey/NN sighs/VBZ while/IN the/DT penguin/NN jumps/VBZ at/IN the/DT same/JJ time/NN ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT bucket/NN ./. 
+The/DT penguin/NN glides/NNS ./. 
+The/DT duck/NN prince/NN quickly/RB turns/VBZ to/TO face/VB the/DT penguin/NN ./. 
+The/DT duck/NN prince/NN scolds/VBZ ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT duck/NN prince/NN ./. 
+The/DT penguin/NN glides/NNS ./. 
+The/DT monkey/NN laughs/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT ground/NN is/VBZ covered/VBN with/IN grass/NN ./. 
+In/IN the/DT background/NN there/EX is/VBZ a/DT sunflower/NN on/IN the/DT far/RB right/JJ facing/VBG southwest/NN ./. 
+In/IN the/DT foreground/NN there/EX is/VBZ a/DT monkey/NN in/IN the/DT middle/JJ facing/VBG southwest/NN ./. 
+To/TO the/DT monkey/NN 's/POS right/NN ,/, there/EX is/VBZ a/DT penguin/NN facing/VBG south/RB ./. 
+To/TO the/DT monkey/NN 's/POS left/NN ,/, there/EX is/VBZ a/DT remote/JJ ./. 
+Left/VBN of/IN the/DT remote/JJ ,/, there/EX is/VBZ a/DT light/JJ bulb/NN ./. 
+Behind/IN the/DT light/JJ bulb/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT duck/NN prince/NN facing/VBG southeast/NN ./. 
+Behind/IN the/DT monkey/NN ,/, to/TO the/DT right/NN ,/, there/EX is/VBZ a/DT bucket/NN ./. 
+The/DT duck/NN prince/NN turns/VBZ to/TO face/VB the/DT monkey/NN ./. 
+The/DT duck/NN prince/NN commands/NNS ./. 
+The/DT monkey/NN sighs/NNS ./. 
+The/DT monkey/NN turns/VBZ to/TO face/VB the/DT remote/JJ ./. 
+The/DT monkey/NN jumps/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT penguin/NN turns/VBZ to/TO face/VB the/DT bucket/NN ./. 
+The/DT penguin/NN glides/NNS ./. 
+The/DT duck/NN prince/NN quickly/RB turns/VBZ to/TO face/VB the/DT penguin/NN ./. 
+The/DT duck/NN prince/NN scolds/VBZ ./. 
+A/DT very/RB short/JJ time/NN passes/VBZ ./. 
+The/DT monkey/NN laughs/VBZ ./. 
+The/DT monkey/NN presses/NNS a/DT button/NN ./. 
+The/DT penguin/NN jumps/VBZ once/RB ./. 
+{have verb list with 86 entries}
+[???, accompany, appear, be, bend, bow, burn, cause, close, come, consist, consume, continue, cover, cut, dance, depict, disappear, do, drop, eat, emerge, extend, face, fall, flap, fly, follow, form, grin, guess, happen, have, hop, jump, kick, knock, last, laugh, leave, lie, lift, look, lower, make, move, nod, open, pass, place, play, pop, pose, press, proceed, raise, reach, read, replace, reply, rotate, run, say, scare, scold, scream, see, send, set, shake, shout, shut, sigh, sit, slide, split, stand, start, stop, take, turn, wait, walk, watch, wave, wear]
+
+-- Cannot find word "???" in WordNet dictionary.
+
+
+                                    to accompany: verb.stative(42) verb.motion(38) verb.creation(36) 
+astronaught is set ablaze with flames, accompanied by the noise of an explosion.
+
+                                    to appear: verb.perception(39) verb.change(30) verb.change(30) 
+                      The grinning cat appears in the branches of the tree.
+                  A giant flame column appears and consumes the astronaut.
+                  A speech bubble then appears from the astronaught reading "That's one small step f
+                  A speech bubble then appears from the mouth of the man which also reads "hello," a
+       Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a p
+ astronaught and another speech bubble appears from his head saying "...one...".
+aises her left arm and a speech bubble appears from her mouth which reads "hello."
+ddenly, a grinning, orange striped cat appears between the two branches of the tree and says ":-D".
+
+                                    to be: verb.stative(42) verb.stative(42) verb.stative(42) 
+                                    It is empty.
+                                    It is facing the viewer.
+                                   She is facing towards the viewer but turned 45° to the left of th
+                                 Alice is a human girl with blonde hair in a blue dress.
+                                 Alice is facing away from the bunny.
+                                 There is a bunny in the picture turning towards the camera.
+                                 There is a hole in the foreground to the right.
+                                 There is a palm on the left side of the ground, before the palm the
+                                 There is a palmtree on the left side in the background.
+                                 There is nothing happening for 3 seconds.
+                                Ground is covered with green grass.
+                               The boy is facing the girl.
+                               The sky is blue and the stage is a field of grass.
+                               The sky is blue.
+                              A rabbit is sitting behind the broccoli.
+                              The tortoise is standing just to the left of the centre of the stage, 
+                             Both arms are then replaced at the characters hips before they raise th
+                             The Bunny is facing the south, the Frog is facing the Broccoli.
+                             The T-Rex is standing to the right of the stage, looking at the rabbit.
+                             The alien is in the background to the right.
+                             The crown is cut off at the top at the stage.
+                             The floor is covered in grass.
+                             The floor is covered with grass.
+                             The scene is set on the moon, with black space instead of sky and grey 
+                             The stage is a grassy field, with blue sky as a backdrop.
+                             What time is it?"
+                            Everything is placed on grass.
+                            The ground is covered with grass, the sky is blue.
+                            The ground is covered with grass.
+                            The rabbit is scared from this and runs away from the T-Rex, behind the 
+                            The rabbit is sitting next to it to the right, looking at the tortoise.
+                          The duckling is facing just slightly past the monkey.
+                          To the right is a penguin with white stomach and face and blue back and wi
+                         The animation is then complete.
+                         The astronaut is in the foreground to the left.
+                        Half of screen is blue sky.
+                        The characters are a ninja tortoise, a rabbit and a T-Rex.
+                        When the alien is almost next to him, he says, "...one...".
+                       In the far left is a Mailbox and in front of it is a Frog.
+                       The moon lander is in the background to the left.
+                       While the bunny is moving, Alice watches until the bunny disappears.
+                      The T-Rex's head is knocked back, followed by its whole body being sent flying
+                      The grinning cat is not visible.
+                      The right, there is a girl.
+                     In the background is a large tree whose trunk splits into two large branches wh
+                   A piece of Brokkoli is in front of him.
+                  The planet earth can be seen in the background in the sky.
+                 Behind it to the left is a metal bucket.
+                 Behind the frog there is a mailbox.
+                Behind it to the right is a yellow duckling wearing red socks, a crown and a scepter
+               In front of Bunny there is Broccoli.
+               In the background there is a PalmTree on the left side.
+               In the background there is a palm tree on the left.
+               In the background there is a palmtree on the far left.
+               In the background there is a sunflower on the far right facing southwest.
+               In the foreground there is a Frog on the left facing southeast.
+               In the foreground there is a broccoli on the right.
+               In the foreground there is a frog on the left facing east-southeast and a broccoli on
+               In the foreground there is a monkey in the middle facing southwest.
+               On the right side there is a big white bunny facing southwest.
+              Behind the mailbox there is a palm.
+              Far away in space, Earth is visible blue and green.
+              The astronaut says: "That's one small step for man" and takes a step.
+             Behind the Broccoli there is a rabbit facing south.
+             Behind the broccoli there is a bunny facing south-southwest.
+             Left of the remote, there is a light bulb.
+            Behind the Broccoli, there is a Bunny facing south.
+            In front of palmtree there is a mailbox.
+            Left to the broccoli there is a frog facing the broccoli.
+            Right of the mailbox there is a frog facing the broccoli.
+            Right to the mailbox there is a Frog facing east.
+            The astronaught says, "That's one small step for man..." and takes a step forward, while
+           In front of the Bunny there is a Broccoli.
+           In the far right foreground is a Broccoli.
+           Left of the palm tree there is a mailbox.
+           Right to the mailbox, there is a frog facing southeast.
+           To the monkey's left, there is a remote.
+          At the start the astronaught is facing to the front of the screen and the monster on wheel
+          In front of the bunny, there is a broccoli.
+          In south of the bunny, there is a broccoli.
+          To the left hand side, there is a boy.
+          To the monkey's right, there is a penguin facing south.
+         Behind the frog, to the left, is a Mailbox.
+         In the foreground to the left is Alice.
+        In front of the mailbox, there is a frog.
+        In front of the palmtree there is a mailbox.
+        Next to the bulb on the ground is a switch, with a brown monkey next to it, facing the butto
+       On the lower half of the screen is a green meadow.
+       On the upper half of the screen is a clear blue sky.
+      In front of the palm tree, there is a postal mailbox facing southeast.
+      In the foreground in front of it is an astronaught, facing the viewer.
+     Behind the Mailbox, to the right, is a PalmTree.
+   Behind the frog, to the left, there is a mail box facing southeast.
+   Behind the frog, to the left, there is a mailbox facing southeast.
+   In the background on the left there is Bunny.
+   In the background on the left there is a PalmTree.
+  Behind the Mailbox in the background is a PalmTree.
+  In the background on the left, there is a palm tree.
+  In the background to the left, there is a large tree with two branches.
+  In the foreground to the right there is a broccoli.
+  Rightmost of the stage, in the back, is a sunflower, facing towards the characters.
+ Behind the Broccoli in the Background is a Bunny.
+ Behind the Broccoli in the background is a Bunny.
+ In the foreground to the right, there is a Broccoli.
+At the start of the scene, on the left is a light bulb which is off.
+Behind the monkey, to the right, there is a bucket.
+On the right side of the Mailbox there is a frog.
+On the right side of the ground, there is a broccoli.
+background on the left hand side there is a PalmTree.
+e right side behind the broccoli there is a bunny facing the frog.
+ears from the astronaught reading "That's one small step for man..." and the man takes a step foward
+foreground on the left hand side there is a closed Mailbox facing southeast.
+he foreground in front of the PalmTree is a Mailbox.
+ht side of the scene in the background is an alien.
+ht side of the stage in the foregrouns is a dark hole in the ground.
+n the background to the right to there is a bunny which faces Alice.
+nd the light bulb, to the right, there is a duck prince facing southeast.
+ocked back, followed by its whole body being sent flying.
+oreground on the right hand side there is a Bunny facing southwest.
+s arm, following which the astronaught is set ablaze with flames, accompanied by the noise of an exp
+the right side in the foreground there is a Broccoli.
+
+                                    to bend: verb.motion(38) verb.motion(38) verb.contact(35) 
+                             The bunny bends down and eats the broccoli.
+                       The monkey then bends down to press the switch again and turns off the light.
+                     The hare hops and bends forward to eat something.
+owards the switch, hops towards it and bends down to press it, which causes the light bulb to turn o
+unny jumps upward three times and then bends forward, lies down on the meadow and eats the mushroom.
+
+                                    to bow: verb.communication(32) verb.communication(32) verb.motion(38) 
+       The alien turns to face him and bows its head, making unintelligible noises.
+
+                                    to burn: verb.change(30) verb.weather(43) verb.change(30) 
+                The flames continue to burn and from the space ship the words emerge, "Houston...", 
+
+                                    to cause: verb.creation(36) verb.communication(32) 
+s it and bends down to press it, which causes the light bulb to turn on.
+
+                                    to close: verb.contact(35) verb.contact(35) verb.social(41) 
+              Frog opens the mouth and closes it again.
+
+                                    to come: verb.motion(38) verb.motion(38) verb.change(30) 
+                           He says: "I come in Peace!"
+                      The bunny says: "Come on over here."
+                      The bunny says: "Come on!
+                      The monster then comes towards the astronaught and another speech bubble appea
+                     The rabbit says, "Come on!
+              The astronaught says, "I come in peace!"
+lly to face the monster and replies "I come in peace!"
+oth spin quickly five times, then they come to a rest.
+ps three times towards Alice and says "Come over here!"
+
+                                    to consist: verb.stative(42) verb.stative(42) verb.stative(42) 
+                             The stage consists of a blue sky and a grassy green ground.
+
+                                    to consume: verb.consumption(34) verb.consumption(34) verb.consumption(34) 
+      A giant flame column appears and consumes the astronaut.
+
+                                    to continue: verb.stative(42) verb.communication(32) verb.stative(42) 
+                            The flames continue to burn and from the space ship the words emerge, "H
+
+                                    to cover: verb.contact(35) verb.contact(35) verb.stative(42) 
+                             Ground is covered with green grass.
+                          The floor is covered in grass.
+                          The floor is covered with grass.
+                         The ground is covered with grass, the sky is blue.
+                         The ground is covered with grass.
+
+                                    to cut: verb.contact(35) verb.change(30) verb.motion(38) 
+                          The crown is cut off at the top at the stage.
+
+                                    to dance: verb.motion(38) verb.creation(36) verb.motion(38) 
+                         As the flames dance around the astronaught, the alien turns around to the o
+
+                                    to depict: verb.creation(36) verb.communication(32) verb.creation(36) 
+                             The start depicts a boy facing to the right of the screen, and a woman 
+
+                                    to disappear: verb.change(30) verb.perception(39) verb.change(30) 
+     The bunny jumps into the hole and disappears.
+ moving, Alice watches until the bunny disappears.
+
+                                    to do: verb.social(41) verb.creation(36) verb.social(41) 
+       The frog looks at what the hare does.
+
+                                    to drop: verb.motion(38) verb.motion(38) verb.change(30) 
+the horizontal centre of the stage and drops a shade to its right.
+
+                                    to eat: verb.consumption(34) verb.consumption(34) verb.consumption(34) 
+                                    It eats the Broccoli.
+                                 Bunny eats broccoli.
+                             The Bunny eats the Broccoli.
+                             The bunny eats the Broccoli and turns left to the frog.
+                             The bunny eats the broccoli.
+                            The rabbit eats the broccoli.
+                        Then the bunny eats the broccoli and turns to face the frog.
+              The bunny bends down and eats the broccoli.
+    The bunny hops to the Brokkoli and eats it.
+    The hare hops and bends forward to eat something.
+The Bunny hops toward the Broccoli and eats it.
+s forward, lies down on the meadow and eats the mushroom.
+unny hops with 3 leaps to Broccoli and eats it.
+
+                                    to emerge: verb.change(30) verb.change(30) verb.change(30) 
+burn and from the space ship the words emerge, "Houston...", and then, "... we have a problem!"
+
+                                    to extend: verb.change(30) verb.stative(42) verb.stative(42) 
+                              Next she extends her right hand and shakes.
+                             The alien extends its arm, following which the astronaught is set ablaz
+                       The moster then extends a hand and sets fire to the astronaught.
+
+                                    to face: verb.communication(32) verb.competition(33) verb.stative(42) 
+                                 It is facing the viewer.
+                                She is facing towards the viewer but turned 45° to the left of the s
+                              Alice is facing away from the bunny.
+                             The bunny faces the broccoli and hops to it.
+                            The boy is facing the girl.
+                          The Bunny is facing the south, the Frog is facing the Broccoli.
+                          and turns to face the hole.
+                        Alice turns to face the bunny again.
+                        Alice turns to face the bunny.
+                       The duckling is facing just slightly past the monkey.
+                      The boy turns to face the camera.
+                     The Frog turns to face northeast.
+                     The frog turns to face north.
+                     The frog turns to face the bunny, hops to the bunny and ribbits once.
+                    The Bunny turns to face the Broccoli.
+                    The Bunny turns to face the Frog.
+                    The Bunny turns to face the Mailbox and taps its foot two times.
+                    The Bunny turns to face the Mailbox.
+                    The alien turns to face him and bows its head, making unintelligible noises.
+                    The alien turns to face the astronaut.
+                    The bunny turns to face the broccoli.
+                    The bunny turns to face the frog.
+                    The bunny turns to face the mailbox.
+                   Alice then turns to face the rabbit and says "???"
+                   The monkey turns to face the remote.
+                  The penguin turns to face the bucket.
+                  The penguin turns to face the duck prince.
+                The astronaut turns to face the alien.
+               The frog turns right to face the bunny.
+               The start depicts a boy facing to the right of the screen, and a woman facing to the 
+              The bunny turns right to face the frog.
+              The duck prince turns to face the monkey.
+              The frog turns around to face the bunny.
+            Bunny turns a bit right to face the mailbox and hops 3 times to left part of the screen 
+            The Frog ribbits, turns to face north and hops away from the mailbox.
+            The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+        While moving, the alien's head faces the astronaut.
+       At the start the astronaught is facing to the front of the screen and the monster on wheels i
+       The frog turns to the right now facing southwest and hops in two jumps to the right side of t
+       The monsters body then turns to face the astronaught and the moster makes stranges noises and
+       Then the frog turns to the left facing northeast and making three jumps to the background.
+      A frog sits left of the Brokkoli facing it.
+      She then proceeds to wave, still facing forwards, and turns to face the man.
+      The duck prince quickly turns to face the penguin.
+   Meanwhile the frog quickly turns to face the bunny.
+  Behind the broccoli there is a bunny facing south-southwest.
+  Left to the broccoli there is a frog facing the broccoli.
+  Right of the mailbox there is a frog facing the broccoli.
+  Right to the mailbox there is a Frog facing east.
+  The astronaught's head then turns to face the head of the monster and the next speech bubble pops 
+ Behind the Broccoli there is a rabbit facing south.
+ Behind the Broccoli, there is a Bunny facing south.
+ Right to the mailbox, there is a frog facing southeast.
+ frog, to the left, there is a mailbox facing southeast.
+ right side there is a big white bunny facing southwest.
+ sits a green frog with a yellow belly facing eastsoutheast.
+ sits a green frog with a yellow belly facing southeast in the direction of the mushroom.
+ there is a sunflower on the far right facing southwest.
+, to the right, there is a duck prince facing southeast.
+a small amount while the frog turns to face the bunny at the same time.
+and at the same time the Frog turns to face the Bunny.
+and then jumps back on its feet, still facing the back of the stage.
+back to the stage sits a white rabbit, facing towards Alice.
+e behind the broccoli there is a bunny facing the frog.
+e bunny eats the broccoli and turns to face the frog.
+e palm tree, there is a postal mailbox facing southeast.
+e, still facing forwards, and turns to face the man.
+foreground there is a Frog on the left facing southeast.
+foreground there is a frog on the left facing east-southeast and a broccoli on the right.
+frog, to the left, there is a mail box facing southeast.
+ft hand side there is a closed Mailbox facing southeast.
+ground there is a monkey in the middle facing southwest.
+he stage, in the back, is a sunflower, facing towards the characters.
+his head and body slightly to the left facing exactly to the south.
+n the right hand side there is a Bunny facing southwest.
+naught and looks at him, with its body facing the viewer.
+o the left of the centre of the stage, facing the viewer.
+on his hind legs again and turns right facing west in the direction of the mailbox.
+on the right, there sits a white bunny facing southsouthwest.
+ound in front of it is an astronaught, facing the viewer.
+reground sits a Bunny on his hind legs facing southwest.
+th the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it.
+the monkey's right, there is a penguin facing south.
+to the right to there is a bunny which faces Alice.
+tronaught then turns his body fully to face the monster and replies "I come in peace!"
+witch, with a brown monkey next to it, facing the button but slightly turned towards the viewer.
+
+                                    to fall: verb.motion(38) verb.motion(38) verb.change(30) 
+           It turns over backwards and falls on its back.
+
+                                    to flap: verb.motion(38) verb.motion(38) verb.motion(38) 
+               The penguin then jumps, flapping its wings.
+stomach and slides towards the bucket, flapping its wings again.
+
+                                    to fly: verb.motion(38) verb.motion(38) verb.motion(38) 
+ followed by its whole body being sent flying.
+
+                                    to follow: verb.motion(38) verb.stative(42) verb.stative(42) 
+            The alien extends its arm, following which the astronaught is set ablaze with flames, ac
+     The T-Rex's head is knocked back, followed by its whole body being sent flying.
+
+                                    to form: verb.social(41) verb.stative(42) verb.stative(42) 
+k splits into two large branches which form the tree's crown.
+
+                                    to grin: verb.body(29) 
+                                   The grinning cat appears in the branches of the tree.
+                                   The grinning cat is not visible.
+and Alice turn their heads towards the grinning cat.
+
+                                    to guess: verb.cognition(31) verb.communication(32) verb.cognition(31) 
+           The tortoise says, "Well, I guess I have no choice but to kick your butt."
+
+                                    to happen: verb.change(30) verb.change(30) verb.social(41) 
+                      There is nothing happening for 3 seconds.
+
+                                    to have: verb.possession(40) verb.stative(42) verb.perception(39) 
+   The tortoise says, "Well, I guess I have no choice but to kick your butt."
+he shuttle reading "Houston..." "...We have a problem!"
+merge, "Houston...", and then, "... we have a problem!"
+n lander says: "Houston..." and "...we have a problem!"
+
+                                    to hop: verb.motion(38) verb.motion(38) verb.motion(38) 
+                                    It hops around the tortoise and stops left of it.
+                                  Frog hops 3 times from front left part of the scene to centre of t
+                                 Bunny hops with 3 leaps to Broccoli and eats it.
+                              The Frog hops in the background.
+                              The Frog hops toward the Bunny.
+                              The Frog hops towards the Bunny.
+                              The Frog hops two times to the Bunny.
+                              The frog hops three times to northeast.
+                              The frog hops three times.
+                              The frog hops to the Bunny.
+                              The frog hops to the background.
+                              The frog hops towards the bunny.
+                              The frog hops twice.
+                              The frog hops two times back to the bunny.
+                              The hare hops and bends forward to eat something.
+                              The hare hops to the mailbox and opens it.
+                             The Bunny hops three times to the Broccoli.
+                             The Bunny hops three times to the Mailbox.
+                             The Bunny hops to the Broccoli.
+                             The Bunny hops to the Mailbox.
+                             The Bunny hops to the broccoli.
+                             The Bunny hops to the mailbox, opens it and looks into it.
+                             The Bunny hops toward the Broccoli and eats it.
+                             The Bunny hops toward the Mailbox and opens the Mailbox.
+                             The bunny hops four times towards the hole.
+                             The bunny hops three times to the mailbox.
+                             The bunny hops three times towards Alice.
+                             The bunny hops three times.
+                             The bunny hops to the Brokkoli and eats it.
+                             The bunny hops to the mailbox and opens mailbox.
+                             The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+                             The bunny hops towards the broccoli.
+                             The bunny hops towards the mailbox.
+                            The rabbit hops three times towards Alice and says "Come over here!"
+                            The rabbit hops, moving toward the broccoli.
+                        The bunny then hops 3 times to the mailbox, opens it and looks down on the f
+                  As the rabbit starts hopping towards the hole, Alice shouts, "Hey!
+                  Bunny turns left and hops 3 times in direction of viewer of video.
+                  The Frog ribbits and hops into the background.
+                Frog turns and makes 2 hops back to mailbox.
+               Frog turns backward and hops with three leaps to the mailbox, opens it and looks insi
+               The frog turns left and hops 3 times away.
+               The frog turns left and hops three times to the northeast.
+             The frog turns around and hops back to Bunny and the open mailbox.
+             The frog turns around and hops twice towards the bunny.
+      The bunny faces the broccoli and hops to it.
+      The frog ribbits, turns left and hops to the back.
+     The frog turns to face the bunny, hops to the bunny and ribbits once.
+    The bunny turns to the mailbox and hops 3 times.
+   The bunny turns to the broccoli and hops 3 times towards it.
+ Frog ribbits, turns to face north and hops away from the mailbox.
+ The bunny turns left to the south and hops three times to the broccoli.
+ monkey then turns towards the switch, hops towards it and bends down to press it, which causes the 
+ to the right now facing southwest and hops in two jumps to the right side of the Bunny.
+e frog turns back to the hare and also hops to the mailbox.
+e looking down, the frog turns around, hops to the bunny and ribbits.
+ns a bit right to face the mailbox and hops 3 times to left part of the screen and sits down in fron
+rog ribbits once, then turns north and hops 3 times.
+rog turns its back to the observer and hops to the back (into the background).
+urns a half revelation to the left and hops away from mailbox.
+
+                                    to jump: verb.motion(38) verb.motion(38) verb.competition(33) 
+                                    It jumps up, raising its right leg, and kicks the T-Rex's head f
+                             The Bunny jumps upward three times and then bends forward, lies down on
+                             The bunny jumps into the hole and disappears.
+                            The monkey jumps.
+                            The rabbit jumps into the hole.
+                           The penguin jumps back on its feet, directly after which the monkey's jaw
+                           The penguin jumps once.
+                      The penguin then jumps, flapping its wings.
+    It knocks the bucket over and then jumps back on its feet, still facing the back of the stage.
+    The monkey sighs while the penguin jumps at the same time.
+ards the back of the bucket behind it, jumps onto its stomach and slides towards the bucket, flappin
+nguin then turns towards the duckling, jumps onto its stomach again and slides through the duckling,
+
+                                    to kick: verb.contact(35) verb.motion(38) verb.contact(35) 
+"Well, I guess I have no choice but to kick your butt."
+t jumps up, raising its right leg, and kicks the T-Rex's head from below.
+
+                                    to knock: verb.contact(35) verb.contact(35) verb.contact(35) 
+                                    It knocks the bucket over and then jumps back on its feet, still
+                   The T-Rex's head is knocked back, followed by its whole body being sent flying.
+again and slides through the duckling, knocking it over.
+
+                                    to last: verb.stative(42) verb.stative(42) 
+                              The fire lasts for around 10 seconds.
+
+                                    to laugh: verb.body(29) 
+                            The monkey laughs.
+
+                                    to leave: verb.motion(38) verb.cognition(31) verb.stative(42) 
+                                       Left background with palm.
+                                       Left in front of mailbox: frog in green colour.
+                                       Left in front of palm: mailbox in brown american style.
+                                       Left of the palm tree there is a mailbox.
+                                       Left of the remote, there is a light bulb.
+                                       Left to the broccoli there is a frog facing the broccoli.
+                        The frog turns left by 90 degrees.
+                       The bunny turns left to the south and hops three times to the broccoli.
+                     Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+              In the background on the left there is Bunny.
+              In the background on the left there is a PalmTree.
+             The woman then raises her left arm and a speech bubble appears from her mouth which rea
+        Alice shakes her head from the left to the right and to the left again.
+ The bunny eats the Broccoli and turns left to the frog.
+kground there is a palmtree on the far left.
+
+                                    to lie: verb.stative(42) verb.contact(35) verb.stative(42) 
+rd three times and then bends forward, lies down on the meadow and eats the mushroom.
+
+                                    to lift: verb.motion(38) verb.contact(35) verb.motion(38) 
+                                  Both lift their left arm away from the body.
+                                  Both lift their right arm away from the body.
+
+                                    to look: verb.perception(39) verb.perception(39) verb.body(29) 
+                                    He looks inside.
+                                 Bunny looks inside the mailbox.
+                                 While looking down, the frog turns around, hops to the bunny and ri
+                              The frog looks at what the hare does.
+                             The Bunny looks in the Mailbox and at the same time the Frog turns to f
+                             The bunny looks inside the mailbox.
+            Frog sits behind bunny and looks into his direction.
+is standing to the right of the stage, looking at the rabbit.
+it is sitting next to it to the right, looking at the tortoise.
+ith his left hand, lowers his head and looks into the mailbox.
+lien stops next to the astronaught and looks at him, with its body facing the viewer.
+nny hops to the mailbox, opens it, and looks inside the mailbox.
+rd, while the alien moves towards him, looking at him.
+ree leaps to the mailbox, opens it and looks inside.
+s 3 times to the mailbox, opens it and looks down on the floor.
+unny hops to the mailbox, opens it and looks into it.
+
+                                    to lower: verb.motion(38) verb.change(30) verb.change(30) 
+the mailbox's door with his left hand, lowers his head and looks into the mailbox.
+
+                                    to make: verb.social(41) verb.change(30) verb.creation(36) 
+                        Frog turns and makes 2 hops back to mailbox.
+         The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!"
+n turns to face him and bows its head, making unintelligible noises.
+to face the astronaught and the moster makes stranges noises and nods slowly.
+turns to the left facing northeast and making three jumps to the background.
+
+                                    to move: verb.motion(38) verb.motion(38) verb.motion(38) 
+                                 While moving, the alien's head faces the astronaut.
+                      The rabbit hops, moving toward the broccoli.
+                     Then it turns and moves to the rabbit and taps its foot.
+                    While the bunny is moving, Alice watches until the bunny disappears.
+ turns around to the opposite side and moves off the stage to the right.
+alien reaches the foreground and stops moving.
+eanwhile, the frog turns to the bunny, moves forward, and ribbits.
+
+                                    to nod: verb.communication(32) verb.communication(32) verb.body(29) 
+                             The alien nods and says: "/§$%5a§$&".
+            Simultaneously, the monkey nods.
+d the moster makes stranges noises and nods slowly.
+
+                                    to open: verb.contact(35) verb.social(41) verb.contact(35) 
+                                     , opening its mouth wide.
+                                  Frog opens the mouth and closes it again.
+                                 Bunny opens mailbox with right hand.
+                             The Bunny opens the Mailbox.
+                             The Bunny opens the mailbox.
+                             The bunny opens the mail box.
+                             The bunny opens the mailbox door.
+                             The bunny opens the mailbox's door with his left hand, lowers his head 
+                             The bunny opens the mailbox.
+        The Bunny hops to the mailbox, opens it and looks into it.
+        The bunny hops to the mailbox, opens it, and looks inside the mailbox.
+      The hare hops to the mailbox and opens it.
+     The bunny hops to the mailbox and opens mailbox.
+ The Bunny hops toward the Mailbox and opens the Mailbox.
+ hops with three leaps to the mailbox, opens it and looks inside.
+unny then hops 3 times to the mailbox, opens it and looks down on the floor.
+
+                                    to pass: verb.motion(38) verb.motion(38) verb.social(41) 
+                     A very short time passes.
+
+                                    to place: verb.contact(35) verb.social(41) verb.cognition(31) 
+                               He then places his arm back by his side.
+                         Everything is placed on grass.
+
+                                    to play: verb.competition(33) verb.social(41) verb.creation(36) 
+                             The Bunny plays a sound (disappointment).
+
+                                    to pop: verb.motion(38) verb.contact(35) verb.perception(39) 
+the monster and the next speech bubble pops up reading "...giant leap for..." and then another sayin
+
+                                    to pose: verb.stative(42) verb.perception(39) verb.communication(32) 
+                        The bunny sets pose, turns face to face to the frog and taps his left foot t
+
+                                    to press: verb.contact(35) verb.communication(32) verb.stative(42) 
+         The monkey then bends down to press the switch again and turns off the light.
+tch, hops towards it and bends down to press it, which causes the light bulb to turn on.
+
+                                    to proceed: verb.communication(32) verb.motion(38) verb.social(41) 
+                              She then proceeds to wave, still facing forwards, and turns to face th
+
+                                    to raise: verb.change(30) verb.motion(38) verb.communication(32) 
+                                   and raises his left leg to take a big leap forward towards the mo
+                          It jumps up, raising its right leg, and kicks the T-Rex's head from below.
+                        The woman then raises her left arm and a speech bubble appears from her mout
+                  Both characters then raise their left arm upwards in a smooth motion at a 90 degre
+ced at the characters hips before they raise their left arm 90 defrees once again and wave.
+e man which also reads "hello," and he raises his left arm and waves.
+
+                                    to reach: verb.motion(38) verb.motion(38) verb.contact(35) 
+                             The alien reaches the foreground and stops moving.
+
+                                    to read: verb.cognition(31) verb.stative(42) verb.cognition(31) 
+ch bubble appears from her mouth which reads "hello."
+s from the mouth of the man which also reads "hello," and he raises his left arm and waves.
+
+                                    to replace: verb.change(30) verb.social(41) verb.contact(35) 
+                    Both arms are then replaced at the characters hips before they raise their left 
+
+                                    to reply: verb.communication(32) 
+                  , to which the T-Rex replies with another loud "ROAAAAAAAAR!!"
+his body fully to face the monster and replies "I come in peace!"
+
+                                    to rotate: verb.motion(38) verb.social(41) verb.competition(33) 
+smooth motion at a 90 degree angle and rotate multiple times.
+
+                                    to run: verb.motion(38) verb.motion(38) verb.stative(42) 
+    The rabbit is scared from this and runs away from the T-Rex, behind the tortoise.
+
+                                    to say: verb.communication(32) verb.communication(32) verb.communication(32) 
+                                    He says "Hello" and waves.
+                                    He says: "...one...".
+                                    He says: "He?"
+                                    He says: "I come in Peace!"
+                                    It says ":-D" and turns its head towards Alice.
+                                    It says, "Hey, evil T-Rex, stop scaring my friend!"
+                                  Frog says something to bunny.
+                                 Alice says: "???"
+                                 Alice says: "Hey!
+                              The girl says "Hello" and waves.
+                             The bunny says "Ahhhhhhh!"
+                             The bunny says "Hello".
+                             The bunny says: "Come on over here."
+                             The bunny says: "Come on!
+                            Alice then says "Oh..." and hesitantly walks towards the rabbit.
+                            The rabbit says, "Come on!
+                          The tortoise says, "Well, I guess I have no choice but to kick your butt."
+                         The astronaut says: "...giant leap for..." and turns his head towards the a
+                         The astronaut says: "That's one small step for man" and takes a step.
+                       The astronaught says, "...giant leap for...", turning his head towards the al
+                       The astronaught says, "I come in peace!"
+                       The astronaught says, "That's one small step for man..." and takes a step for
+                       The moon lander says: "Houston..." and "...we have a problem!"
+                    The alien nods and says: "/§$%5a§$&".
+                   After two steps she says, "Okay...".
+                  While turning, Alice says "Oh".
+                  While walking, Alice says: "Okay...".
+...giant leap for..." and then another saying "He???"
+bit hops three times towards Alice and says "Come over here!"
+en the alien is almost next to him, he says, "...one...".
+er speech bubble appears from his head saying "...one...".
+lice then turns to face the rabbit and says "???"
+tween the two branches of the tree and says ":-D".
+
+                                    to scare: verb.emotion(37) verb.emotion(37) 
+                         The rabbit is scared from this and runs away from the T-Rex, behind the tor
+       It says, "Hey, evil T-Rex, stop scaring my friend!"
+
+                                    to scold: verb.communication(32) verb.communication(32) 
+                       The duck prince scolds.
+
+                                    to scream: verb.communication(32) verb.communication(32) verb.perception(39) 
+            When he sees the alien, he screams, "He???"
+
+                                    to see: verb.perception(39) verb.cognition(31) verb.perception(39) 
+                                     I see a palm tree on the left of the screen, a mailbox in front
+                               When he sees the alien, he screams, "He???"
+               The planet earth can be seen in the background in the sky.
+
+                                    to send: verb.motion(38) verb.contact(35) verb.communication(32) 
+back, followed by its whole body being sent flying.
+
+                                    to set: verb.contact(35) verb.cognition(31) verb.communication(32) 
+                          The scene is set on the moon, with black space instead of sky and grey roc
+    The moster then extends a hand and sets fire to the astronaught.
+rm, following which the astronaught is set ablaze with flames, accompanied by the noise of an explos
+
+                                    to shake: verb.motion(38) verb.body(29) verb.motion(38) 
+                                 Alice shakes her head from the left to the right and to the left ag
+                                 Alice shakes her head.
+   Next she extends her right hand and shakes.
+ the monkey's jaw drops and the monkey shakes its head.
+
+                                    to shout: verb.communication(32) verb.communication(32) verb.communication(32) 
+                            The rabbit shouts "Hello!"
+starts hopping towards the hole, Alice shouts, "Hey!
+
+                                    to shut: verb.contact(35) verb.contact(35) verb.social(41) 
+nd somewhat to the left of it stands a shut mailbox on a brown post.
+
+                                    to sigh: verb.body(29) verb.communication(32) 
+                            The monkey sighs while the penguin jumps at the same time.
+
+                                    to sit: verb.contact(35) verb.stative(42) verb.motion(38) 
+                                  Frog sits behind bunny and looks into his direction.
+                                  Frog sits with back to viewer.
+                                A frog sits left of the Brokkoli facing it.
+                           A rabbit is sitting behind the broccoli.
+                         The rabbit is sitting next to it to the right, looking at the tortoise.
+               In the foreground there sits a frog on the left and a hare on the right of the screen
+        On the right in the foreground sits a Bunny on his hind legs facing southwest.
+  In the foreground on the left, there sits a green frog with a yellow belly facing eastsoutheast.
+ In the background on the right, there sits a white bunny facing southsouthwest.
+ the right side of the palm tree there sits a frog.
+3 times to left part of the screen and sits down in front of the mailbox.
+ailbox a little more in the foreground sits a green frog with a yellow belly facing southeast in the
+nd the hole, further back to the stage sits a white rabbit, facing towards Alice.
+
+                                    to slide: verb.motion(38) verb.motion(38) verb.motion(38) 
+ling, jumps onto its stomach again and slides through the duckling, knocking it over.
+
+                                    to split: verb.social(41) verb.contact(35) verb.social(41) 
+background is a large tree whose trunk splits into two large branches which form the tree's crown.
+
+                                    to stand: verb.contact(35) verb.stative(42) verb.stative(42) 
+                              The tree stands slightly to the left of the horizontal centre of the s
+                          The T-Rex is standing to the right of the stage, looking at the rabbit.
+                        Then the Bunny stands up on his hind legs again and turns right facing west 
+                       The tortoise is standing just to the left of the centre of the stage, facing 
+                      Before the Bunny stands a mushroom.
+    On the left side in the foreground stands a palm with a brown trunk and green leaves.
+e foreground, to the left of the stage stands the girl Alice.
+he palm and somewhat to the left of it stands a shut mailbox on a brown post.
+n the background, slightly on the moon stands a space ship with a sign reading "UNITED STATES".
+
+                                    to start: verb.change(30) verb.change(30) verb.motion(38) 
+                             The scene starts by the T-Rex making a loud "ROAAAAAAAAR!!!"
+                         As the rabbit starts hopping towards the hole, Alice shouts, "Hey!
+
+                                    to stop: verb.motion(38) verb.stative(42) verb.social(41) 
+                                   She stops in front of the rabbit.
+            It says, "Hey, evil T-Rex, stop scaring my friend!"
+       It hops around the tortoise and stops left of it.
+  The alien reaches the foreground and stops moving.
+
+                                    to take: verb.social(41) verb.possession(40) verb.motion(38) 
+                                   and takes one step towards the alien.
+                                 , and takes a step towards the alien.
+                                 Alice takes 12 steps towards the bunny.
+                             The scene takes place on a meadow.
+                             The scene takes place on the grass.
+                             The scene takes place on the moon surface.
+            and raises his left leg to take a big leap forward towards the monster.
+"That's one small step for man..." and takes a step forward, while the alien moves towards him, look
+one small step for man..." and the man takes a step foward.
+s: "That's one small step for man" and takes a step.
+
+                                    to turn: verb.motion(38) verb.change(30) verb.stative(42) 
+                                    It turns its head towards Alice and the rabbit, who turn their h
+                                    It turns over backwards and falls on its back.
+                                    It turns to the boy.
+                                   and turns around towards the hole.
+                                   and turns to face the hole.
+                                   and turns towards the hole too.
+                                  Frog turns and makes 2 hops back to mailbox.
+                                  Frog turns backward and hops with three leaps to the mailbox, open
+                                 Alice turns to face the bunny again.
+                                 Alice turns to face the bunny.
+                                 Bunny turns a bit right to face the mailbox and hops 3 times to lef
+                                 Bunny turns left and hops 3 times in direction of viewer of video.
+                                 Bunny turns right and taps two times with left foot.
+                                 While turning, Alice says "Oh".
+                               The boy turns to face the camera.
+                               Then it turns and moves to the rabbit and taps its foot.
+                              The Frog turns to face northeast.
+                              The frog turns around and hops back to Bunny and the open mailbox.
+                              The frog turns around and hops twice towards the bunny.
+                              The frog turns around to face the bunny.
+                              The frog turns back to the hare and also hops to the mailbox.
+                              The frog turns its back to the observer and hops to the back (into the
+                              The frog turns left and hops 3 times away.
+                              The frog turns left and hops three times to the northeast.
+                              The frog turns left by 90 degrees.
+                              The frog turns right to face the bunny.
+                              The frog turns to face north.
+                              The frog turns to face the bunny, hops to the bunny and ribbits once.
+                              The frog turns to the Bunny.
+                              The frog turns to the Palm tree.
+                              The frog turns to the right now facing southwest and hops in two jumps
+                              The girl turns to the camera as well.
+                              The hare turns to the frog and taps its hindpaw.
+                             The Bunny turns his head and body slightly to the left facing exactly t
+                             The Bunny turns to face the Broccoli.
+                             The Bunny turns to face the Frog.
+                             The Bunny turns to face the Mailbox and taps its foot two times.
+                             The Bunny turns to face the Mailbox.
+                             The Bunny turns towards the frog.
+                             The bunny turns its head down.
+                             The bunny turns left to the south and hops three times to the broccoli.
+                             The bunny turns right to face the frog.
+                             The bunny turns to face the broccoli.
+                             The bunny turns to face the frog.
+                             The bunny turns to face the mailbox.
+                             The bunny turns to the broccoli and hops 3 times towards it.
+                             The bunny turns to the mail box.
+                             The bunny turns to the mailbox and hops 3 times.
+                            Alice then turns to face the rabbit and says "???"
+                            The monkey turns to face the remote.
+                            The rabbit turns to the frog and taps foot.
+                           The penguin turns to face the bucket.
+                           The penguin turns to face the duck prince.
+                           Then, Bunny turns left to Frog and waves to Frog twice with the left paw.
+                          The duckling turns around towards the penguin and wiggles from one foot to
+                         The astronaut turns to face the alien.
+                         Then the frog turns to the left facing northeast and making three jumps to 
+                       The duck prince turns to face the monkey.
+                       The monkey then turns towards the switch, hops towards it and bends down to p
+                      The bunny's head turns forward by a small amount while the frog turns to face 
+                      The penguin then turns towards the duckling, jumps onto its stomach again and 
+                     It says ":-D" and turns its head towards Alice.
+                     The Frog ribbits, turns to face north and hops away from the mailbox.
+                     The frog ribbits, turns a half revelation to the left and hops away from mailbo
+                     The frog ribbits, turns left and hops to the back.
+                   First, the duckling turns completely towards the monkey and waves its scepter at 
+                   Meanwhile, the frog turns to the bunny, moves forward, and ribbits.
+                   The bunny and Alice turn their heads towards the grinning cat.
+                  The astronaught then turns his body fully to face the monster and replies "I come 
+                  The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+                The monsters body then turns to face the astronaught and the moster makes stranges n
+               The duck prince quickly turns to face the penguin.
+            Meanwhile the frog quickly turns to face the bunny.
+           The astronaught's head then turns to face the head of the monster and the next speech bub
+           The frog ribbits once, then turns north and hops 3 times.
+          While looking down, the frog turns around, hops to the bunny and ribbits.
+       The bunny eats the Broccoli and turns left to the frog.
+       There is a bunny in the picture turning towards the camera.
+      After a short pause, the penguin turns around towards the back of the bucket behind it, jumps 
+  She is facing towards the viewer but turned 45° to the left of the stage.
+  Then the bunny eats the broccoli and turns to face the frog.
+ Mailbox and at the same time the Frog turns to face the Bunny.
+ to it, facing the button but slightly turned towards the viewer.
+ds to wave, still facing forwards, and turns to face the man.
+nds down to press the switch again and turns off the light.
+onaut says: "...giant leap for..." and turns his head towards the alien.
+ronaught says, "...giant leap for...", turning his head towards the alien.
+y stands up on his hind legs again and turns right facing west in the direction of the mailbox.
+
+                                    to wait: verb.stative(42) verb.stative(42) verb.cognition(31) 
+                                       Wait!"
+
+                                    to walk: verb.motion(38) verb.motion(38) verb.competition(33) 
+                                 While walking, Alice says: "Okay...".
+Alice then says "Oh..." and hesitantly walks towards the rabbit.
+urn to face the T-Rex and the tortoise walks towards it.
+
+                                    to watch: verb.perception(39) verb.social(41) verb.perception(39) 
+      While the bunny is moving, Alice watches until the bunny disappears.
+
+                                    to wave: verb.communication(32) verb.contact(35) verb.motion(38) 
+                                  They wave again.
+                  She then proceeds to wave, still facing forwards, and turns to face the man.
+rom one foot to the other three times, waving its scepter.
+
+                                    to wear: verb.body(29) verb.body(29) verb.stative(42) 
+d it to the right is a yellow duckling wearing red socks, a crown and a scepter.
+
+{End of runtime.}

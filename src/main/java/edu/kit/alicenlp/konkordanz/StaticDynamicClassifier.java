@@ -69,7 +69,8 @@ public class StaticDynamicClassifier {
 	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
-			printTaggedSentence(sentence);
+			//printTaggedSentence(sentence); // debug output
+			
 			// traversing the words in the current sentence
 			// a CoreLabel is a CoreMap with additional token-specific methods
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -158,7 +159,7 @@ public class StaticDynamicClassifier {
 		String wordstring = word.toString();
 		int indexof = sestring.indexOf(wordstring);
 		if (indexof < alignby) {
-			// TODO: implementiere den fall dass das wort zu weit links liegt
+			// implementiere den fall dass das wort zu weit links liegt
 			// füge (alignby - indexof) leerzeichen links ein
 			int offset = alignby - indexof;
 			String aligner = ""; //$NON-NLS-1$
@@ -168,11 +169,11 @@ public class StaticDynamicClassifier {
 			sestring = aligner + sestring;
 		}
 		else if (alignby < indexof) {
-			// TODO: implementiere den fall dass das wort zu weit rechts liegt
+			// implementiere den fall dass das wort zu weit rechts liegt
 			int offset = indexof - alignby;
 			sestring = sestring.substring(offset);
 		}
-		// TODO: zeichen hintenraus löschen.
+		// zeichen hintenraus löschen.
 		if (sestring.length() > lastindex) {
 			sestring = sestring.substring(0, lastindex);
 		}

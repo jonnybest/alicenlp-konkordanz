@@ -33,13 +33,10 @@ public class Mainclass {
 	 */
 	public static void main(String[] args) {
 		System.out.println("{Begin runtime.}");
-		// Add your text here!
-		
+
 		// texts go here:
 		List<String> texts = new LinkedList<String>();
 
-		// StanfordWebsiteExample.analyze(text);
-		
 		/*
 		 * Load text from individual files
 		 */
@@ -47,9 +44,10 @@ public class Mainclass {
 		File[] listOfFiles = folder.listFiles();
 		CharBuffer buffer = CharBuffer.allocate(1024);
 
+		System.out.print("{Reading files: ");
 	    for (File item : listOfFiles) {	    	
-	      if (item.isFile()) {
-	    	  System.out.println("{Reading " + item.getName() + "}");
+	      if (item.isFile()) {	    	  
+	    	  System.out.print(item.getName()+ ", ");
 	        /*
 	         * actual file loading 
 	         */	    	  
@@ -79,7 +77,7 @@ public class Mainclass {
 	        System.out.println("Skipped directory " + item.getName());
 	      }
 	    }
-		
+	    System.out.println("}");
 		
 		/* 
 		 * Run text through pipeline
