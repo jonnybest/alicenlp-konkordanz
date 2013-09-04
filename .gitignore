@@ -5,3 +5,7 @@
 /out/*.txt
 
 pom.properties
+
+pom.properties
+
+/target/classes/META-INF/maven/edu.kit.ipd.aliceNlp/konkordanz/pom.properties
