@@ -80,15 +80,15 @@ public class StaticDynamicClassifier {
 			// TODO: using verbs is probably a bad idea: use verb phrases instead? Or better yet: predicate (root) only?
 				
 			try {
-				String word = graph.getFirstRoot().lemma();
+				IndexedWord word = graph.getFirstRoot();
 				System.out.println(graph.getFirstRoot());
 				if(word != null) {
-					SortedSet<String> otherse = verblist.get(word);
+					SortedSet<String> otherse = verblist.get(word.lemma());
 					if (otherse == null) {
 						otherse = new TreeSet<String>();
-						verblist.put(word, otherse);
+						verblist.put(word.lemma(), otherse);
 					}
-					otherse.add(concordance(sentence.toString(), word.toString()));						
+					otherse.add(concordance(sentence.toString(), word.word()));						
 					nop();				
 				}
 			} catch (RuntimeException e) { // because Stanford doesn't declare proper exceptions		
