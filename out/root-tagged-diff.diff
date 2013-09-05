@@ -1,0 +1,460 @@
+diff --git "a/D:\\Entwicklung\\workspace\\alicenlp-konkordanz\\out\\root-tagged-left3words.txt" "b/D:\\Entwicklung\\workspace\\alicenlp-konkordanz\\out\\root-tagged-wsj.txt"
+index cbbbdca..0934ddd 100644
+--- "a/D:\\Entwicklung\\workspace\\alicenlp-konkordanz\\out\\root-tagged-left3words.txt"
++++ "b/D:\\Entwicklung\\workspace\\alicenlp-konkordanz\\out\\root-tagged-wsj.txt"
+@@ -3,20 +3,20 @@
+ Adding annotator tokenize
+ Adding annotator ssplit
+ Adding annotator pos
+-Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1,6 sec].
++Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/wsj-bidirectional/wsj-0-18-bidirectional-distsim.tagger ... done [1,2 sec].
+ Adding annotator lemma
+ Adding annotator ner
+-Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [6,0 sec].
+-Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [4,0 sec].
+-Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [4,5 sec].
++Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [5,4 sec].
++Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [3,5 sec].
++Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [4,0 sec].
+ Initializing JollyDayHoliday for sutime
+ Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+ Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+-05.09.2013 16:14:13 edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
++05.09.2013 15:14:15 edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+ INFO: Ignoring inactive rule: temporal-composite-8:ranges
+ Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+ Adding annotator parse
+-Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1,7 sec].
++Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [1,6 sec].
+ {annotation is now done}
+ [consists-VBZ]
+ [is-VBZ]
+@@ -29,7 +29,6 @@ off
+ [sits-VBZ]
+ [shouts-VBZ]
+  --no root: .
+-[turns-VBZ]
+  --no root: .
+ [hops-VBZ]
+  --no root: .
+@@ -39,10 +38,10 @@ off
+ [says-VBZ]
+ [says-VBZ]
+ [stops-VBZ]
+-[appears-VBZ]
++[striped-VBD]
+ [turns-VBZ]
++[screams-VBZ]
+ [turns-VBZ]
+-around
+ [shouts-VBZ]
+ [Wait-VB]
+ Unknown problem: java.lang.IllegalArgumentException
+@@ -69,7 +68,7 @@ Unknown problem: java.lang.IllegalArgumentException
+ [says-VBZ]
+ [appears-VBZ]
+ [turns-VBZ]
+-[turn-VB]
++[turn-VBP]
+ [says-VBZ]
+ [turns-VBZ]
+ [Wait-VB]
+@@ -89,7 +88,6 @@ Unknown problem: java.lang.IllegalArgumentException
+ [lift-VBP]
+ [lift-VBP]
+ [come-VBP]
+-[wave-VBP]
+ [depicts-VBZ]
+ [raises-VBZ]
+ [proceeds-VBZ]
+@@ -130,30 +128,34 @@ down
+ [is-VBZ]
+ [is-VBZ]
+ [says-VBZ]
++[stops-VBZ]
+ [says-VBZ]
+-[???-VBZ]
+-[face-VB]
++[???-VBD]
++[turns-VBZ]
+ [says-VBZ]
+ [takes-VBZ]
+ [extends-VBZ]
++[turns-VBZ]
+ [continue-VBP]
+-[takes-VBZ]
+  --no root: .
++[takes-VBZ]
+ [seen-VBN]
+ [is-VBZ]
+ [is-VBZ]
+ [is-VBZ]
++[moves-VBZ]
+ [faces-VBZ]
+ [says-VBZ]
+ [says-VBZ]
+ [reaches-VBZ]
+ [says-VBZ]
+ [says-VBZ]
+-[face-VB]
++[turns-VBZ]
+ [nods-VBZ]
+ [turns-VBZ]
+ [says-VBZ]
+ [takes-VBZ]
++[turns-VBZ]
+ [says-VBZ]
+ [standing-VBG]
+ [sitting-VBG]
+@@ -164,8 +166,8 @@ down
+ [hops-VBZ]
+ [face-VB]
+ [says-VBZ]
+-[says-VBZ]
+  --no root: .
++[says-VBZ]
+ [jumps-VBZ]
+ [knocked-VBN]
+ [turns-VBZ]
+@@ -178,6 +180,7 @@ down
+ [hops-VBZ]
+ [eats-VBZ]
+ [turns-VBZ]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+ [turns-VBZ]
+@@ -185,6 +188,7 @@ down
+ [opens-VBZ]
+ [looks-VBZ]
+ [hops-VBZ]
++[ribbits-VBZ]
+ [see-VBP]
+ [sits-VBZ]
+ [hops-VBZ]
+@@ -217,7 +221,7 @@ down
+ [facing-VBG]
+ [hops-VBZ]
+ [turns-VBZ]
+-[hops-VBZ]
++[ribbits-VBZ]
+ [hops-VBZ]
+ [hops-VBZ]
+ [covered-VBN]
+@@ -228,6 +232,7 @@ down
+ [is-VBZ]
+ [hops-VBZ]
+ [eats-VBZ]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+ [hops-VBZ]
+@@ -268,6 +273,7 @@ up
+ [hops-VBZ]
+ [eats-VBZ]
+ [turns-VBZ]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+ [turns-VBZ]
+@@ -276,6 +282,7 @@ up
+ [turns-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
++[ribbits-VBZ]
+ [is-VBZ]
+ [covered-VBN]
+ [is-VBZ]
+@@ -286,12 +293,14 @@ up
+ [turns-VBZ]
+ [eats-VBZ]
+ [turns-VBZ]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+ [opens-VBZ]
+ [looks-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
++[ribbits-VBZ]
+ [is-VBZ]
+ [is-VBZ]
+ [sits-VBZ]
+@@ -311,7 +320,7 @@ up
+ [hops-VBZ]
+ [eats-VBZ]
+ [turns-VBZ]
+-[turns-VBZ]
++[left-VBD]
+ [hops-VBZ]
+ [turns-VBZ]
+ [covered-VBN]
+@@ -321,17 +330,13 @@ up
+ [hops-VBZ]
+ [eats-VBZ]
+ [turns-VBZ]
+-[passes-VBZ]
+-[turns-VBZ]
+-[passes-VBZ]
++[ribbits-VBZ]
+ [hops-VBZ]
+ [opens-VBZ]
+ [plays-VBZ]
+-[passes-VBZ]
+ [turns-VBZ]
+-around
+ [hops-VBZ]
+-[passes-VBZ]
++[ribbits-VBZ]
+ [covered-VBN]
+ [is-VBZ]
+ [is-VBZ]
+@@ -340,7 +345,7 @@ around
+ [is-VBZ]
+ [faces-VBZ]
+ [eats-VBZ]
+-[turns-VBZ]
++[ribbits-VBZ]
+ [hops-VBZ]
+ [hops-VBZ]
+ [covered-VBN]
+@@ -351,8 +356,8 @@ around
+ [is-VBZ]
+ [turns-VBZ]
+ [bends-VBZ]
+-[turns-VBZ]
+-[turns-VBZ]
++[pose-VBP]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [opens-VBZ]
+ [turns-VBZ]
+@@ -363,10 +368,9 @@ around
+ [is-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+-[passes-VBZ]
+ [eats-VBZ]
+-[passes-VBZ]
+ [turns-VBZ]
++[ribbits-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
+ [turns-VBZ]
+@@ -374,6 +378,7 @@ around
+ [opens-VBZ]
+ [turns-VBZ]
+ [hops-VBZ]
++[ribbits-VBZ]
+ [covered-VBN]
+ [is-VBZ]
+ [is-VBZ]
+@@ -387,9 +392,11 @@ around
+ [jumps-VBZ]
+ [sighs-VBZ]
+ [turns-VBZ]
++[glides-VBZ]
+ [turns-VBZ]
+ [scolds-VBZ]
+ [turns-VBZ]
++[glides-VBZ]
+ [laughs-VBZ]
+ [covered-VBN]
+ [is-VBZ]
+@@ -400,17 +407,17 @@ around
+ [is-VBZ]
+ [is-VBZ]
+ [turns-VBZ]
++[sighs-VBZ]
+ [turns-VBZ]
+ [jumps-VBZ]
+-[passes-VBZ]
+ [turns-VBZ]
++[glides-VBZ]
+ [turns-VBZ]
+ [scolds-VBZ]
+-[passes-VBZ]
+ [laughs-VBZ]
+ [jumps-VBZ]
+-{have verb list with 48 entries}
+-[???, appear, be, bend, come, consist, continue, cover, cut off, depict, eat, extend, face, hop, jump, knock, last, laugh, leave, lift, look, nod, open, pass, place, play, proceed, raise, reach, replace, say, scare, scold, see, set, shake, shout, sigh, sit, stand, stand up, start, stop, take, turn, turn around, watch, wave]
++{have verb list with 51 entries}
++[???, appear, be, bend, come, consist, continue, cover, cut off, depict, eat, extend, face, glide, hop, jump, knock, last, laugh, leave, lift, look, move, nod, open, place, play, pose, proceed, raise, reach, replace, ribbit, say, scare, scold, scream, see, set, shake, shout, sigh, sit, stand, stand up, start, stop, strip, take, turn, watch]
+ 
+ -- Cannot find word "???" in WordNet dictionary.
+ 
+@@ -421,7 +428,6 @@ When he sees the alien, he screams, "He???"
+                   A speech bubble then appears from the astronaught reading "That's one small step f
+                   A speech bubble then appears from the mouth of the man which also reads "hello," a
+        Meanwhile, a speech bubble then appears from the shuttle reading "Houston..." "...We have a p
+-ddenly, a grinning, orange striped cat appears between the two branches of the tree and says ":-D".
+ 
+                                     to be: verb.stative(42) verb.stative(42) verb.stative(42) 
+                                  There is a bunny in the picture turning towards the camera.
+@@ -547,12 +553,13 @@ oth spin quickly five times, then they come to a rest.
+                             The boy is facing the girl.
+                           The Bunny is facing the south, the Frog is facing the Broccoli.
+                        The duckling is facing just slightly past the monkey.
+-                    The alien turns to face him and bows its head, making unintelligible noises.
+-                    The alien turns to face the astronaut.
+         While moving, the alien's head faces the astronaut.
+        At the start the astronaught is facing to the front of the screen and the monster on wheels i
+ th the rabbit and the tortoise turn to face the T-Rex and the tortoise walks towards it.
+ 
++                                    to glide: verb.motion(38) verb.motion(38) verb.motion(38) 
++                           The penguin glides.
++
+                                     to hop: verb.motion(38) verb.motion(38) verb.motion(38) 
+                                     It hops around the tortoise and stops left of it.
+                                   Frog hops 3 times from front left part of the scene to centre of t
+@@ -590,7 +597,6 @@ th the rabbit and the tortoise turn to face the T-Rex and the tortoise walks tow
+                             The rabbit hops three times towards Alice and says "Come over here!"
+                             The rabbit hops, moving toward the broccoli.
+                         The bunny then hops 3 times to the mailbox, opens it and looks down on the f
+-                  The Frog ribbits and hops into the background.
+      The frog turns to face the bunny, hops to the bunny and ribbits once.
+ e looking down, the frog turns around, hops to the bunny and ribbits.
+ 
+@@ -618,6 +624,7 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                                        Left background with palm.
+                                        Left in front of mailbox: frog in green colour.
+                                        Left in front of palm: mailbox in brown american style.
++               The frog ribbits, turns left and hops to the back.
+ 
+                                     to lift: verb.motion(38) verb.contact(35) verb.motion(38) 
+                                   Both lift their left arm away from the body.
+@@ -630,6 +637,9 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                              The Bunny looks in the Mailbox and at the same time the Frog turns to f
+                              The bunny looks inside the mailbox.
+ 
++                                    to move: verb.motion(38) verb.motion(38) verb.motion(38) 
++                             The alien moves towards the right foreground.
++
+                                     to nod: verb.communication(32) verb.communication(32) verb.body(29) 
+                              The alien nods and says: "/§$%5a§$&".
+             Simultaneously, the monkey nods.
+@@ -645,9 +655,6 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                              The bunny opens the mailbox's door with his left hand, lowers his head 
+                              The bunny opens the mailbox.
+ 
+-                                    to pass: verb.motion(38) verb.motion(38) verb.social(41) 
+-                     A very short time passes.
+-
+                                     to place: verb.contact(35) verb.social(41) verb.cognition(31) 
+                                He then places his arm back by his side.
+                          Everything is placed on grass.
+@@ -655,6 +662,9 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                                     to play: verb.competition(33) verb.social(41) verb.creation(36) 
+                              The Bunny plays a sound (disappointment).
+ 
++                                    to pose: verb.stative(42) verb.perception(39) verb.communication(32) 
++                        The bunny sets pose, turns face to face to the frog and taps his left foot t
++
+                                     to proceed: verb.communication(32) verb.motion(38) verb.social(41) 
+                               She then proceeds to wave, still facing forwards, and turns to face th
+ 
+@@ -669,6 +679,10 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                                     to replace: verb.change(30) verb.social(41) verb.contact(35) 
+                     Both arms are then replaced at the characters hips before they raise their left 
+ 
++-- Cannot find word "ribbit" in WordNet dictionary.
++
++                              The Frog ribbits and hops into the background.
++
+                                     to say: verb.communication(32) verb.communication(32) verb.communication(32) 
+                                     He says "Hello" and waves.
+                                     He says: "...one...".
+@@ -701,6 +715,9 @@ e looking down, the frog turns around, hops to the bunny and ribbits.
+                                     to scold: verb.communication(32) verb.communication(32) 
+                        The duck prince scolds.
+ 
++                                    to scream: verb.communication(32) verb.communication(32) verb.perception(39) 
++                            The rabbit screams "Ahhhhhhhh!"
++
+                                     to see: verb.perception(39) verb.cognition(31) verb.perception(39) 
+                                      I see a palm tree on the left of the screen, a mailbox in front
+                The planet earth can be seen in the background in the sky.
+@@ -718,6 +735,7 @@ starts hopping towards the hole, Alice shouts, "Hey!
+ 
+                                     to sigh: verb.body(29) verb.communication(32) 
+                             The monkey sighs while the penguin jumps at the same time.
++                            The monkey sighs.
+ 
+                                     to sit: verb.contact(35) verb.stative(42) verb.motion(38) 
+                                   Frog sits behind bunny and looks into his direction.
+@@ -751,6 +769,10 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+ 
+                                     to stop: verb.motion(38) verb.stative(42) verb.social(41) 
+                                    She stops in front of the rabbit.
++                             The alien stops next to the astronaught and looks at him, with its body
++
++                                    to strip: verb.possession(40) verb.body(29) verb.contact(35) 
++          Suddenly, a grinning, orange striped cat appears between the two branches of the tree and 
+ 
+                                     to take: verb.social(41) verb.possession(40) verb.motion(38) 
+                                    and takes one step towards the alien.
+@@ -764,6 +786,7 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+                                     It turns its head towards Alice and the rabbit, who turn their h
+                                     It turns over backwards and falls on its back.
+                                     It turns to the boy.
++                                   and turns around towards the hole.
+                                    and turns to face the hole.
+                                    and turns towards the hole too.
+                                   Frog turns and makes 2 hops back to mailbox.
+@@ -778,6 +801,7 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+                               The Frog turns to face northeast.
+                               The frog turns around and hops back to Bunny and the open mailbox.
+                               The frog turns around and hops twice towards the bunny.
++                              The frog turns around to face the bunny.
+                               The frog turns back to the hare and also hops to the mailbox.
+                               The frog turns its back to the observer and hops to the back (into the
+                               The frog turns left and hops 3 times away.
+@@ -796,6 +820,9 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+                              The Bunny turns to face the Mailbox and taps its foot two times.
+                              The Bunny turns to face the Mailbox.
+                              The Bunny turns towards the frog.
++                             The alien turns 180 degrees.
++                             The alien turns to face him and bows its head, making unintelligible no
++                             The alien turns to face the astronaut.
+                              The bunny turns its head downwards.
+                              The bunny turns left to the south and hops three times to the broccoli.
+                              The bunny turns right to face the frog.
+@@ -805,7 +832,6 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+                              The bunny turns to the broccoli and hops 3 times towards it.
+                              The bunny turns to the mail box.
+                              The bunny turns to the mailbox and hops 3 times.
+-                            Alice then turns to face the rabbit and says "???"
+                             The monkey turns to face the remote.
+                             The rabbit turns to the frog and taps foot.
+                            The penguin turns to face the bucket.
+@@ -819,29 +845,18 @@ n the background, slightly on the moon stands a space ship with a sign reading "
+                       The bunny's head turns forward by a small amount while the frog turns to face 
+                       The penguin then turns towards the duckling, jumps onto its stomach again and 
+                      It says ":-D" and turns its head towards Alice.
+-                     The Frog ribbits, turns to face north and hops away from the mailbox.
+-                     The frog ribbits, turns a half revelation to the left and hops away from mailbo
+-                     The frog ribbits, turns left and hops to the back.
+                    First, the duckling turns completely towards the monkey and waves its scepter at 
+                    Meanwhile, the frog turns to the bunny, moves forward, and ribbits.
+                    The bunny and Alice turn their heads towards the grinning cat.
+                   The astronaught then turns his body fully to face the monster and replies "I come 
+-                  The bunny sets pose, turns face to face to the frog and taps his left foot twice.
+                 The monsters body then turns to face the astronaught and the moster makes stranges n
+                The duck prince quickly turns to face the penguin.
+             Meanwhile the frog quickly turns to face the bunny.
+            The astronaught's head then turns to face the head of the monster and the next speech bub
+-           The frog ribbits once, then turns north and hops 3 times.
+       After a short pause, the penguin turns around towards the back of the bucket behind it, jumps 
+-
+-                                    to turn around: verb.motion(38) verb.change(30) verb.change(30) 
+-                                   and turns around towards the hole.
+-                              The frog turns around to face the bunny.
++ance around the astronaught, the alien turns around to the opposite side and moves off the stage to 
+ 
+                                     to watch: verb.perception(39) verb.social(41) verb.perception(39) 
+       While the bunny is moving, Alice watches until the bunny disappears.
+ 
+-                                    to wave: verb.communication(32) verb.contact(35) verb.motion(38) 
+-                                  They wave again.
+-
+ {End of runtime.}

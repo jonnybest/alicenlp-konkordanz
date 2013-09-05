@@ -87,7 +87,7 @@ public class Mainclass {
 			alltexts.append(item);
 			alltexts.append(" ");
 		}
-	    StaticDynamicClassifier.analyze(alltexts.toString());
+	    new StaticDynamicClassifier().analyze(alltexts.toString());
 	    
 	    /* old text-by text way
 		for (String item : texts) {
