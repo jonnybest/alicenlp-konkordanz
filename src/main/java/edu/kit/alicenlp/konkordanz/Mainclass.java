@@ -24,7 +24,7 @@ import edu.stanford.nlp.util.logging.NewlineLogFormatter;
 
 /**
  * @author Jonny
- *
+ * 
  */
 public class Mainclass {
 
@@ -40,65 +40,73 @@ public class Mainclass {
 		/*
 		 * Load text from individual files
 		 */
-		File folder= new File("files/");
+		File folder = new File("files/");
 		File[] listOfFiles = folder.listFiles();
+		// this is our buffer to reading. we read in 1024 byte chunks
 		CharBuffer buffer = CharBuffer.allocate(1024);
 
+		// read the files into a list
 		System.out.print("{Reading files: ");
-	    for (File item : listOfFiles) {	    	
-	      if (item.isFile()) {	    	  
-	    	  System.out.print(item.getName()+ ", ");
-	        /*
-	         * actual file loading 
-	         */	    	  
-	    	  StringBuffer strbuffer = new StringBuffer();
-	    	  buffer.clear();
-	    	  try {
-				FileReader stream = new FileReader(item);
-				int readbytes = 0;
-				do {
-					readbytes = stream.read(buffer);
-					if (readbytes < 0) {
-						break;
-					}
-					strbuffer.append(buffer.array(), 0, readbytes);
-					buffer.clear();
+		for (File item : listOfFiles) {
+			// skip things that are not files
+			if (item.isFile()) {
+				System.out.print(item.getName() + ", ");
+				/*
+				 * actual file loading
+				 */
+				// this stringbuffer will contain a single textfile
+				StringBuffer strbuffer = new StringBuffer();
+				// reset the character buffer
+				buffer.clear();
+				try {
+					// create input stream
+					FileReader stream = new FileReader(item);
+					// count the bytes
+					int readbytes = 0;
+					do {
+						// read 1024 bytes from the file into the charbuffer
+						readbytes = stream.read(buffer);
+						if (readbytes < 0) {
+							// read nothing 
+							break;
+						}
+						// copy the read bytes to the buffer
+						strbuffer.append(buffer.array(), 0, readbytes);
+						// reset the charbuffer
+						buffer.clear();
+					} while (readbytes > 0);
+					// close stream
+					stream.close();
+					// save the text in the list of texts
+					texts.add(strbuffer.toString());
+					// System.out.println("{read: " +strbuffer.toString() +
+					// " }");
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
 				}
-	    	  	while (readbytes > 0);
-				stream.close();
-				texts.add(strbuffer.toString());
-				//System.out.println("{read: " +strbuffer.toString() + " }");
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}	    	  
-	      } else if (item.isDirectory()) {
-	        System.out.println("Skipped directory " + item.getName());
-	      }
-	    }
-	    System.out.println("}");
-		
-		/* 
+			} else if (item.isDirectory()) {
+				System.out.println("Skipped directory " + item.getName());
+			}
+		}
+		System.out.println("}");
+
+		/*
 		 * Run text through pipeline
 		 */
-	    StringBuffer alltexts = new StringBuffer();
-	    for (String item : texts) {
+		// we write all the text into a single string
+		StringBuffer alltexts = new StringBuffer();
+		for (String item : texts) {
+			// append text
 			alltexts.append(item);
+			// append seperator
 			alltexts.append(" ");
 		}
-	    new StaticDynamicClassifier().analyze(alltexts.toString());
-	    
-	    /* old text-by text way
-		for (String item : texts) {
-			StaticDynamicClassifier.analyze(item);
-			//System.out.println(item);
-		}
-		*/
-		
-		//StaticDynamicClassifier.analyze(text);
-	    
-	    System.out.println("{End of runtime.}");
+		// analyze and print the contents of all the texts
+		new KWICPrinter().print(alltexts.toString());
+
+		System.out.println("{End of runtime.}");
 	}
 
 }

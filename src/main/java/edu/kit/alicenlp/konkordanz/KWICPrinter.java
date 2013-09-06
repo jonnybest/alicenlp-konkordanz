@@ -29,44 +29,29 @@ import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenc
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
 
-public class StaticDynamicClassifier {
-	static private StaticDynamicClassifier myinstance = null;
+public class KWICPrinter {
+	static private KWICPrinter myinstance = null;
 	static private Dictionary dictionary;
 	private StanfordCoreNLP mypipeline = null;
 
-	public StaticDynamicClassifier() 
+	public KWICPrinter() 
 	{
+		// this creates a wordnet dictionary
 		setupWordNet();
+		// this creates the corenlp pipeline
+		setupCoreNLP();
 	}
 	
-	public void analyze(String text) {		
+	public void print(String text) {		
 	    /* parse text with corenlp
 	     * 
 	     */
-		StanfordCoreNLP pipeline;
-		if (mypipeline == null) {			
-		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
-		    Properties props = new Properties();
-		    // alternativ: wsj-bidirectional 
-		    try {
-				props.put("pos.model", Settings.getString("settings.pos-model-tagger")); //$NON-NLS-1$ //$NON-NLS-2$
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		    // konfiguriere pipeline
-		    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse"); //$NON-NLS-1$ //$NON-NLS-2$
-		    pipeline = new StanfordCoreNLP(props);	    
-		    mypipeline = pipeline;
-		}
-		else {
-			pipeline = mypipeline;
-		}
 	    
 	    // create an empty Annotation just with the given text
 	    Annotation document = new Annotation(text);
 	    
 	    // run all Annotators on this text
-	    pipeline.annotate(document);
+	    mypipeline.annotate(document);
 	    System.out.println("{annotation is now done}"); //$NON-NLS-1$
 
 	    // get all distinct verbs as a list
@@ -135,6 +120,30 @@ public class StaticDynamicClassifier {
 	     * 
 	     */
 	    printLexnamesAndKwic(verblist);
+	}
+
+	/**
+	 * 
+	 */
+	private void setupCoreNLP() {
+		StanfordCoreNLP pipeline;
+		if (mypipeline == null) {			
+		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
+		    Properties props = new Properties();
+		    // alternativ: wsj-bidirectional 
+		    try {
+				props.put("pos.model", Settings.getString("settings.pos-model-tagger")); //$NON-NLS-1$ //$NON-NLS-2$
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		    // konfiguriere pipeline
+		    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse"); //$NON-NLS-1$ //$NON-NLS-2$
+		    pipeline = new StanfordCoreNLP(props);	    
+		    mypipeline = pipeline;
+		}
+		else {
+			pipeline = mypipeline;
+		}
 	}
 
 	/**
