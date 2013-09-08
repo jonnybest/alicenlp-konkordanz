@@ -17,3 +17,5 @@ pom.properties
 /.settings
 
 /target
+
+/releases
