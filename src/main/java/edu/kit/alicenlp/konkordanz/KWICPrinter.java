@@ -9,20 +9,21 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
+import javax.naming.spi.DirObjectFactory;
+
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.data.IndexWord;
 import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.data.Synset;
 import net.sf.extjwnl.dictionary.Dictionary;
+import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.POSTaggerAnnotator;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenciesAnnotation;
@@ -131,11 +132,37 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 				System.out.println(graph.getRoots());
 				if(word != null) {
 					String lemma = word.lemma();
-					String particle = null;
 					if (hasParticle(word, graph)) {
+						String particle = null;
 						particle = getParticle(word, graph).word();
 						System.err.println(particle);
 						String combinedword = lemma + " " + particle;
+						if (hasWordNetEntry(combinedword)) {
+							lemma = combinedword;							
+						}
+					}
+					else if(hasPrepMod(word, graph)) {
+						String prepmod = null;
+						prepmod = getPrepMod(word, graph).word();
+						System.err.println(prepmod);
+						String combinedword = lemma + " " + prepmod;
+						if (hasWordNetEntry(combinedword)) {
+							lemma = combinedword;							
+						}
+					}
+					else if(hasDirectObjectNP(word, graph)) {
+						String dirobstr = null;
+						IndexedWord direObj = null;
+						direObj = getDirectObject(word, graph);
+						CoreLabel det = getDeterminer(direObj, graph);
+						if (det != null) {
+							dirobstr = det.word() + " " + direObj.word();
+						}
+						else {
+							dirobstr = direObj.word();
+						}
+						System.err.println(direObj);
+						String combinedword = lemma + " " + dirobstr;
 						if (hasWordNetEntry(combinedword)) {
 							lemma = combinedword;							
 						}
@@ -180,6 +207,42 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	     */
 	    printLexnamesAndKwic(verblist);
 	}
+
+	private IndexedWord getDirectObject(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DirectObjectGRAnnotation.class);
+		return graph.getChildWithReln(word, reln);
+	}
+	
+	private IndexedWord getDeterminer(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DeterminerGRAnnotation.class);
+		return graph.getChildWithReln(word, reln);
+	}
+
+	private CoreLabel getPrepMod(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.PrepositionalModifierGRAnnotation.class);
+		return graph.getChildWithReln(word, reln);
+	}
+
+	private static boolean hasPrepMod(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.PrepositionalModifierGRAnnotation.class);
+		return graph.hasChildWithReln(word, reln);
+	}
+	
+	private static boolean hasAdverbMod(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.AdverbialModifierGRAnnotation.class);
+		return graph.hasChildWithReln(word, reln);
+	}
+	
+	private static boolean hasDirectObjectNP(IndexedWord word, SemanticGraph graph) {
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DirectObjectGRAnnotation.class);
+		if (graph.hasChildWithReln(word, reln)) {
+			String pos = graph.getChildWithReln(word, reln).get(PartOfSpeechAnnotation.class);
+			if (pos.equalsIgnoreCase("NN")) {
+				return true;
+			}
+		}
+		return false;
+	} 
 
 	protected Annotation annotate(String text) {
 		// create an empty Annotation just with the given text
