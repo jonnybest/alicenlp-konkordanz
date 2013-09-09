@@ -104,7 +104,7 @@ public class Mainclass {
 			alltexts.append(" ");
 		}
 		// analyze and print the contents of all the texts
-		new KWICPrinter().print(alltexts.toString());
+		new AnalyzerPrinter().print(alltexts.toString());
 
 		System.out.println("{End of runtime.}");
 	}

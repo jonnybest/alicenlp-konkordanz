@@ -110,12 +110,8 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	     * 
 	     */
 	    
-	    // create an empty Annotation just with the given text
-	    Annotation document = new Annotation(text);
-	    
-	    // run all Annotators on this text
-	    mypipeline.annotate(document);
-	    System.out.println("{annotation is now done}"); //$NON-NLS-1$
+		// annotate text
+	    Annotation document = annotate(text);
 
 	    // get all distinct verbs as a list
 	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
@@ -185,10 +181,20 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	    printLexnamesAndKwic(verblist);
 	}
 
+	protected Annotation annotate(String text) {
+		// create an empty Annotation just with the given text
+	    Annotation document = new Annotation(text);
+	    
+	    // run all Annotators on this text
+	    mypipeline.annotate(document);
+	    System.out.println("{annotation is now done}"); //$NON-NLS-1$
+		return document;
+	}
+
 	/**
 	 * 
 	 */
-	private void setupCoreNLP() {
+	protected void setupCoreNLP() {
 		StanfordCoreNLP pipeline;
 		if (mypipeline == null) {			
 		    // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
@@ -212,7 +218,7 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	/**
 	 * 
 	 */
-	private void setupWordNet() {
+	protected void setupWordNet() {
 		// set up properties file
 	    String propsFile = Settings.getString("settings.wordnet-config-xml"); //$NON-NLS-1$
 	    FileInputStream properties = null;
@@ -239,7 +245,7 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	/**
 	 * @param verblist
 	 */
-	private static void printLexnamesAndKwic(
+	private void printLexnamesAndKwic(
 			SortedMap<String, SortedSet<String>> verblist) {
 		try {
 			for (String token : verblist.keySet()) 
@@ -260,12 +266,12 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 		}
 	}
 	
-	private static Boolean hasParticle(IndexedWord word, SemanticGraph graph) {
+	protected static Boolean hasParticle(IndexedWord word, SemanticGraph graph) {
 		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.PhrasalVerbParticleGRAnnotation.class);
 		return graph.hasChildWithReln(word, reln);
 	}
 	
-	private static IndexedWord getParticle(IndexedWord word, SemanticGraph graph)
+	protected static IndexedWord getParticle(IndexedWord word, SemanticGraph graph)
 	{
 		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.PhrasalVerbParticleGRAnnotation.class);
 		return graph.getChildWithReln(word, reln);
@@ -318,7 +324,7 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 		return true;
 	}
     
-    private Boolean hasWordNetEntry(String verb) throws JWNLException {
+    protected Boolean hasWordNetEntry(String verb) throws JWNLException {
 		IndexWord word = dictionary.getIndexWord(POS.VERB, verb);
 		if (word == null) {
 			word = dictionary.lookupIndexWord(POS.VERB, verb);
