@@ -73,8 +73,7 @@ public class AnalyzerPrinter extends KWICPrinter implements INlpPrinter,
 		// Each chain stores a set of mentions that link to each other,
 		// along with a method for getting the most representative mention
 		// Both sentence and token offsets start at 1!
-		Map<Integer, CorefChain> graph = document
-				.get(CorefChainAnnotation.class);
+		//Map<Integer, CorefChain> graph = document.get(CorefChainAnnotation.class);
 
 	}
 }
