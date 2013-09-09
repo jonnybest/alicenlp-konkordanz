@@ -29,10 +29,56 @@ import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenc
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
 
-public class KWICPrinter {
+public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnalyzer {
 	static private KWICPrinter myinstance = null;
-	static private Dictionary dictionary;
+	private Dictionary dictionary;
 	private StanfordCoreNLP mypipeline = null;
+
+	/** Get the current instance
+	 * @return the current Instance
+	 */
+	public static INlpPrinter getInstance() {
+		return myinstance;
+	}
+
+	/** Set the instance for this class
+	 * @param myinstance the myinstance to set
+	 */
+	public static void setInstance(KWICPrinter myinstance) {
+		KWICPrinter.myinstance = myinstance;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.kit.alicenlp.konkordanz.IWordnetAnalyzer#getDictionary()
+	 */
+	@Override
+	public Dictionary getDictionary() {
+		return dictionary;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.kit.alicenlp.konkordanz.IWordnetAnalyzer#setDictionary(net.sf.extjwnl.dictionary.Dictionary)
+	 */
+	@Override
+	public void setDictionary(Dictionary dictionary) {
+		this.dictionary = dictionary;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.kit.alicenlp.konkordanz.IStanfordAnalyzer#getPipeline()
+	 */
+	@Override
+	public StanfordCoreNLP getPipeline() {
+		return mypipeline;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.kit.alicenlp.konkordanz.IStanfordAnalyzer#setPipeline(edu.stanford.nlp.pipeline.StanfordCoreNLP)
+	 */
+	@Override
+	public void setPipeline(StanfordCoreNLP mypipeline) {
+		this.mypipeline = mypipeline;
+	}
 
 	public KWICPrinter() 
 	{
@@ -40,8 +86,25 @@ public class KWICPrinter {
 		setupWordNet();
 		// this creates the corenlp pipeline
 		setupCoreNLP();
+		
+		if (myinstance == null) {
+			myinstance = this;
+		}
 	}
 	
+	public KWICPrinter(StanfordCoreNLP pipeline, Dictionary wordnet)
+	{
+		mypipeline = pipeline;
+		dictionary = wordnet;
+		if (myinstance == null) {
+			myinstance = this;
+		}
+	}
+	
+	/* (non-Javadoc)
+	 * @see edu.kit.alicenlp.konkordanz.INlpPrinter#print(java.lang.String)
+	 */
+	@Override
 	public void print(String text) {		
 	    /* parse text with corenlp
 	     * 
@@ -163,10 +226,9 @@ public class KWICPrinter {
 	    try {
 	    	
 	    	// run
-	    	if (myinstance == null) {
+	    	if (dictionary == null) {
 				//new style, instance dictionary
 				dictionary = Dictionary.getInstance(properties);
-				myinstance = this;
 			}
 	    } catch (Exception e) {
 	    	e.printStackTrace();
@@ -217,7 +279,7 @@ public class KWICPrinter {
 		int indexof = sestring.indexOf(wordstring);
 		if (indexof < alignby) {
 			// implementiere den fall dass das wort zu weit links liegt
-			// füge (alignby - indexof) leerzeichen links ein
+			// fï¿½ge (alignby - indexof) leerzeichen links ein
 			int offset = alignby - indexof;
 			String aligner = ""; //$NON-NLS-1$
 			for (int i = 0; i < offset; i++) {
@@ -230,7 +292,7 @@ public class KWICPrinter {
 			int offset = indexof - alignby;
 			sestring = sestring.substring(offset);
 		}
-		// zeichen hintenraus löschen.
+		// zeichen hintenraus lï¿½schen.
 		if (sestring.length() > lastindex) {
 			sestring = sestring.substring(0, lastindex);
 		}
