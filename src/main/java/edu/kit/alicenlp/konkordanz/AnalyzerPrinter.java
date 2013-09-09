@@ -40,6 +40,7 @@ public class AnalyzerPrinter extends KWICPrinter implements INlpPrinter,
 
 	@Override
 	public void print(String text) {
+		System.out.println();
 		Annotation document = annotate(text);
 		// get all distinct verbs as a list
 
@@ -48,7 +49,9 @@ public class AnalyzerPrinter extends KWICPrinter implements INlpPrinter,
 		// has values with custom types
 		List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
+		System.out.println();
 		for (CoreMap sentence : sentences) {
+			System.out.println(sentence);
 			// traversing the words in the current sentence
 			// a CoreLabel is a CoreMap with additional token-specific methods
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -67,6 +70,7 @@ public class AnalyzerPrinter extends KWICPrinter implements INlpPrinter,
 			SemanticGraph dependencies = sentence
 					.get(CollapsedCCProcessedDependenciesAnnotation.class);
 			dependencies.prettyPrint();
+			System.out.println();
 		}
 
 		// This is the coreference link graph
