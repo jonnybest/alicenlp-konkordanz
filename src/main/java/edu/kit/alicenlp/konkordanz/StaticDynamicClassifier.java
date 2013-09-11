@@ -13,6 +13,7 @@ import javax.naming.spi.DirObjectFactory;
 
 import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.data.IndexWord;
+import net.sf.extjwnl.data.LexFileNameLexFileIdMap;
 import net.sf.extjwnl.data.POS;
 import net.sf.extjwnl.data.Synset;
 import net.sf.extjwnl.dictionary.Dictionary;
@@ -42,9 +43,26 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		TimeDescription
 	}
 	
-	private Classification classifySentence(IndexedWord root, SemanticGraph graph)
+	private Classification classifySentence(IndexedWord root, SemanticGraph graph) throws JWNLException
 	{
-		
+		String word = expandVerb(root, graph);
+		IndexWord wnetw = dictionary.getIndexWord(POS.VERB, word);
+		wnetw.sortSenses();
+		List<Synset> senses = wnetw.getSenses();
+		Synset mcs = senses.get(0); // most common sense
+		switch ((int) (mcs.getLexFileNum())) {
+		case 42: // stative
+			// TODO: make sure this actually refers to a state; not a changing
+			// state
+			return Classification.SetupDescription;
+			// break;
+		case 39: // perception
+			break;
+		case 36: // creation
+			break;
+		default:
+			break;
+		}
 		return Classification.ActionDescription;
 	}
 
@@ -108,7 +126,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	}
 
 	private IndexedWord getDeterminer(IndexedWord word, SemanticGraph graph) {
-		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DeterminerGRAnnotation.class);
+		GrammaticalRelation reln = edu.stanford.nl)p.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DeterminerGRAnnotation.class);
 		return graph.getChildWithReln(word, reln);
 	}
 
