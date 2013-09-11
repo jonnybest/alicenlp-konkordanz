@@ -28,6 +28,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenciesAnnotation;
+import edu.stanford.nlp.trees.EnglishGrammaticalRelations;
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
 
@@ -46,10 +47,17 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	private Classification classifySentence(IndexedWord root, SemanticGraph graph) throws JWNLException
 	{
 		String word = expandVerb(root, graph);
+		// classify by grammatical construction
+		if(isPassive(root, graph))
+		{
+			return Classification.SetupDescription;
+		}
+		
+		// classify by lexical file num
 		IndexWord wnetw = dictionary.getIndexWord(POS.VERB, word);
 		wnetw.sortSenses();
 		List<Synset> senses = wnetw.getSenses();
-		Synset mcs = senses.get(0); // most common sense
+		Synset mcs = senses.get(0); // most common sense		
 		switch ((int) (mcs.getLexFileNum())) {
 		case 42: // stative
 			// TODO: make sure this actually refers to a state; not a changing
@@ -64,6 +72,11 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 			break;
 		}
 		return Classification.ActionDescription;
+	}
+
+	private boolean isPassive(IndexedWord root, SemanticGraph graph) {
+		GrammaticalRelation auxrel = GrammaticalRelation.getRelation(EnglishGrammaticalRelations.AuxPassiveGRAnnotation.class);
+		return graph.hasChildWithReln(root, auxrel);
 	}
 
 	public StaticDynamicClassifier() 
@@ -289,7 +302,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	    /* analyse lexnames with wordnet
 	     * 
 	     */
-	    printLexnamesAndKwic(verblist);
+	    //printLexnamesAndKwic(verblist);
 	}
 
 	/**
