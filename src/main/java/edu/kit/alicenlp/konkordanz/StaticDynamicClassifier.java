@@ -15,6 +15,8 @@ import net.sf.extjwnl.JWNLException;
 import net.sf.extjwnl.data.IndexWord;
 import net.sf.extjwnl.data.LexFileNameLexFileIdMap;
 import net.sf.extjwnl.data.POS;
+import net.sf.extjwnl.data.Pointer;
+import net.sf.extjwnl.data.PointerType;
 import net.sf.extjwnl.data.Synset;
 import net.sf.extjwnl.dictionary.Dictionary;
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -50,30 +52,57 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		// classify by grammatical construction
 		if(isPassive(root, graph))
 		{
-			return Classification.SetupDescription;
+			//return Classification.SetupDescription; // probably a bad idea?
 		}
 		
 		// classify by lexical file num
 		IndexWord wnetw = dictionary.getIndexWord(POS.VERB, word);
 		wnetw.sortSenses();
 		List<Synset> senses = wnetw.getSenses();
-		Synset mcs = senses.get(0); // most common sense		
-		switch ((int) (mcs.getLexFileNum())) {
-		case 42: // stative
+		Synset mcs = senses.get(0); // most common sense
+		
+		if (mcs.getLexFileNum() == 42)
+		{
+			// stative
 			// TODO: make sure this actually refers to a state; not a changing
 			// state
+			List<Pointer> pointers = mcs.getPointers(PointerType.HYPERNYM);
+			if (pointers.size() > 0) {
+				printHypernymfeedback(word, pointers);
+				System.err.print("Hypernym lexname: ");
+				System.err.println(pointers.get(0).getTargetSynset().getLexFileName());			
+			}
 			return Classification.SetupDescription;
-			// break;
-		case 39: // perception
-			break;
-		case 36: // creation
-			break;
-		default:
-			break;
 		}
+		else if (senses.size() > 1 && senses.get(1).getLexFileNum() == 42) {			
+			System.out.println("Second synset:");
+			List<Pointer> pointers = senses.get(1).getPointers(PointerType.HYPERNYM);
+			if (pointers.size() > 0) {
+				printHypernymfeedback(word, pointers);
+				System.err.print("Hypernym lexname: ");
+				System.err.println(pointers.get(0).getTargetSynset().getLexFileName());			
+			}
+			return Classification.SetupDescription;
+		}
+		else if (mcs.getLexFileNum() == 39 || is1stPerson(root, graph))
+		{
+			// "I see a palm tree on the left of the screen."
+			// hypothetical false positive: "I see how the man raises a hand."
+			return Classification.SetupDescription;
+		}
+
 		return Classification.ActionDescription;
 	}
 
+	/**
+	 * @param word
+	 * @param pointers
+	 */
+	private void printHypernymfeedback(String word, List<Pointer> pointers) {		
+		System.err.println("To " + word + " is one way to " + 
+				pointers.get(0).getTargetSynset().getWords().get(0).getLemma() + ".");
+	}
+	
 	private boolean isPassive(IndexedWord root, SemanticGraph graph) {
 		GrammaticalRelation auxrel = GrammaticalRelation.getRelation(EnglishGrammaticalRelations.AuxPassiveGRAnnotation.class);
 		return graph.hasChildWithReln(root, auxrel);
@@ -100,7 +129,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		}
 	}
 
-	private Boolean analyzeLexicographerFileNamesForVerbs(String token) throws JWNLException {
+	private Boolean printLexicographerFileNamesForVerbs(String token) throws JWNLException {
 		IndexWord word = dictionary.getIndexWord(POS.VERB, token);
 		if (word == null) {
 			word = dictionary.lookupIndexWord(POS.VERB, token);
@@ -111,7 +140,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 				return false;
 			}
 		}
-		demonstrateLexicographerFileNames(word);
+		printLexicographerFileNames(word);
 		return true;
 	}
 
@@ -125,10 +154,10 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		return document;
 	}
 
-	private void demonstrateLexicographerFileNames(IndexWord word) {
+	private void printLexicographerFileNames(IndexWord word) {
 		word.sortSenses();
 		List<Synset> senses = word.getSenses();
-		System.out.print("                                    to " + word.getLemma() + ": "); //$NON-NLS-1$ //$NON-NLS-2$
+		System.out.print("to " + word.getLemma() + ": "); //$NON-NLS-1$ //$NON-NLS-2$
 		for (Synset synset : senses) {
 			if (senses.indexOf(synset) > 2) {
 				break;
@@ -139,7 +168,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	}
 
 	private IndexedWord getDeterminer(IndexedWord word, SemanticGraph graph) {
-		GrammaticalRelation reln = edu.stanford.nl)p.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DeterminerGRAnnotation.class);
+		GrammaticalRelation reln = edu.stanford.nlp.trees.GrammaticalRelation.getRelation(edu.stanford.nlp.trees.EnglishGrammaticalRelations.DeterminerGRAnnotation.class);
 		return graph.getChildWithReln(word, reln);
 	}
 
@@ -198,7 +227,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		if (hasParticle(word, graph)) {
 			String particle = null;
 			particle = getParticle(word, graph).word();
-			System.err.println(particle);
+			//System.err.println(particle);
 			String combinedword = lemma + " " + particle;
 			if (hasWordNetEntry(combinedword)) {
 				lemma = combinedword;							
@@ -207,7 +236,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 		else if(hasPrepMod(word, graph)) {
 			String prepmod = null;
 			prepmod = getPrepMod(word, graph).word();
-			System.err.println(prepmod);
+			//System.err.println(prepmod);
 			String combinedword = lemma + " " + prepmod;
 			if (hasWordNetEntry(combinedword)) {
 				lemma = combinedword;							
@@ -224,7 +253,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 			else {
 				dirobstr = direObj.word();
 			}
-			System.err.println(direObj);
+			//System.err.println(direObj);
 			String combinedword = lemma + " " + dirobstr;
 			if (hasWordNetEntry(combinedword)) {
 				lemma = combinedword;
@@ -250,7 +279,6 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
 			//printTaggedSentence(sentence); // debug output
-			
 			// traversing the words in the current sentence
 			SemanticGraph graph = sentence.get(CollapsedDependenciesAnnotation.class);
 				
@@ -261,16 +289,20 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 					continue;
 				}
 				System.out.println(graph.getRoots());
+				System.out.println(sentence.get(TextAnnotation.class));
 				if(word != null) {
 					String lemma = expandVerb(word, graph);
-
-					SortedSet<String> otherse = verblist.get(lemma);
-					if (otherse == null) {
-						otherse = new TreeSet<String>();
-						verblist.put(lemma, otherse);
+					Classification c = classifySentence(word, graph);
+					printLexicographerFileNamesForVerbs(lemma);
+					if (c == Classification.SetupDescription) {
+						System.out.println("Classified as " + c.name());
+						//System.err.println("Classified as " + c.name());
 					}
-					otherse.add(concordance(sentence.toString(), word.word()));						
-					nop();				
+					else {
+						System.out.println("Classified as " + c.name());
+					}
+					System.out.println();
+					nop();
 				}
 			} catch (RuntimeException e) { // because Stanford doesn't declare proper exceptions	
 				if (e.getMessage() == null) {
@@ -305,30 +337,6 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	    //printLexnamesAndKwic(verblist);
 	}
 
-	/**
-	 * @param verblist
-	 */
-	private void printLexnamesAndKwic(
-			SortedMap<String, SortedSet<String>> verblist) {
-		try {
-			for (String token : verblist.keySet()) 
-			{
-				Boolean found = myinstance.analyzeLexicographerFileNamesForVerbs(token);
-				if (found) {
-					for (String item : verblist.get(token)) {
-						System.out.println(item.toString());
-					}
-				}
-				else {
-					System.err.println(verblist.get(token).first());
-				}
-				System.out.println();
-			}
-		} catch (JWNLException e) {
-			e.printStackTrace();
-		}
-	}
-	
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.IWordnetAnalyzer#setDictionary(net.sf.extjwnl.dictionary.Dictionary)
 	 */
@@ -360,7 +368,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 				e.printStackTrace();
 			}
 		    // konfiguriere pipeline
-		    props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse"); //$NON-NLS-1$ //$NON-NLS-2$
+		    props.put("annotators", "tokenize, ssplit, pos, lemma, parse"); //$NON-NLS-1$ //$NON-NLS-2$
 		    pipeline = new StanfordCoreNLP(props);	    
 		    mypipeline = pipeline;
 		}
@@ -433,7 +441,10 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	
 	protected static Boolean is1stPerson(IndexedWord root, SemanticGraph graph)
 	{
-		
+		// not actually always first person, but for our corpus, it's good enough 
+		if ("VBP".equalsIgnoreCase(root.get(CoreAnnotations.PartOfSpeechAnnotation.class))) {
+			return true;
+		}
 		return false;
 	}
 	
@@ -471,13 +482,6 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
     
     private static void nop() {
 		// nop		
-	}
-
-	private static void printTaggedSentence(CoreMap sentence) {
-		for (CoreLabel item : sentence.get(TokensAnnotation.class)) {
-			System.out.print(item.originalText() + "/"+ item.get(PartOfSpeechAnnotation.class) + " "); //$NON-NLS-1$ //$NON-NLS-2$
-		}
-		System.out.println();
 	}
 	
 	/** Set the instance for this class
