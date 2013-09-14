@@ -175,7 +175,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.IWordnetAnalyzer#getDictionary()
 	 */
-	@Override
+	
 	public Dictionary getDictionary() {
 		return dictionary;
 	}
@@ -188,7 +188,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.IStanfordAnalyzer#getPipeline()
 	 */
-	@Override
+	
 	public StanfordCoreNLP getPipeline() {
 		return mypipeline;
 	}
@@ -265,7 +265,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.INlpPrinter#print(java.lang.String)
 	 */
-	@Override
+	
 	public void print(String text) {		
 	    /* parse text with corenlp
 	     * 
@@ -340,7 +340,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.IWordnetAnalyzer#setDictionary(net.sf.extjwnl.dictionary.Dictionary)
 	 */
-	@Override
+	
 	public void setDictionary(Dictionary dictionary) {
 		this.dictionary = dictionary;
 	}
@@ -348,7 +348,7 @@ public class StaticDynamicClassifier implements IStanfordAnalyzer, INlpPrinter, 
 	/* (non-Javadoc)
 	 * @see edu.kit.alicenlp.konkordanz.IStanfordAnalyzer#setPipeline(edu.stanford.nlp.pipeline.StanfordCoreNLP)
 	 */
-	@Override
+	
 	public void setPipeline(StanfordCoreNLP mypipeline) {
 		this.mypipeline = mypipeline;
 	} 
