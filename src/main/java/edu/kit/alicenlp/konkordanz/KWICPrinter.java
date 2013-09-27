@@ -2,6 +2,7 @@ package edu.kit.alicenlp.konkordanz;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 import java.util.SortedMap;
@@ -26,6 +27,7 @@ import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
+import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.CollapsedDependenciesAnnotation;
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
@@ -111,6 +113,7 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 
 	    // get all distinct verbs as a list
 	    SortedMap<String,SortedSet<String>> verblist = new TreeMap<String, SortedSet<String>>();
+	    List<String> badlist = new LinkedList<String>();
 	    List<CoreMap> sentences = document.get(SentencesAnnotation.class);	    
 		for (CoreMap sentence : sentences) {
 			//printTaggedSentence(sentence); // debug output
@@ -122,46 +125,13 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 				IndexedWord word = graph.getFirstRoot();
 				String pos = word.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 				if (!pos.startsWith("VB")) {
+					badlist.add(sentence.get(CoreAnnotations.TextAnnotation.class));
+					badlist.add(sentence.get(CollapsedCCProcessedDependenciesAnnotation.class).toString());
 					continue;
 				}
 				System.out.println(graph.getRoots());
 				if(word != null) {
-					String lemma = word.lemma();
-					if (hasParticle(word, graph)) {
-						String particle = null;
-						particle = getParticle(word, graph).word();
-						System.err.println(particle);
-						String combinedword = lemma + " " + particle;
-						if (hasWordNetEntry(combinedword)) {
-							lemma = combinedword;							
-						}
-					}
-					else if(hasPrepMod(word, graph)) {
-						String prepmod = null;
-						prepmod = getPrepMod(word, graph).word();
-						System.err.println(prepmod);
-						String combinedword = lemma + " " + prepmod;
-						if (hasWordNetEntry(combinedword)) {
-							lemma = combinedword;							
-						}
-					}
-					else if(hasDirectObjectNP(word, graph)) {
-						String dirobstr = null;
-						IndexedWord direObj = null;
-						direObj = getDirectObject(word, graph);
-						CoreLabel det = getDeterminer(direObj, graph);
-						if (det != null) {
-							dirobstr = det.word() + " " + direObj.word();
-						}
-						else {
-							dirobstr = direObj.word();
-						}
-						System.err.println(direObj);
-						String combinedword = lemma + " " + dirobstr;
-						if (hasWordNetEntry(combinedword)) {
-							lemma = combinedword;							
-						}
-					}
+					String lemma = expandVerb(word, graph);
 					SortedSet<String> otherse = verblist.get(lemma);
 					if (otherse == null) {
 						otherse = new TreeSet<String>();
@@ -201,6 +171,58 @@ public class KWICPrinter implements IStanfordAnalyzer, INlpPrinter, IWordnetAnal
 	     * 
 	     */
 	    printLexnamesAndKwic(verblist);
+	    
+	    System.out.println("{Problematic entries:}");
+	    for (String item : badlist) {
+			System.out.println(item);
+		}
+	}
+
+	/** Finds whole word to multi-word verbs like phrasal verbs
+	 * @param graph The sentence this word occurs in
+	 * @param word The word to find parts for
+	 * @return The whole verb (in base form) as it exists in WordNet 
+	 * @throws JWNLException
+	 */
+	protected String expandVerb(IndexedWord word, SemanticGraph graph)
+			throws JWNLException {
+		String lemma = word.lemma();
+		if (hasParticle(word, graph)) {
+			String particle = null;
+			particle = getParticle(word, graph).word();
+			System.err.println(particle);
+			String combinedword = lemma + " " + particle;
+			if (hasWordNetEntry(combinedword)) {
+				lemma = combinedword;							
+			}
+		}
+		else if(hasPrepMod(word, graph)) {
+			String prepmod = null;
+			prepmod = getPrepMod(word, graph).word();
+			System.err.println(prepmod);
+			String combinedword = lemma + " " + prepmod;
+			if (hasWordNetEntry(combinedword)) {
+				lemma = combinedword;							
+			}
+		}
+		else if(hasDirectObjectNP(word, graph)) {
+			String dirobstr = null;
+			IndexedWord direObj = null;
+			direObj = getDirectObject(word, graph);
+			CoreLabel det = getDeterminer(direObj, graph);
+			if (det != null) {
+				dirobstr = det.word() + " " + direObj.word();
+			}
+			else {
+				dirobstr = direObj.word();
+			}
+			System.err.println(direObj);
+			String combinedword = lemma + " " + dirobstr;
+			if (hasWordNetEntry(combinedword)) {
+				lemma = combinedword;
+			}
+		}
+		return lemma;
 	}
 
 	private IndexedWord getDirectObject(IndexedWord word, SemanticGraph graph) {
